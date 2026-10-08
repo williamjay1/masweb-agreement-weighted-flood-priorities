@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23238976.svg)](https://doi.org/10.5281/zenodo.23238976)
+
 # Agreement-weighted agricultural flood priorities from discordant optical water maps
 
 Data and code accompanying the manuscript *Agreement Weighted Agricultural Flood Priorities from
