@@ -6,7 +6,7 @@
       161.0
     ],
     "min_font_pt": 8.2,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         161.0
@@ -32,18 +32,16 @@
       ]
     },
     "source_files": [
-      "methods_implementation_audit.md",
       "sensor_acquisition_timestamps.csv"
     ],
     "source_sha256": {
-      "methods_implementation_audit.md": "f9ecd5921f07c366f2e41eca48ea886b4e29929d637797db0f03b0ce3939cd48",
       "sensor_acquisition_timestamps.csv": "ffcd51b345993ce486aee74618abeb83fc4a01aaa6479c5fd888b52c3e660d97"
     },
     "style_mode": "bundled SciencePlots-derived rcParams",
     "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
-    "note": "Presentation-only redraw on 8 October 2026. Common retained 500 m cells branch directly into grid target comparison and county priority evaluation. RMA is an external outcome; sensitivity checks retain their original cohort scopes.",
+    "note": "Common retained 500 m cells branch directly into grid target comparison and county priority evaluation. RMA is an external outcome; sensitivity checks retain their original cohort scopes.",
     "visual_review": "pending view_image review",
-    "workflow_layout_audit": {
+    "workflow_layout_report": {
       "text_region_clearance_mm": 0.4,
       "text_connector_clearance_pt": 0.35,
       "texts_outside_containing_region": [],
@@ -58,7 +56,7 @@
       90.0
     ],
     "min_font_pt": 8.0,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         90.0
@@ -84,10 +82,10 @@
       ]
     },
     "source_files": [
-      "results_audit_table3_all5.csv"
+      "results_table3_all5.csv"
     ],
     "source_sha256": {
-      "results_audit_table3_all5.csv": "e49441729d2e05ed74f9b989da2705aff4c42b053a921b5de2e4c8177455d7f2"
+      "results_table3_all5.csv": "e49441729d2e05ed74f9b989da2705aff4c42b053a921b5de2e4c8177455d7f2"
     },
     "style_mode": "bundled SciencePlots-derived rcParams",
     "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
@@ -101,7 +99,7 @@
       105.0
     ],
     "min_font_pt": 8.0,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         105.00000000000001
@@ -144,7 +142,7 @@
       93.0
     ],
     "min_font_pt": 8.0,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         93.0
@@ -189,7 +187,7 @@
       82.0
     ],
     "min_font_pt": 8.0,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         82.0
@@ -215,14 +213,14 @@
       ]
     },
     "source_files": [
-      "results_audit_algorithm_top20.csv"
+      "results_algorithm_top20.csv"
     ],
     "source_sha256": {
-      "results_audit_algorithm_top20.csv": "82d1c229d1bfde724cda8d8e065b77a177f42882477317b8d2fe8e5e5b981358"
+      "results_algorithm_top20.csv": "82d1c229d1bfde724cda8d8e065b77a177f42882477317b8d2fe8e5e5b981358"
     },
     "style_mode": "bundled SciencePlots-derived rcParams",
     "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
-    "note": "True 20% budget formulation comparison; metric-specific n shown. No fabricated confidence intervals.",
+    "note": "True 20% budget formulation comparison; metric-specific n shown. Metric-specific event counts are shown.",
     "visual_review": "pending view_image review"
   },
   {
@@ -232,7 +230,7 @@
       87.0
     ],
     "min_font_pt": 8.0,
-    "deterministic_audit": {
+    "layout_report": {
       "nominal_mm": [
         183.0,
         87.0
@@ -269,7 +267,7 @@
     },
     "style_mode": "bundled SciencePlots-derived rcParams",
     "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
-    "note": "Original four-event 95% support score comparison and already audited 90/95/99% support sensitivity. No new analysis.",
+    "note": "Original four-event 95% support score comparison and 90/95/99% support sensitivity. No new analysis.",
     "visual_review": "pending view_image review"
   }
 ]

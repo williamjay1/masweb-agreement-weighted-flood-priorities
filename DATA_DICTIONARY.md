@@ -6,7 +6,7 @@ All paths are relative to the repository root. Every file listed here appears in
 
 These are read by the scripts and are never modified by them.
 
-### `data/upstream/revision/results/`
+### `data/upstream/analysis/results/`
 
 | Path | Contents |
 |---|---|
@@ -17,11 +17,11 @@ These are read by the scripts and are never modified by them.
 | `analysis/hls_indices/product_sensitivity/product_macro_curves.csv` | Macro means of Spearman correlation and Top 10 percent overlap per product, domain and scale. |
 | `analysis/hls_indices/product_sensitivity/product_event_scale_metrics.csv` | Per-event, per-product, per-scale unit counts, Spearman, Kendall tau, mean absolute rank gap and water Jaccard. Holds the replication cell counts 7,649, 8,540 and 27,658. |
 | `analysis/opera_dswx_multiscale_v1/historical_hls_sar_per_event_metrics.csv` | Per-event scale metrics for the five primary events. |
-| `analysis/opera_dswx_multiscale_v1/historical_hls_sar_summary.csv` | Scale summary used for the manuscript Table 3 means and intervals. |
+| `analysis/opera_dswx_multiscale_v1/historical_hls_sar_summary.csv` | Scale summary behind the Table 3 means and intervals. |
 | `analysis/opera_dswx_mechanisms_v1/spatial_mechanisms_summary.csv` | Within-sensor rank persistence, score SD ratio and neighbour correlation per scale. |
 | `analysis/operational_validation/operational_unit_scores.parquet` | Unit scores across scales used by the multiscale comparison. |
 
-### `data/upstream/revision_v2/results/`
+### `data/upstream/analysis_v2/results/`
 
 | Path | Contents |
 |---|---|
@@ -41,12 +41,12 @@ These are rewritten when the scripts are rerun.
 
 | Path | Contents |
 |---|---|
-| `results_audit_table3_all5.csv` | Table 3 source: per-scale event count, count of events with at least 20 units, Top k overlap mean and 95 percent interval, Spearman mean and 95 percent interval. |
-| `results_audit_algorithm_top20.csv` | Table 4 source at the nominal 20 percent budget: per product Spearman mean and overlap mean with contributing event counts. |
-| `results_audit_algorithm_10_20_comparison.csv` | The same quantities at both 10 and 20 percent budgets and both minimum-unit rules. |
-| `results_audit_otsu_*.csv` | Fixed versus Otsu threshold comparison and its baseline reproduction check. |
-| `results_audit_mechanism_correct_labels.csv` | Rank persistence and score SD ratio per scale for S30 and L30. |
-| `results_audit_numerical_summary.json` | Key numbers quoted in the manuscript, with the unrounded overlap decrease. |
+| `results_table3_all5.csv` | Table 3 source: per-scale event count, count of events with at least 20 units, Top k overlap mean and 95 percent interval, Spearman mean and 95 percent interval. |
+| `results_algorithm_top20.csv` | Table 4 source at the nominal 20 percent budget: per product Spearman mean and overlap mean with contributing event counts. |
+| `results_algorithm_10_20_comparison.csv` | The same quantities at both 10 and 20 percent budgets and both minimum-unit rules. |
+| `results_otsu_*.csv` | Fixed versus Otsu threshold comparison and its baseline reproduction check. |
+| `results_mechanism_correct_labels.csv` | Rank persistence and score SD ratio per scale for S30 and L30. |
+| `results_numerical_summary.json` | Key numbers quoted in the study, with the unrounded overlap decrease. |
 | `final_sign_flip_verification.json` | All sign assignments enumerated for each threshold and comparison, with one-sided and two-sided tails. |
 | `sensor_acquisition_timestamps.csv` | Acquisition dates, times and absolute sensor lags for all pairs, including the separate Michigan sensitivity pair. |
 | `figure_evidence_invariance.json` | Evidence that the figure inputs are unchanged across releases. |

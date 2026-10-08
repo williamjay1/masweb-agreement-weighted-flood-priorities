@@ -1,19 +1,13 @@
 [
   {
     "figure": "Figure1_Study_design",
-    "file": "methods_implementation_audit.md",
-    "bytes": 13480,
-    "sha256": "f9ecd5921f07c366f2e41eca48ea886b4e29929d637797db0f03b0ce3939cd48"
-  },
-  {
-    "figure": "Figure1_Study_design",
     "file": "sensor_acquisition_timestamps.csv",
     "bytes": 2147,
     "sha256": "ffcd51b345993ce486aee74618abeb83fc4a01aaa6479c5fd888b52c3e660d97"
   },
   {
     "figure": "Figure2_Scale_response",
-    "file": "results_audit_table3_all5.csv",
+    "file": "results_table3_all5.csv",
     "bytes": 934,
     "sha256": "e49441729d2e05ed74f9b989da2705aff4c42b053a921b5de2e4c8177455d7f2"
   },
@@ -37,7 +31,7 @@
   },
   {
     "figure": "Figure5_Algorithm_sensitivity",
-    "file": "results_audit_algorithm_top20.csv",
+    "file": "results_algorithm_top20.csv",
     "bytes": 863,
     "sha256": "82d1c229d1bfde724cda8d8e065b77a177f42882477317b8d2fe8e5e5b981358"
   },

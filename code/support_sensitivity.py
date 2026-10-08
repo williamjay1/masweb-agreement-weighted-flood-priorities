@@ -23,7 +23,7 @@ from scipy.stats import rankdata, spearmanr, kendalltau
 HERE = Path(__file__).absolute().parent
 RELEASE_ROOT = HERE.parent
 ROOT = RELEASE_ROOT / 'data/upstream'
-V2 = ROOT / 'revision_v2'
+V2 = ROOT / 'analysis_v2'
 OUT = RELEASE_ROOT / 'data/derived/support_sensitivity'
 OUT.mkdir(exist_ok=True)
 SEED = 20261007
@@ -84,7 +84,7 @@ def main():
     tree=shapely.STRtree(polygons)
     inputs=[]; domains=[]; sm=[]; countrows=[]; countyrows=[]
     for event in EVENTS:
-        p=next((ROOT/'revision/results/analysis/blind_common_support/cells').glob('*'+event+'*'))
+        p=next((ROOT/'analysis/results/analysis/blind_common_support/cells').glob('*'+event+'*'))
         d=pd.read_parquet(p)
         inputs.append({'path':str(p),'sha256':digest(p)})
         # Assign every cell that could pass any requested threshold once.
@@ -102,19 +102,19 @@ def main():
             countyrows.append(c)
         print('Processed',event,flush=True)
     sm=pd.DataFrame(sm); census=pd.DataFrame(countrows); counties=pd.concat(countyrows,ignore_index=True)
-    original=pd.read_csv(ROOT/'revision/results/analysis/opera_dswx_multiscale_v1/historical_hls_sar_per_event_metrics.csv').query('budget==0.2')
+    original=pd.read_csv(ROOT/'analysis/results/analysis/opera_dswx_multiscale_v1/historical_hls_sar_per_event_metrics.csv').query('budget==0.2')
     comparison=sm[sm.threshold.eq(.95)].merge(original[['event_id','scale_km','n_cells','topk_overlap','spearman','kendall']],on=['event_id','scale_km'],suffixes=('_recomputed','_original'))
     for col in ['n_cells','topk_overlap','spearman','kendall']:
         comparison[col+'_difference']=comparison[col+'_recomputed']-comparison[col+'_original']
     comparison.to_csv(OUT/'baseline_scale_reproduction.csv',index=False)
-    original_counties=pd.read_parquet(ROOT/'revision/results/analysis/operational_validation/operational_unit_scores.parquet')
+    original_counties=pd.read_parquet(ROOT/'analysis/results/analysis/operational_validation/operational_unit_scores.parquet')
     original_counties=original_counties[original_counties.unit_type.eq('county')&original_counties.event_id.isin(EVENTS)].copy()
     original_counties['county_fips']=original_counties.unit_id.astype(str).str.zfill(5)
     cc=counties[counties.threshold.eq(.95)].merge(original_counties,on=['event_id','county_fips'],suffixes=('_new','_original'),how='outer',indicator=True)
     for col in SUM+['s30_water_fraction','l30_water_fraction']:
         cc[col+'_difference']=cc[col+'_new']-cc[col+'_original']
     cc.to_csv(OUT/'baseline_county_reproduction.csv',index=False)
-    outcomes=pd.read_csv(ROOT/'revision/results/primary_external_event_county_outcomes.csv',dtype={'county_fips':str})
+    outcomes=pd.read_csv(ROOT/'analysis/results/primary_external_event_county_outcomes.csv',dtype={'county_fips':str})
     outcomes.county_fips=outcomes.county_fips.str.zfill(5)
     linked=counties.merge(outcomes[['event_id','county_fips','rma_indemnity_usd']],on=['event_id','county_fips'],how='inner',validate='many_to_one')
     u=[]; scoreframes=[]

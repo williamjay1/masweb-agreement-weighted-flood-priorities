@@ -1,6 +1,6 @@
-"""Render six Nature inspired Geocarto figures from frozen numerical evidence.
+"""Render the six study figures from the frozen numerical evidence.
 
-Production explicitly uses SciencePlots 2.2.2 science/nature/no-latex.
+Production uses SciencePlots 2.2.2 science/nature/no-latex.
 Portable reruns use bundled rcParams and need Matplotlib, NumPy and Pillow.
 This renderer performs no scientific analysis or bootstrap.
 """
@@ -68,7 +68,7 @@ def data_copy(frame,name):
         writer=csv.DictWriter(stream,fieldnames=list(frame[0]),lineterminator='\n')
         writer.writeheader();writer.writerows(frame)
     return dest
-def audit(fig):
+def layout_report(fig):
     fig.canvas.draw()
     renderer=fig.canvas.get_renderer()
     tight=fig.get_tightbbox(renderer)
@@ -88,17 +88,17 @@ def audit(fig):
             'ok':nominal[0] <=183.01 and nominal[1] <=170.01 and tight.width*25.4 <=183.5
                  and minimum>=8 and plt.rcParams['pdf.fonttype']==42 and not outside and not overlaps}
 def finish(fig,stem,sources,note):
-    report=audit(fig)
+    report=layout_report(fig)
     assert report['ok'],(stem,report)
     fig.savefig(OUT/f'{stem}.png',dpi=180,facecolor='white')
-    fig.savefig(OUT/f'{stem}.pdf',facecolor='white',metadata={'Title':stem.replace('_',' '),'Subject':'Frozen audited results; editable vector artwork'})
+    fig.savefig(OUT/f'{stem}.pdf',facecolor='white',metadata={'Title':stem.replace('_',' '),'Subject':'Frozen results; editable vector artwork'})
     fig.savefig(OUT/f'{stem}.svg',facecolor='white')
     fig.savefig(OUT/f'{stem}.tif',dpi=1200,facecolor='white',pil_kwargs={'compression':'tiff_lzw'})
     with Image.open(OUT/f'{stem}.tif') as im:
         raster={'size_px':list(im.size),'dpi':[float(d) for d in im.info.get('dpi',())]}
         assert len(raster['dpi'])==2 and all(abs(d-1200)<.01 for d in raster['dpi'])
     MANIFEST.append({'figure':stem,'dimensions_mm':list(np.round(fig.get_size_inches()*25.4,2)),
-                     'min_font_pt':report['min_font_pt'],'deterministic_audit':report,
+                     'min_font_pt':report['min_font_pt'],'layout_report':report,
                      'native_tiff':raster,'source_files':[p.name for p in sources],
                      'source_sha256':{p.name:sha256(p) for p in sources},'style_mode':STYLE_MODE,
                      'font_file_used':findfont('Arial'),'note':note,'visual_review':'pending view_image review'})
@@ -122,7 +122,7 @@ def outside_legend(fig,handles,labels,ncol=2,y=.02):
     return fig.legend(handles,labels,loc='lower center',bbox_to_anchor=(.51,y),ncol=ncol,
                       fontsize=8,handlelength=2.6,handletextpad=.6,columnspacing=2.4,labelspacing=.65)
 def figure1(args):
-    """Draw the audited workflow in physical millimetres; no analysis is run.
+    """Draw the study workflow in physical millimetres; no analysis is run.
 
     Text is measured against its containing region and every connector is
     checked against every text extent. The two analysis routes begin directly
@@ -288,14 +288,14 @@ def figure1(args):
               'ok': not containment_failures and not collisions}
     assert layout['ok'], layout
     finish(fig, 'Figure1_Study_design',
-           [INPUT/'methods_implementation_audit.md', INPUT/'sensor_acquisition_timestamps.csv'],
-           'Presentation-only redraw on 8 October 2026. Common retained 500 m cells branch '
-           'directly into grid target comparison and county priority evaluation. RMA is an '
-           'external outcome; sensitivity checks retain their original cohort scopes.')
-    MANIFEST[-1]['workflow_layout_audit'] = layout
+           [INPUT/'sensor_acquisition_timestamps.csv'],
+           'Common retained 500 m cells branch directly into grid target comparison and '
+           'county priority evaluation. RMA is an external outcome; sensitivity checks retain '
+           'their original cohort scopes.')
+    MANIFEST[-1]['workflow_layout_report'] = layout
 
 def figure2(args):
-    source=INPUT/'results_audit_table3_all5.csv'
+    source=INPUT/'results_table3_all5.csv'
     d=sorted(read_csv(source),key=lambda r:float(r['scale_km']))
     assert np.all(col(d,'event_count')==5) and np.allclose(col(d,'scale_km'),SCALES)
     data_copy(d,'Figure2_scale_summary.csv')
@@ -351,7 +351,7 @@ def figure4(args):
     fig.text(.5,.025,'Five events; bands: 95% event bootstrap intervals (5,000 draws).',ha='center',fontsize=8,color=INK)
     finish(fig,'Figure4_Mechanism_diagnostics',[source,report],'Separate S30/L30 rank persistence and within product SD ratio; original 5,000 event bootstrap intervals.')
 def figure5(args):
-    source=INPUT/'results_audit_algorithm_top20.csv';d=read_csv(source)
+    source=INPUT/'results_algorithm_top20.csv';d=read_csv(source)
     assert np.all(col(d,'budget')==.2) and np.all(col(d,'overlap_min_units')==10)
     data_copy(d,'Figure5_algorithm_top20.csv')
     fig,axes=panels(height=82,bottom=.27,top=.81,left=.155,gap=.58)
@@ -373,7 +373,7 @@ def figure5(args):
         heading(ax,'a' if metric=='overlap_mean' else 'b',title,label_x=-.29)
     h=[Line2D([],[],color=BLUE,marker='o',lw=0,ms=4),Line2D([],[],color=VERMILLION,marker='s',lw=0,ms=4)]
     outside_legend(fig,h,['500 m','10 km'],y=.03)
-    finish(fig,'Figure5_Algorithm_sensitivity',[source],'True 20% budget formulation comparison; metric-specific n shown. No fabricated confidence intervals.')
+    finish(fig,'Figure5_Algorithm_sensitivity',[source],'True 20% budget formulation comparison; metric-specific n shown. Metric-specific event counts are shown.')
 def figure6(args):
     source,report=INPUT/'utility_macro_summary.csv',INPUT/'utility_experiment_report.json'
     support_source=INPUT/'support_utility_summary.csv'
@@ -405,7 +405,7 @@ def figure6(args):
     fig.text(.5,.088,'Four events; budget = 20%; whiskers: 95% event bootstrap intervals (10,000 draws).',ha='center',fontsize=8,color=INK)
     fig.text(.5,.036,'Dashed line: random allocation at the same exact county budget.',ha='center',fontsize=8,color=INK)
     finish(fig,'Figure6_External_loss_check',[source,report,support_source],
-           'Original four-event 95% support score comparison and already audited 90/95/99% support sensitivity. No new analysis.')
+           'Original four-event 95% support score comparison and 90/95/99% support sensitivity. No new analysis.')
 def main():
     for entry in json.loads((INPUT/'input_manifest.json').read_text(encoding='utf-8')):
         assert sha256(INPUT/entry['file'])==entry['sha256'],('Input hash mismatch',entry['file'])

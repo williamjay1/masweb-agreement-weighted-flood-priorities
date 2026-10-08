@@ -28,23 +28,23 @@
   "county_assignment": "EPSG:5070 500m centre intersects same frozen polygon; minimum FIPS on boundary",
   "input_manifest": [
     {
-      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\revision\\results\\analysis\\blind_common_support\\cells\\NB_N2023_179508_MINNESOTA_20230412T171901_20230412T170445_500m_cells.parquet",
+      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\analysis\\results\\analysis\\blind_common_support\\cells\\NB_N2023_179508_MINNESOTA_20230412T171901_20230412T170445_500m_cells.parquet",
       "sha256": "d868622110a2edbbeeb1b0b3d2c9d93d91fa164267fb141857f11d6cf224400b"
     },
     {
-      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\revision\\results\\analysis\\blind_common_support\\cells\\NB_N2023_179829_WISCONSIN_20230414T170849_20230414T165136_500m_cells.parquet",
+      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\analysis\\results\\analysis\\blind_common_support\\cells\\NB_N2023_179829_WISCONSIN_20230414T170849_20230414T165136_500m_cells.parquet",
       "sha256": "9ad7ac7dd0619d8ab174a93fcf1fc37068b553a69a689cb34af75788925bdc10"
     },
     {
-      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\revision\\results\\analysis\\blind_common_support\\cells\\NB_N2023_180114_SOUTHDAKOTA_20230410T172859_20230410T171707_500m_cells.parquet",
+      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\analysis\\results\\analysis\\blind_common_support\\cells\\NB_N2023_180114_SOUTHDAKOTA_20230410T172859_20230410T171707_500m_cells.parquet",
       "sha256": "0e9318d76f1cbf9c0cd64d31c2f52699817c755780b3e8c3cd55906bfa490e3d"
     },
     {
-      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\revision\\results\\analysis\\blind_common_support\\cells\\NB_N2024_191762_IOWA_20240525T165849_20240525T165828_500m_cells.parquet",
+      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\analysis\\results\\analysis\\blind_common_support\\cells\\NB_N2024_191762_IOWA_20240525T165849_20240525T165828_500m_cells.parquet",
       "sha256": "30b86df45fb7031291cee0241588cf0305fced156123e1a2b6dd6c96e7c65d2c"
     },
     {
-      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\revision\\results\\analysis\\blind_common_support\\cells\\NB_N2025_202615_MISSOURI_20250530T165849_20250530T164807_500m_cells.parquet",
+      "path": "F:\\SCI\\masweb-agreement-weighted-flood-priorities\\data\\upstream\\analysis\\results\\analysis\\blind_common_support\\cells\\NB_N2025_202615_MISSOURI_20250530T165849_20250530T164807_500m_cells.parquet",
       "sha256": "56af05ef88027db477a016894eb94229b998c8fe9928190fff4a724455455ddf"
     },
     {

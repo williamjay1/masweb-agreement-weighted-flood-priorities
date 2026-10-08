@@ -3,11 +3,11 @@
   "unchanged_original_inputs": [
     "methods_implementation_audit.md",
     "sensor_acquisition_timestamps.csv",
-    "results_audit_table3_all5.csv",
+    "results_table3_all5.csv",
     "historical_hls_sar_per_event_metrics.csv",
     "spatial_mechanisms_summary.csv",
     "spatial_mechanisms_report.json",
-    "results_audit_algorithm_top20.csv",
+    "results_algorithm_top20.csv",
     "utility_macro_summary.csv",
     "utility_experiment_report.json"
   ],
