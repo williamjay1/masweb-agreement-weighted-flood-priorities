@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23238976.svg)](https://doi.org/10.5281/zenodo.23238976)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23239002.svg)](https://doi.org/10.5281/zenodo.23239002)
 
 # Agreement-weighted agricultural flood priorities from discordant optical water maps
 
@@ -94,5 +94,9 @@ Commons Attribution 4.0 (`LICENSE-DATA`).
 
 ## Citation
 
-See `CITATION.cff`. The archived release is deposited in Zenodo; the version DOI is printed in the
-manuscript data availability statement.
+See `CITATION.cff`. The archived release is deposited in Zenodo:
+
+- version DOI for this release (v1.0.3): https://doi.org/10.5281/zenodo.23239002
+- concept DOI for all versions: https://doi.org/10.5281/zenodo.23238975
+
+The same identifiers appear in the manuscript data availability statement.

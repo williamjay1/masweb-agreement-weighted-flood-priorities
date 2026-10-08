@@ -10,10 +10,10 @@ authors:
   - family-names: Zeng
     given-names: Zhuo
     orcid: "https://orcid.org/0009-0007-2459-771X"
-version: "1.0.1"
+version: "1.0.3"
 date-released: "2026-10-08"
 license: MIT
-doi: "10.5281/zenodo.23238976"
+doi: "10.5281/zenodo.23239002"
 keywords:
   - surface water mapping
   - agricultural flooding
