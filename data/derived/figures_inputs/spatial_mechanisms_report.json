@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE",
+  "generated_at_utc": "2026-08-10T12:45:10.199439+00:00",
+  "event_count": 5,
+  "event_ids": [
+    "N2023_179508_MINNESOTA",
+    "N2023_179829_WISCONSIN",
+    "N2023_180114_SOUTHDAKOTA",
+    "N2024_191762_IOWA",
+    "N2025_202615_MISSOURI"
+  ],
+  "scales_km": [
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    30.0
+  ],
+  "bootstrap_repetitions": 5000,
+  "seed": 20260810,
+  "inputs": [
+    {
+      "event_id": "N2023_179508_MINNESOTA",
+      "status": "processed",
+      "base_cells": 12643,
+      "scale_rows": 7
+    },
+    {
+      "event_id": "N2023_179829_WISCONSIN",
+      "status": "processed",
+      "base_cells": 221,
+      "scale_rows": 7
+    },
+    {
+      "event_id": "N2023_180114_SOUTHDAKOTA",
+      "status": "processed",
+      "base_cells": 2628,
+      "scale_rows": 7
+    },
+    {
+      "event_id": "N2024_191762_IOWA",
+      "status": "processed",
+      "base_cells": 28456,
+      "scale_rows": 7
+    },
+    {
+      "event_id": "N2025_202615_MISSOURI",
+      "status": "processed",
+      "base_cells": 562,
+      "scale_rows": 7
+    }
+  ],
+  "interpretation": "Variance ratios, neighbor correlations, and rank persistence are descriptive diagnostics; they do not identify a causal mechanism."
+}

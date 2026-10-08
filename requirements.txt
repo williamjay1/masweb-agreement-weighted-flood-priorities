@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+pyarrow
+shapely>=2
+pyproj
+matplotlib>=3.8
+Pillow>=10
+scienceplots==2.2.2

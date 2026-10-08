@@ -1,0 +1,275 @@
+[
+  {
+    "figure": "Figure1_Study_design",
+    "dimensions_mm": [
+      183.0,
+      161.0
+    ],
+    "min_font_pt": 8.2,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        161.0
+      ],
+      "tight_mm": [
+        183.0,
+        161.0
+      ],
+      "min_font_pt": 8.2,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        7606
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "methods_implementation_audit.md",
+      "sensor_acquisition_timestamps.csv"
+    ],
+    "source_sha256": {
+      "methods_implementation_audit.md": "f9ecd5921f07c366f2e41eca48ea886b4e29929d637797db0f03b0ce3939cd48",
+      "sensor_acquisition_timestamps.csv": "ffcd51b345993ce486aee74618abeb83fc4a01aaa6479c5fd888b52c3e660d97"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "Presentation-only redraw on 8 October 2026. Common retained 500 m cells branch directly into grid target comparison and county priority evaluation. RMA is an external outcome; sensitivity checks retain their original cohort scopes.",
+    "visual_review": "pending view_image review",
+    "workflow_layout_audit": {
+      "text_region_clearance_mm": 0.4,
+      "text_connector_clearance_pt": 0.35,
+      "texts_outside_containing_region": [],
+      "text_line_intersections": [],
+      "ok": true
+    }
+  },
+  {
+    "figure": "Figure2_Scale_response",
+    "dimensions_mm": [
+      183.0,
+      90.0
+    ],
+    "min_font_pt": 8.0,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        90.0
+      ],
+      "tight_mm": [
+        171.2803671875,
+        79.19930284288195
+      ],
+      "min_font_pt": 8.0,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        4251
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "results_audit_table3_all5.csv"
+    ],
+    "source_sha256": {
+      "results_audit_table3_all5.csv": "e49441729d2e05ed74f9b989da2705aff4c42b053a921b5de2e4c8177455d7f2"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "Frozen five event means and 5,000 event bootstrap intervals. All five events retained at every scale.",
+    "visual_review": "pending view_image review"
+  },
+  {
+    "figure": "Figure3_Event_heterogeneity",
+    "dimensions_mm": [
+      183.0,
+      105.0
+    ],
+    "min_font_pt": 8.0,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        105.00000000000001
+      ],
+      "tight_mm": [
+        171.2803671875,
+        94.5867572699653
+      ],
+      "min_font_pt": 8.0,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        4960
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "historical_hls_sar_per_event_metrics.csv"
+    ],
+    "source_sha256": {
+      "historical_hls_sar_per_event_metrics.csv": "d90484a5bd7f4c3c768b01795df3f4a6b02a75f75468d8c76336db7e1b22bd93"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "All five primary event trajectories at 20% budget; distinctive colors, markers and line styles.",
+    "visual_review": "pending view_image review"
+  },
+  {
+    "figure": "Figure4_Mechanism_diagnostics",
+    "dimensions_mm": [
+      183.0,
+      93.0
+    ],
+    "min_font_pt": 8.0,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        93.0
+      ],
+      "tight_mm": [
+        171.2803671875,
+        83.50805284288195
+      ],
+      "min_font_pt": 8.0,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        4393
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "spatial_mechanisms_summary.csv",
+      "spatial_mechanisms_report.json"
+    ],
+    "source_sha256": {
+      "spatial_mechanisms_summary.csv": "c7a98c4e95166b1cdfc90df2232f6de880ade2e0f4cd71941ef21af15c204d52",
+      "spatial_mechanisms_report.json": "73730cf6a9c4195da0f344c20f31d38be3ab1f2096f43369296ee3aeb906d575"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "Separate S30/L30 rank persistence and within product SD ratio; original 5,000 event bootstrap intervals.",
+    "visual_review": "pending view_image review"
+  },
+  {
+    "figure": "Figure5_Algorithm_sensitivity",
+    "dimensions_mm": [
+      183.0,
+      82.0
+    ],
+    "min_font_pt": 8.0,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        82.0
+      ],
+      "tight_mm": [
+        173.45622222222218,
+        69.73925726996528
+      ],
+      "min_font_pt": 8.0,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        3874
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "results_audit_algorithm_top20.csv"
+    ],
+    "source_sha256": {
+      "results_audit_algorithm_top20.csv": "82d1c229d1bfde724cda8d8e065b77a177f42882477317b8d2fe8e5e5b981358"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "True 20% budget formulation comparison; metric-specific n shown. No fabricated confidence intervals.",
+    "visual_review": "pending view_image review"
+  },
+  {
+    "figure": "Figure6_External_loss_check",
+    "dimensions_mm": [
+      183.0,
+      87.0
+    ],
+    "min_font_pt": 8.0,
+    "deterministic_audit": {
+      "nominal_mm": [
+        183.0,
+        87.0
+      ],
+      "tight_mm": [
+        175.43322222222218,
+        76.65605284288193
+      ],
+      "min_font_pt": 8.0,
+      "pdf_fonttype": 42,
+      "texts_outside_canvas": [],
+      "text_intersections": [],
+      "ok": true
+    },
+    "native_tiff": {
+      "size_px": [
+        8645,
+        4110
+      ],
+      "dpi": [
+        1200.0,
+        1200.0
+      ]
+    },
+    "source_files": [
+      "utility_macro_summary.csv",
+      "utility_experiment_report.json",
+      "support_utility_summary.csv"
+    ],
+    "source_sha256": {
+      "utility_macro_summary.csv": "a1e0c35112648bf9128103dac25c5ca5bd3960500f188f7341a511c84569d266",
+      "utility_experiment_report.json": "25dc32111637a2c573e27165e99c1ba2de0a7e1ea563d8c49b8837083e613768",
+      "support_utility_summary.csv": "6c69139965b3d3c97fe47a7bb400c538cd24cc8589dfe47b8f68d1fb1bf1a4a5"
+    },
+    "style_mode": "bundled SciencePlots-derived rcParams",
+    "font_file_used": "C:\\Windows\\Fonts\\arial.ttf",
+    "note": "Original four-event 95% support score comparison and already audited 90/95/99% support sensitivity. No new analysis.",
+    "visual_review": "pending view_image review"
+  }
+]

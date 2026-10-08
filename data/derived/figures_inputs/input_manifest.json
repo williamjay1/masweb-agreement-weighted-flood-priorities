@@ -1,0 +1,68 @@
+[
+  {
+    "figure": "Figure1_Study_design",
+    "file": "methods_implementation_audit.md",
+    "bytes": 13480,
+    "sha256": "f9ecd5921f07c366f2e41eca48ea886b4e29929d637797db0f03b0ce3939cd48"
+  },
+  {
+    "figure": "Figure1_Study_design",
+    "file": "sensor_acquisition_timestamps.csv",
+    "bytes": 2147,
+    "sha256": "ffcd51b345993ce486aee74618abeb83fc4a01aaa6479c5fd888b52c3e660d97"
+  },
+  {
+    "figure": "Figure2_Scale_response",
+    "file": "results_audit_table3_all5.csv",
+    "bytes": 934,
+    "sha256": "e49441729d2e05ed74f9b989da2705aff4c42b053a921b5de2e4c8177455d7f2"
+  },
+  {
+    "figure": "Figure3_Event_heterogeneity",
+    "file": "historical_hls_sar_per_event_metrics.csv",
+    "bytes": 23867,
+    "sha256": "d90484a5bd7f4c3c768b01795df3f4a6b02a75f75468d8c76336db7e1b22bd93"
+  },
+  {
+    "figure": "Figure4_Mechanism_diagnostics",
+    "file": "spatial_mechanisms_summary.csv",
+    "bytes": 3759,
+    "sha256": "c7a98c4e95166b1cdfc90df2232f6de880ade2e0f4cd71941ef21af15c204d52"
+  },
+  {
+    "figure": "Figure4_Mechanism_diagnostics",
+    "file": "spatial_mechanisms_report.json",
+    "bytes": 1306,
+    "sha256": "73730cf6a9c4195da0f344c20f31d38be3ab1f2096f43369296ee3aeb906d575"
+  },
+  {
+    "figure": "Figure5_Algorithm_sensitivity",
+    "file": "results_audit_algorithm_top20.csv",
+    "bytes": 863,
+    "sha256": "82d1c229d1bfde724cda8d8e065b77a177f42882477317b8d2fe8e5e5b981358"
+  },
+  {
+    "figure": "Figure6_External_loss_check",
+    "file": "utility_macro_summary.csv",
+    "bytes": 1203,
+    "sha256": "a1e0c35112648bf9128103dac25c5ca5bd3960500f188f7341a511c84569d266"
+  },
+  {
+    "figure": "Figure6_External_loss_check",
+    "file": "utility_experiment_report.json",
+    "bytes": 501,
+    "sha256": "25dc32111637a2c573e27165e99c1ba2de0a7e1ea563d8c49b8837083e613768"
+  },
+  {
+    "figure": "all",
+    "file": "figure_style.json",
+    "bytes": 1347,
+    "sha256": "3dcce3147bee3838e250235d9747c0f8f815551fff362032ef759873730a0175"
+  },
+  {
+    "figure": "Figure6_External_loss_check",
+    "file": "support_utility_summary.csv",
+    "bytes": 1477,
+    "sha256": "6c69139965b3d3c97fe47a7bb400c538cd24cc8589dfe47b8f68d1fb1bf1a4a5"
+  }
+]

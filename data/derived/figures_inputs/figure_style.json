@@ -1,0 +1,55 @@
+{
+  "axes.formatter.use_mathtext": true,
+  "axes.grid": false,
+  "axes.labelsize": 8.0,
+  "axes.linewidth": 0.6,
+  "axes.spines.right": false,
+  "axes.spines.top": false,
+  "axes.titlesize": 8.5,
+  "axes.unicode_minus": true,
+  "figure.figsize": [
+    3.3,
+    2.5
+  ],
+  "font.family": [
+    "sans-serif"
+  ],
+  "font.sans-serif": [
+    "Arial",
+    "Helvetica",
+    "DejaVu Sans"
+  ],
+  "font.serif": [
+    "STIXGeneral"
+  ],
+  "font.size": 8.0,
+  "grid.linewidth": 0.5,
+  "legend.fontsize": 8.0,
+  "legend.frameon": false,
+  "lines.linewidth": 1.0,
+  "lines.markersize": 3.0,
+  "mathtext.fontset": "dejavusans",
+  "pdf.fonttype": 42,
+  "ps.fonttype": 42,
+  "savefig.bbox": null,
+  "savefig.pad_inches": 0.05,
+  "svg.fonttype": "none",
+  "text.latex.preamble": "\\usepackage{amsmath} \\usepackage{amssymb} \\usepackage{sfmath}",
+  "text.usetex": false,
+  "xtick.direction": "out",
+  "xtick.labelsize": 8.0,
+  "xtick.major.size": 3.0,
+  "xtick.major.width": 0.6,
+  "xtick.minor.size": 1.5,
+  "xtick.minor.visible": false,
+  "xtick.minor.width": 0.5,
+  "xtick.top": false,
+  "ytick.direction": "out",
+  "ytick.labelsize": 8.0,
+  "ytick.major.size": 3.0,
+  "ytick.major.width": 0.6,
+  "ytick.minor.size": 1.5,
+  "ytick.minor.visible": false,
+  "ytick.minor.width": 0.5,
+  "ytick.right": false
+}

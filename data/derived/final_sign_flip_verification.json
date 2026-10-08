@@ -1,0 +1,218 @@
+{
+  "0.9_AWC_minus_s30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.0989027579142353,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.9_AWC_minus_l30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.9229506769604363
+    ],
+    "observed_mean": 0.23073766924010908,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.9_AWC_minus_consensus_rank": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.0989027579142353,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.9_AWC_minus_random": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.693636797868856,
+      -0.19682610285251712,
+      -0.16161864405965998,
+      1.8500574360921203
+    ],
+    "observed_mean": 0.5463123717621998,
+    "one_sided_greater": 0.25,
+    "two_sided_absolute_mean": 0.5,
+    "n_permutations": 16
+  },
+  "0.95_AWC_minus_s30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      2.5818645970896865,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.7443689071866569,
+    "one_sided_greater": 0.25,
+    "two_sided_absolute_mean": 0.5,
+    "n_permutations": 16
+  },
+  "0.95_AWC_minus_l30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      2.5818645970896865,
+      0.0,
+      0.9229506769604363
+    ],
+    "observed_mean": 0.8762038185125307,
+    "one_sided_greater": 0.25,
+    "two_sided_absolute_mean": 0.5,
+    "n_permutations": 16
+  },
+  "0.95_AWC_minus_consensus_rank": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      2.5818645970896865,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.7443689071866569,
+    "one_sided_greater": 0.25,
+    "two_sided_absolute_mean": 0.5,
+    "n_permutations": 16
+  },
+  "0.95_AWC_minus_random": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.693636797868856,
+      2.385038494237169,
+      -0.16161864405965998,
+      1.8500574360921203
+    ],
+    "observed_mean": 1.1917785210346215,
+    "one_sided_greater": 0.125,
+    "two_sided_absolute_mean": 0.25,
+    "n_permutations": 16
+  },
+  "0.99_AWC_minus_s30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.0989027579142353,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.99_AWC_minus_l30_water_fraction": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.0989027579142353,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.99_AWC_minus_consensus_rank": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.0,
+      0.0,
+      0.0,
+      0.3956110316569412
+    ],
+    "observed_mean": 0.0989027579142353,
+    "one_sided_greater": 0.5,
+    "two_sided_absolute_mean": 1.0,
+    "n_permutations": 16
+  },
+  "0.99_AWC_minus_random": {
+    "event_order": [
+      "N2023_179508_MINNESOTA",
+      "N2023_180114_SOUTHDAKOTA",
+      "N2024_191762_IOWA",
+      "N2025_202615_MISSOURI"
+    ],
+    "difference_vector": [
+      0.693636797868856,
+      -0.19682610285251712,
+      -0.16161864405965998,
+      1.8500574360921203
+    ],
+    "observed_mean": 0.5463123717621998,
+    "one_sided_greater": 0.25,
+    "two_sided_absolute_mean": 0.5,
+    "n_permutations": 16
+  }
+}

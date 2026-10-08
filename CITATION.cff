@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this data and code, please cite the archived release."
+title: "Agreement-weighted agricultural flood priorities from discordant optical water maps: analysis data and code"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+  - family-names: Tian
+    given-names: Yushi
+  - family-names: Zeng
+    given-names: Zhuo
+    orcid: "https://orcid.org/0009-0007-2459-771X"
+version: "1.0.0"
+date-released: "2026-10-08"
+license: MIT
+keywords:
+  - surface water mapping
+  - agricultural flooding
+  - spatial aggregation
+  - decision utility
+  - remote sensing

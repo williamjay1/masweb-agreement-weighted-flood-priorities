@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "seed": 20260820,
+  "bootstrap_repetitions": 10000,
+  "primary_budget": 0.2,
+  "outcome_field": "rma_indemnity_usd",
+  "score_names": [
+    "s30_water_fraction",
+    "l30_water_fraction",
+    "consensus_rank",
+    "agreement_weighted_score"
+  ],
+  "event_count_all_with_outcome": 8,
+  "event_count_blind_with_outcome": 4,
+  "interpretation": "The outcome is an external operational endpoint, not a pixel level truth label. Event is the inferential unit."
+}

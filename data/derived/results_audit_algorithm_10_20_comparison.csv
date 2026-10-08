@@ -1,0 +1,25 @@
+product,scale_m,budget,overlap_min_units,rank_event_count,spearman_mean,overlap_event_count,overlap_mean,source
+DSWx,500,0.1,10,7,0.404427754083,6,0.8059267942833332,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,500,0.1,20,7,0.404427754083,6,0.8059267942833332,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,500,0.2,10,7,0.404427754083,6,0.7738651633283332,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,500,0.2,20,7,0.404427754083,6,0.7738651633283332,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,10000,0.1,10,7,0.555405264658,6,0.761396011396,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,10000,0.1,20,7,0.555405264658,5,0.9136752136752,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,10000,0.2,10,7,0.555405264658,6,0.872027972028,product_budget_curves.csv; rank from original product_macro_curves.csv
+DSWx,10000,0.2,20,7,0.555405264658,5,0.9464335664336,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,500,0.1,10,6,0.700588379653,5,0.8285528289205999,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,500,0.1,20,6,0.700588379653,5,0.8285528289205999,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,500,0.2,10,6,0.700588379653,5,0.8136049797989999,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,500,0.2,20,6,0.700588379653,5,0.8136049797989999,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,10000,0.1,10,6,0.618688508714,5,0.8309523809524,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,10000,0.1,20,6,0.618688508714,5,0.8309523809524,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,10000,0.2,10,6,0.618688508714,5,0.851794340925,product_budget_curves.csv; rank from original product_macro_curves.csv
+MNDWI,10000,0.2,20,6,0.618688508714,5,0.851794340925,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,500,0.1,10,5,0.569920889301,5,0.658572294246,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,500,0.1,20,5,0.569920889301,5,0.658572294246,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,500,0.2,10,5,0.569920889301,5,0.6456147407894,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,500,0.2,20,5,0.569920889301,5,0.6456147407894,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,10000,0.1,10,5,0.689597509636,5,0.7272727272728,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,10000,0.1,20,5,0.689597509636,5,0.7272727272728,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,10000,0.2,10,5,0.689597509636,5,0.7909090909092,product_budget_curves.csv; rank from original product_macro_curves.csv
+AWEI,10000,0.2,20,5,0.689597509636,5,0.7909090909092,product_budget_curves.csv; rank from original product_macro_curves.csv

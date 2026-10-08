@@ -1,0 +1,11 @@
+event_id,region_name,cohort,event_start,event_end,s30_sensor,s30_acquisition_utc,l30_sensor,l30_acquisition_utc,signed_s30_minus_l30_seconds,absolute_lag_seconds,absolute_lag_minutes,absolute_lag_display,same_utc_date,source_ledger
+N2023_180114_SOUTHDAKOTA,South Dakota NOAA episode 180114,blind_noaa_event_screen,2023-04-09,2023-04-18,S2B,2023-04-10 17:28:59,L8,2023-04-10 17:17:07,712,712,11.866666666666667,11 min 52 s,True,noaa_blind_pair_state_ledger.csv
+D2_2023_RED_RIVER,Red River Valley,legacy_exact_pair_screen,2023-04-10,2023-05-15,S2B,2023-04-17 17:18:59,L8,2023-04-17 17:22:04,-185,185,3.0833333333333335,3 min 05 s,True,expanded_pair_state_ledger.csv
+N2023_179508_MINNESOTA,Minnesota NOAA episode 179508,blind_noaa_event_screen,2023-04-11,2023-04-30,S2A,2023-04-12 17:19:01,L8,2023-04-12 17:04:45,856,856,14.266666666666667,14 min 16 s,True,noaa_blind_pair_state_ledger.csv
+N2023_179829_WISCONSIN,Wisconsin NOAA episode 179829,blind_noaa_event_screen,2023-04-11,2023-04-30,S2B,2023-04-14 17:08:49,L8,2023-04-14 16:51:36,1033,1033,17.216666666666665,17 min 13 s,True,noaa_blind_pair_state_ledger.csv
+D3_2024_CENTRAL_INDIANA,Central Indiana,legacy_exact_pair_screen,2024-04-01,2024-04-07,S2B,2024-04-06 16:28:29,L8,2024-04-06 16:16:57,692,692,11.533333333333333,11 min 32 s,True,expanded_pair_state_ledger.csv
+D5_2024_NEBRASKA_IOWA,Eastern Nebraska-western Iowa,legacy_exact_pair_screen,2024-05-20,2024-05-24,S2A,2024-05-23 17:08:51,L8,2024-05-23 17:10:51,-120,120,2.0,2 min 00 s,True,expanded_pair_state_ledger.csv
+N2024_191762_IOWA,Iowa NOAA episode 191762,blind_noaa_event_screen,2024-05-20,2024-05-22,S2B,2024-05-25 16:58:49,L8,2024-05-25 16:58:28,21,21,0.35,0 min 21 s,True,noaa_blind_pair_state_ledger.csv
+C2_2025_LOWER_OHIO,Lower Ohio Valley,legacy_exact_pair_screen,2025-04-02,2025-04-16,S2B,2025-04-14 16:38:39,L8,2025-04-14 16:35:50,169,169,2.816666666666667,2 min 49 s,True,expanded_pair_state_ledger.csv
+N2025_202615_MISSOURI,Missouri NOAA episode 202615,blind_noaa_event_screen,2025-05-23,2025-05-27,S2B,2025-05-30 16:58:49,L8,2025-05-30 16:48:07,642,642,10.7,10 min 42 s,True,noaa_blind_pair_state_ledger.csv
+N2023_179586_MICHIGAN,Michigan NOAA episode 179586,opera_support_sensitivity_pair,2023-04-12,2023-04-25,S2B,2023-04-25 16:38:39,L8,2023-04-25 16:33:01,338,338,5.633333333333334,5 min 38 s,True,noaa_blind_pair_state_ledger.csv

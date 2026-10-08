@@ -1,0 +1,29 @@
+{
+  "overlap_500m": 0.8393784279949925,
+  "overlap_10km": 0.6827380952380953,
+  "unrounded_decrease": 0.15664033275689726,
+  "decrease_three_decimals": "0.157",
+  "all_table3_summaries_use_5_events": true,
+  "table3_ge20_counts": {
+    "0.5": 5,
+    "1.0": 5,
+    "2.0": 5,
+    "5.0": 5,
+    "10.0": 5,
+    "20.0": 4,
+    "30.0": 2
+  },
+  "scale_budget_values": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "scale_bootstrap_repetitions": 5000,
+  "utility_bootstrap_repetitions": 10000,
+  "legacy_algorithm_overlap_budget": 0.1,
+  "algorithm_rank_domain": "product_active",
+  "algorithm_legacy_overlap_min_units": 10
+}
