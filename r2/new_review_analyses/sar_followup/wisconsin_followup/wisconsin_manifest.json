@@ -1,0 +1,95 @@
+{
+  "event": "N2023_179829_WISCONSIN",
+  "source": "Copernicus GFM v3.1.0 Sentinel-1 ensemble, archive V02",
+  "gmf_datetime_utc": "2023-04-15T23:58:33Z/2023-04-15T23:58:58Z",
+  "optical_s30_utc": "2023-04-14T17:08:49Z",
+  "optical_l30_utc": "2023-04-14T16:51:36Z",
+  "event_registered_window": [
+    "2023-04-11",
+    "2023-04-30"
+  ],
+  "accepted_cells_original": 221,
+  "joint_optical_eligible_pixels": 3096,
+  "scene_info": [
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E087N042T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2023-04-15T23:58:58Z",
+      "valid_samples": 61,
+      "positive_samples": 0,
+      "sha256": "734e9d6c6e5580052db76c8dcb47c50ba88dcc288e807ecbbc4838362ceb0fcd",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/15/OBSERVED_WATER_20230415T235858_VV_NA020M_E087N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E084N042T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2023-04-15T23:58:58Z",
+      "valid_samples": 7,
+      "positive_samples": 0,
+      "sha256": "98e4b0f0d8a7c9c89f75a366107704b97b1571c33b923519952d281c29e43b25",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/15/OBSERVED_WATER_20230415T235858_VV_NA020M_E084N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E087N042T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2023-04-15T23:58:33Z",
+      "valid_samples": 32,
+      "positive_samples": 0,
+      "sha256": "fd3f6df31e745bc678e580b24b20e77b8310d6c0b8c96c8ee9f26c4045038a9e",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/15/OBSERVED_WATER_20230415T235833_VV_NA020M_E087N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E084N042T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2023-04-15T23:58:33Z",
+      "valid_samples": 2996,
+      "positive_samples": 1,
+      "sha256": "01c13db017d51d6a421b6c8588c1b704b737f5571ad1e8186881fec324b22ec4",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/15/OBSERVED_WATER_20230415T235833_VV_NA020M_E084N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E087N042T3",
+      "category": "ensemble_flood_extent",
+      "datetime": "2023-04-15T23:58:58Z",
+      "valid_samples": 61,
+      "positive_samples": 0,
+      "sha256": "d4a034ec39be6cacd206b0dd930e312345ac34b74d9cdd325ca5112458ab0cdf",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/15/ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E087N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E084N042T3",
+      "category": "ensemble_flood_extent",
+      "datetime": "2023-04-15T23:58:58Z",
+      "valid_samples": 7,
+      "positive_samples": 0,
+      "sha256": "015e241ade5dc3674fbfce8524ae770ea4c00e068f25adab409511be18387b16",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/15/ENSEMBLE_FLOOD_20230415T235858_VV_NA020M_E084N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E087N042T3",
+      "category": "ensemble_flood_extent",
+      "datetime": "2023-04-15T23:58:33Z",
+      "valid_samples": 29,
+      "positive_samples": 0,
+      "sha256": "b3a5d9816074b94bfd8c3dd80c36b2c4d348507773db9e7766e116d7c4faa475",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/15/ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E087N042T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E084N042T3",
+      "category": "ensemble_flood_extent",
+      "datetime": "2023-04-15T23:58:33Z",
+      "valid_samples": 2564,
+      "positive_samples": 0,
+      "sha256": "faee109c4154139f95b1abc021e6bdc81de46abf5fef15973575d5faee02b735",
+      "url": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/15/ENSEMBLE_FLOOD_20230415T235833_VV_NA020M_E084N042T3.tif"
+    }
+  ],
+  "method": "Categorical 20m GFM rasters independently nearest-neighbor reprojected into the exact optical EPSG:5070 30m grid; retain only original eligible, strict-both-valid pixels inside original accepted 500m cells. Merge tiles from two nearby acquisition times spanning 25 seconds, treating any category conflict as missing. Compare each optical product against same radar mask.",
+  "limitations": [
+    "independent SAR observations, not ground truth",
+    "GFM water is flood plus historical reference water; auxiliary global surface water inputs overlap with optical land eligibility",
+    "GFM flood excludes reference water while optical DSWx maps water",
+    "SAR acquired approximately 31 hours after optical acquisitions; water and physical conditions can change substantially",
+    "one event, spatially correlated samples, different resolutions, no population uncertainty or superiority claim"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "request": {
+    "collection_concept_id": "C2949811996-POCLOUD",
+    "temporal": "2025-05-27T16:48:07Z,2025-06-02T16:48:07Z",
+    "bounding_box": "-94.1240251535152,36.48288353106287,-92.51843367167866,37.84887566200008",
+    "page_size": 200
+  },
+  "response": {
+    "feed": {
+      "updated": "2026-11-14T21:51:35.219Z",
+      "id": "https://cmr.earthdata.nasa.gov:443/search/granules.json?collection_concept_id=C2949811996-POCLOUD&temporal=2025-05-27T16%3A48%3A07Z%2C2025-06-02T16%3A48%3A07Z&bounding_box=-94.1240251535152%2C36.48288353106287%2C-92.51843367167866%2C37.84887566200008&page_size=200",
+      "title": "ECHO granule metadata",
+      "entry": []
+    }
+  }
+}

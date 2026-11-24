@@ -1,0 +1,59 @@
+{
+  "event": "N2024_191762_IOWA",
+  "source": "Copernicus GFM v3.1.0 Sentinel-1 ensemble, NRT v3.1.0",
+  "gmf_datetime_utc": "2024-05-21T00:05:32Z/2024-05-21T00:06:22Z",
+  "optical_s30_utc": "2024-05-25T16:58:49Z",
+  "optical_l30_utc": "2024-05-25T16:58:28Z",
+  "event_registered_window": [
+    "2024-05-20",
+    "2024-05-22"
+  ],
+  "accepted_cells_original": 28456,
+  "joint_optical_eligible_pixels": 5980411,
+  "scene_info": [
+    {
+      "item": "ENSEMBLE_FLOOD_20240521T000622_VV_NA020M_E084N039T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2024-05-21T00:06:22Z",
+      "valid_samples": 214099,
+      "positive_samples": 131,
+      "sha256": "51a58a9d1c57984b3ea45c88b3b9128476456bd8c02ff4299dbf161869845f70",
+      "url": "https://data.eodc.eu/collections/GFM_LAYERS/obswater_mask/NA020M/2024/05/21/ENSEMBLE_OBSWATER_20240521T000622_VV_NA020M_E084N039T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20240521T000622_VV_NA020M_E084N036T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2024-05-21T00:06:22Z",
+      "valid_samples": 484869,
+      "positive_samples": 28,
+      "sha256": "19bd0952061c262697c103558d2aec8ef2c3fd8b6b8df9cb723cb66b7487e6e8",
+      "url": "https://data.eodc.eu/collections/GFM_LAYERS/obswater_mask/NA020M/2024/05/21/ENSEMBLE_OBSWATER_20240521T000622_VV_NA020M_E084N036T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20240521T000557_VV_NA020M_E084N036T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2024-05-21T00:05:57Z",
+      "valid_samples": 4976134,
+      "positive_samples": 9784,
+      "sha256": "fa36953b4528ce891742f5de66d4cc6722e133e4ebf5213195ad1b12bf400f70",
+      "url": "https://data.eodc.eu/collections/GFM_LAYERS/obswater_mask/NA020M/2024/05/21/ENSEMBLE_OBSWATER_20240521T000557_VV_NA020M_E084N036T3.tif"
+    },
+    {
+      "item": "ENSEMBLE_FLOOD_20240521T000532_VV_NA020M_E084N036T3",
+      "category": "ensemble_water_extent",
+      "datetime": "2024-05-21T00:05:32Z",
+      "valid_samples": 21699,
+      "positive_samples": 12,
+      "sha256": "e152928b94bb054b096fc9c6b581d4fbf1928ccd0a0deeaa81c65aa0d13608f5",
+      "url": "https://data.eodc.eu/collections/GFM_LAYERS/obswater_mask/NA020M/2024/05/21/ENSEMBLE_OBSWATER_20240521T000532_VV_NA020M_E084N036T3.tif"
+    }
+  ],
+  "method": "Categorical 20m GFM rasters independently nearest-neighbor reprojected into the exact optical EPSG:5070 30m grid; retain only original eligible, strict-both-valid pixels inside original accepted 500m cells. Merge tiles from three nearby acquisition times spanning 50 seconds, treating any category conflict as missing. Compare each optical product against same radar mask.",
+  "limitations": [
+    "independent SAR observations, not ground truth",
+    "GFM water is flood plus historical reference water; auxiliary global surface water inputs overlap with optical land eligibility",
+    "GFM flood excludes reference water while optical DSWx maps water",
+    "SAR acquired approximately 113 hours before optical acquisitions and within the recorded event; water and physical conditions can change substantially",
+    "one event, spatially correlated samples, different resolutions, no population uncertainty or superiority claim"
+  ]
+}

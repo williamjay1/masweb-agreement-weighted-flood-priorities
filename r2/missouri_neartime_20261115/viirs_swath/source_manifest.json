@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://noaa-nesdis-n20-pds.s3.amazonaws.com/VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2005104_e2006349_b39023_c20250530202821970000_oeac_ops.h5",
+    "path": "external/data/Geocarto_R2_20261115/raw/missouri_viirs_swath_20261115/GITCO_j01_d20250530_t2005104_e2006349_b39023_c20250530202821970000_oeac_ops.h5",
+    "bytes": 118619192,
+    "sha256": "3796218d7b45346ed04d6760e851ce0442ee37a9f2cb2761a334ba5efd966e1c"
+  },
+  {
+    "url": "https://noaa-nesdis-n20-pds.s3.amazonaws.com/VIIRS-I2-SDR/2025/05/30/SVI02_j01_d20250530_t2005104_e2006349_b39023_c20250530203108339000_oeac_ops.h5",
+    "path": "external/data/Geocarto_R2_20261115/raw/missouri_viirs_swath_20261115/SVI02_j01_d20250530_t2005104_e2006349_b39023_c20250530203108339000_oeac_ops.h5",
+    "bytes": 29184768,
+    "sha256": "4bc23755f5388d2030b6aa736451a8b6110a2ae0d8369193918999c7e1d64ea8"
+  }
+]

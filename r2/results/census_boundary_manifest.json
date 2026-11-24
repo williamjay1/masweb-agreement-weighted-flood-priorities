@@ -1,0 +1,8 @@
+{
+  "official_url": "https://www2.census.gov/geo/tiger/TIGER2025/COUNTY/tl_2025_us_county.zip",
+  "archive_sha256": "9c6e9d9076abce2670d1de255de3710c35ecca00a7005d88e012dec52d95f763",
+  "original_sha256": "8ecc920ee3d9366dc13d6f6e566463b6249f017e913aedd0a5bd00fc6ddd4d43",
+  "frozen_scores_sha256": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+  "baseline_reproduced": true,
+  "scope": "Post hoc centre reassignment and county repooling on frozen accepted 500m cells and candidate/outcome set; not rerunning pixel clipping or event selection."
+}

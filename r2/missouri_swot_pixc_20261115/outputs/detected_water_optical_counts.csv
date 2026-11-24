@@ -1,0 +1,13 @@
+scope,analyzed_files,expected_files,quality_scenario,class_scenario,unique_optical_cells_with_detected_water,s30_water_cells,l30_water_cells,both_optical_water_cells
+033_259,6,6,strict,main_water_detected,0,0,0,0
+033_259,6,6,strict,water_345_detected,0,0,0,0
+033_259,6,6,sensitivity_prior_unwrap,main_water_detected,161,1,1,1
+033_259,6,6,sensitivity_prior_unwrap,water_345_detected,161,1,1,1
+033_272,2,2,strict,main_water_detected,0,0,0,0
+033_272,2,2,strict,water_345_detected,0,0,0,0
+033_272,2,2,sensitivity_prior_unwrap,main_water_detected,32,4,4,4
+033_272,2,2,sensitivity_prior_unwrap,water_345_detected,32,4,4,4
+either,8,8,strict,main_water_detected,0,0,0,0
+either,8,8,strict,water_345_detected,0,0,0,0
+either,8,8,sensitivity_prior_unwrap,main_water_detected,193,5,5,5
+either,8,8,sensitivity_prior_unwrap,water_345_detected,193,5,5,5

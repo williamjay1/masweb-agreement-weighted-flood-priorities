@@ -1,0 +1,13 @@
+threshold,denominator,rule,events,mean_lift
+0.9,rma_liability_usd,complete_case_rerank,4,0.9030605164778539
+0.9,rma_liability_usd,frozen_zero_convention,4,1.0731232882422987
+0.9,rma_net_planted_quantity,complete_case_rerank,4,0.9510006864828933
+0.9,rma_net_planted_quantity,frozen_zero_convention,4,1.1441172510489361
+0.95,rma_liability_usd,complete_case_rerank,4,0.902767091361337
+0.95,rma_liability_usd,frozen_zero_convention,4,1.072829863125782
+0.95,rma_net_planted_quantity,complete_case_rerank,4,0.9671309317321515
+0.95,rma_net_planted_quantity,frozen_zero_convention,4,1.1602474962981943
+0.99,rma_liability_usd,complete_case_rerank,4,0.9030605164778539
+0.99,rma_liability_usd,frozen_zero_convention,4,1.0731232882422987
+0.99,rma_net_planted_quantity,complete_case_rerank,4,0.9510006864828933
+0.99,rma_net_planted_quantity,frozen_zero_convention,4,1.1441172510489361

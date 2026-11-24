@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ALOS2594110700-250524_WBDR2.2GUA_HH_SLP.tif",
+    "bytes": 473086092,
+    "sha256": "820187d92c856208777be3b9e6dc326a28122e7c1def8cf28566f680692c8c3f",
+    "url": "https://jaxaalos2.s3.us-west-2.amazonaws.com/palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_HH_SLP.tif"
+  },
+  {
+    "name": "ALOS2594110700-250524_WBDR2.2GUA_HV_SLP.tif",
+    "bytes": 450454012,
+    "sha256": "6b0026c94759acb93079166691e1be41175d1d1a047bbe487279d5515c658ac0",
+    "url": "https://jaxaalos2.s3.us-west-2.amazonaws.com/palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_HV_SLP.tif"
+  },
+  {
+    "name": "ALOS2594110700-250524_WBDR2.2GUA_MSK.tif",
+    "bytes": 817136,
+    "sha256": "42682f14d0c16a6d5fe239b499da1ea6fe98a4be3797dd6bf821fd23aa787356",
+    "url": "https://jaxaalos2.s3.us-west-2.amazonaws.com/palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_MSK.tif"
+  },
+  {
+    "name": "ALOS2594110700-250524_WBDR2.2GUA_summary.xml",
+    "bytes": 8744,
+    "sha256": "e472ea47589aed34bf2bc40132a519fa9047b876109c15ec10fab199475d6b24",
+    "url": "https://jaxaalos2.s3.us-west-2.amazonaws.com/palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_summary.xml"
+  }
+]

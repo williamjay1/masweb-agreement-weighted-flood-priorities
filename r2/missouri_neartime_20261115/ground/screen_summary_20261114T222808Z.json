@@ -1,0 +1,88 @@
+{
+  "retrieved_utc": "20261114T222808Z",
+  "bbox": [
+    -94.1241,
+    36.4828,
+    -92.5184,
+    37.849
+  ],
+  "naip_near_returned": 0,
+  "naip_2025_returned": 26,
+  "naip_2025_states": {
+    "ar": 26
+  },
+  "naip_2025_dates": {
+    "2025-08-06": 1,
+    "2025-07-24": 4,
+    "2025-07-23": 5,
+    "2025-07-19": 13,
+    "2025-07-10": 3
+  },
+  "usgs_state_marks": 287,
+  "usgs_bbox_marks": 0,
+  "usgs_2025_event_names": [],
+  "response_files": [
+    {
+      "file": "external/data/Geocarto_R2_20261115/raw/missouri_ground_obs_new_20261115/20261114T222808Z/naip_near.json",
+      "method": "POST",
+      "url": "https://planetarycomputer.microsoft.com/api/stac/v1/search",
+      "request": {
+        "collections": [
+          "naip"
+        ],
+        "bbox": [
+          -94.1241,
+          36.4828,
+          -92.5184,
+          37.849
+        ],
+        "datetime": "2025-05-20T00:00:00Z/2025-06-05T23:59:59Z",
+        "limit": 500
+      },
+      "sha256": "a44d433dcfa6dfa116077622cc59a9d1483795924b5cf5c94172beb1d82ace70",
+      "bytes": 309,
+      "status": 200
+    },
+    {
+      "file": "external/data/Geocarto_R2_20261115/raw/missouri_ground_obs_new_20261115/20261114T222808Z/naip_2025.json",
+      "method": "POST",
+      "url": "https://planetarycomputer.microsoft.com/api/stac/v1/search",
+      "request": {
+        "collections": [
+          "naip"
+        ],
+        "bbox": [
+          -94.1241,
+          36.4828,
+          -92.5184,
+          37.849
+        ],
+        "datetime": "2025-01-01T00:00:00Z/2025-12-31T23:59:59Z",
+        "limit": 500
+      },
+      "sha256": "71370aafdd3ea8a50652bc0515bea3fb8191936312ac0f0f2f002784e1564fd5",
+      "bytes": 58554,
+      "status": 200
+    },
+    {
+      "file": "external/data/Geocarto_R2_20261115/raw/missouri_ground_obs_new_20261115/20261114T222808Z/usgs_mo_high_water_marks.json",
+      "method": "GET",
+      "url": "https://api.waterdata.usgs.gov/stnservices/hwms/filteredhwms/?states=MO",
+      "request": {
+        "states": "MO"
+      },
+      "sha256": "c4b28b97c5c1623afd8785dcd311bff0dc42b670d5c2a9f379f32176d8220aa3",
+      "bytes": 360273,
+      "status": 200
+    },
+    {
+      "file": "external/data/Geocarto_R2_20261115/raw/missouri_ground_obs_new_20261115/20261114T222808Z/usgs_events.json",
+      "method": "GET",
+      "url": "https://api.waterdata.usgs.gov/stnservices/events/",
+      "request": {},
+      "sha256": "dcc5867e9563118991bcd63e72f46cb6a56991b14d977ace0a8f6f7d2326ef9b",
+      "bytes": 97546,
+      "status": 200
+    }
+  ]
+}

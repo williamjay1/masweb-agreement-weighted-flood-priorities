@@ -1,0 +1,13 @@
+{
+  "seed": 20261115,
+  "draws_per_event": 2000,
+  "preprocessing": "exclude counties with missing or nonpositive liability before drawing blocks and determining qn; keep prespecified frozen score values",
+  "allocation": "fractional top 20 percent of pseudo county rows with ties split; sampled blocks repeat all their county rows",
+  "metric": "(sum allocation_weight*county_indemnity / sum allocation_weight*county_liability) / (sum county_indemnity / sum county_liability)",
+  "inference": "post hoc within-event block perturbation; not independent events, not ground truth, not proof of superiority. Mean and range only across draws with all four events defined",
+  "inputs": {
+    "county_scores_and_selections.csv": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+    "primary_external_event_county_outcomes_normalized.csv": "3c4486d2acce4bea14de939209a48427d6cc9ece5f06dde24af5ef1eee499197",
+    "huc8_block_assignments.csv": "044152a1bd13a87754318951d4e07ae6b58975673866c22afec35cb412edcff5"
+  }
+}

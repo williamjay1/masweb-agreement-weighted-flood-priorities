@@ -1,0 +1,11 @@
+{
+  "cells_sha256": "81ad2bc68fe57e20440ea55791359d934bcbb11ea4905bce1b4a53cbf580792c",
+  "frozen_metrics_sha256": "d90484a5bd7f4c3c768b01795df3f4a6b02a75f75468d8c76336db7e1b22bd93",
+  "event_scales": 35,
+  "max_abs_spearman_difference": 1.3148159924147862e-06,
+  "max_abs_kendall_difference": 2.091317361396783e-06,
+  "all_n_and_topk_match": true,
+  "noaa_baseline_event_score_rows_all_match": 20,
+  "huc8_source": "inputs/new_review_archives/huc8_block_bootstrap_draws.csv",
+  "interpretation": "5 events; event ranges are descriptive and do not establish independent-event uncertainty. Minimum-unit sensitivity is post hoc. NOAA and event selection share administrative source."
+}

@@ -1,0 +1,79 @@
+{
+  "input_qa": "QF1_VIIRSIBANDSDR == 0; raw reflectance < 65528; bounding box only. No same-pass cloud mask available.",
+  "source_pixels": 85601,
+  "netcdf_99": {
+    "count": 1314,
+    "mean_i2": 0.23263582587242126,
+    "median_i2": 0.19500967860221863,
+    "p10_i2": 0.0846380814909935,
+    "p90_i2": 0.4196743071079254
+  },
+  "geotiff_99": {
+    "count": 1312,
+    "mean_i2": 0.2349144071340561,
+    "median_i2": 0.19833046197891235,
+    "p10_i2": 0.08504829555749893,
+    "p90_i2": 0.4355261027812958
+  },
+  "netcdf_17": {
+    "count": 83093,
+    "mean_i2": 0.4366415739059448,
+    "median_i2": 0.4369008243083954,
+    "p10_i2": 0.3152044117450714,
+    "p90_i2": 0.541260838508606
+  },
+  "geotiff_17": {
+    "count": 83044,
+    "mean_i2": 0.43667587637901306,
+    "median_i2": 0.43682757019996643,
+    "p10_i2": 0.3157171905040741,
+    "p90_i2": 0.5410093665122986
+  },
+  "paired_netcdf_99_tif_17": {
+    "count": 211,
+    "mean_i2": 0.3188650906085968,
+    "median_i2": 0.30946633219718933,
+    "p10_i2": 0.18645137548446655,
+    "p90_i2": 0.4597311019897461
+  },
+  "paired_tif_99_netcdf_17": {
+    "count": 297,
+    "mean_i2": 0.3233070373535156,
+    "median_i2": 0.3011399805545807,
+    "p10_i2": 0.1726311296224594,
+    "p90_i2": 0.506636917591095
+  },
+  "shared_99": {
+    "count": 854,
+    "mean_i2": 0.20152083039283752,
+    "median_i2": 0.15350008010864258,
+    "p10_i2": 0.08021365106105804,
+    "p90_i2": 0.37469255924224854
+  },
+  "disagree_any": 2288,
+  "transforms": {
+    "netcdf": [
+      0.0033720002325567096,
+      0.0,
+      -105.00168600011628,
+      0.0,
+      -0.0033720002325567096,
+      45.00168600011628,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "geotiff": [
+      0.003372302158273381,
+      0.0,
+      -105.0,
+      0.0,
+      -0.003372302158273381,
+      45.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "caveat": "Exploratory diagnostic after discrepancy was known, correlated swath samples, no cloud mask, daily composite can use other VIIRS overpasses; no flood accuracy, no decisive geolocation determination."
+}

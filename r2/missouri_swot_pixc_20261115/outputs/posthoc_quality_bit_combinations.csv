@@ -1,0 +1,13 @@
+scope,classification_bit4,geolocation_bit4,matched_points,distinct_cells_containing_this_combination,both_optical_water_cells
+033_259,False,False,0,0,0
+033_259,True,False,157,53,0
+033_259,False,True,0,0,0
+033_259,True,True,149,109,1
+033_272,False,False,0,0,0
+033_272,True,False,0,0,0
+033_272,False,True,0,0,0
+033_272,True,True,49,32,4
+either,False,False,0,0,0
+either,True,False,157,53,0
+either,False,True,0,0,0
+either,True,True,198,141,5

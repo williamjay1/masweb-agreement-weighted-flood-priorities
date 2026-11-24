@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this data and code, please cite the archived release."
-title: "Agreement-weighted agricultural flood priorities from discordant optical water maps: analysis data and code"
+message: "Cite the version specific Zenodo record for the files used."
+title: "Agricultural flood priorities: analysis data and code"
 type: software
 authors:
   - family-names: Zhang
@@ -10,12 +10,12 @@ authors:
   - family-names: Zeng
     given-names: Zhuo
     orcid: "https://orcid.org/0009-0007-2459-771X"
-version: "1.0.5"
-date-released: "2026-10-08"
-doi: "10.5281/zenodo.23238975"
+version: "1.1.0"
+date-released: "2026-11-24"
+license: CC-BY-4.0
 keywords:
-  - surface water mapping
   - agricultural flooding
-  - spatial aggregation
-  - decision utility
+  - surface water mapping
+  - flood mapping
   - remote sensing
+  - crop insurance

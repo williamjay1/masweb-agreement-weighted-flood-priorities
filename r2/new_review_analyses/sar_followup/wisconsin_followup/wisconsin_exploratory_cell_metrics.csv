@@ -1,0 +1,13 @@
+radar_layer,coverage_min,sensor,cells,k,radar_positive_cells,optical_positive_cells,spearman,coordinate_top20_radar_fraction_capture,warning
+ensemble_water_extent,0.0,s30,221,45,1,1,-0.004545454545454544,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.0,l30,221,45,1,5,-0.010256807792805777,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.95,s30,221,45,1,1,-0.004545454545454544,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.95,l30,221,45,1,5,-0.010256807792805777,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,1.0,s30,221,45,1,1,-0.004545454545454544,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,1.0,l30,221,45,1,5,-0.010256807792805777,0.0,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,0.0,s30,214,43,0,1,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,0.0,l30,214,43,0,4,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,0.95,s30,171,35,0,1,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,0.95,l30,171,35,0,3,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,1.0,s30,164,33,0,1,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_flood_extent,1.0,l30,164,33,0,3,undefined,undefined,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"

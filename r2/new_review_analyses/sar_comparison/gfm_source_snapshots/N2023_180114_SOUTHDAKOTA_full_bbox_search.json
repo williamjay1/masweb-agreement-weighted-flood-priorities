@@ -1,0 +1,2593 @@
+{
+  "type": "FeatureCollection",
+  "links": [
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://stac.eodc.eu/api/v1/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://stac.eodc.eu/api/v1/search"
+    }
+  ],
+  "features": [
+    {
+      "id": "ENSEMBLE_FLOOD_20230417T003902_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230417T003902_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230417T003902_20230417T003927_048129_05C94B",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F17%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230417T003902_VV_NA020M_E081N039T3_20230417.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F17%2FENSEMBLE_FLOOD_20230417T003902_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/17/ADVFLAG_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/17/DLR_LIKE_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/17/EXCLUSION_LAYER_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/17/TUW_LIKE_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/17/LIST_LIKE_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/17/DLR_FLOOD_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/17/TUW_FLOOD_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/17/LIST_FLOOD_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/17/ENSEMBLE_UNCERTAINTY_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/17/ENSEMBLE_FLOOD_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/17/OBSERVED_WATER_20230417T003902_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T16:05:38.344469+00:00",
+        "datetime": "2023-04-17T00:39:02Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 209957,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": false,
+        "floodable_pixels": 38067488,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-22T22:29:47.109152Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.3733621646337107
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    },
+    {
+      "id": "ENSEMBLE_FLOOD_20230414T001508_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230414T001508_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230414T001508_20230414T001533_048085_05C7C2",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230414T001508_VV_NA020M_E081N039T3_20230414.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FENSEMBLE_FLOOD_20230414T001508_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/14/ADVFLAG_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/DLR_LIKE_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/14/EXCLUSION_LAYER_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/TUW_LIKE_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/LIST_LIKE_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/DLR_FLOOD_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/TUW_FLOOD_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/LIST_FLOOD_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/14/ENSEMBLE_UNCERTAINTY_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/14/ENSEMBLE_FLOOD_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/14/OBSERVED_WATER_20230414T001508_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T17:13:34.094668+00:00",
+        "datetime": "2023-04-14T00:15:08Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 4081629,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": true,
+        "floodable_pixels": 70718828,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-21T09:10:21.514203Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.8116859714589445
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    },
+    {
+      "id": "ENSEMBLE_FLOOD_20230414T001443_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230414T001443_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230414T001443_20230414T001508_048085_05C7C2",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230414T001443_VV_NA020M_E081N039T3_20230414.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FENSEMBLE_FLOOD_20230414T001443_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/14/ADVFLAG_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/DLR_LIKE_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/14/EXCLUSION_LAYER_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/TUW_LIKE_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/LIST_LIKE_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/DLR_FLOOD_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/TUW_FLOOD_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/LIST_FLOOD_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/14/ENSEMBLE_UNCERTAINTY_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/14/ENSEMBLE_FLOOD_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/14/OBSERVED_WATER_20230414T001443_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T17:13:32.566001+00:00",
+        "datetime": "2023-04-14T00:14:43Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 828533,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": true,
+        "floodable_pixels": 80922937,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-21T09:08:19.989706Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.46353977451712847
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    },
+    {
+      "id": "ENSEMBLE_FLOOD_20230414T001418_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230414T001418_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230414T001418_20230414T001443_048085_05C7C2",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230414T001418_VV_NA020M_E081N039T3_20230414.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F14%2FENSEMBLE_FLOOD_20230414T001418_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/14/ADVFLAG_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/DLR_LIKE_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/14/EXCLUSION_LAYER_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/TUW_LIKE_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/14/LIST_LIKE_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/DLR_FLOOD_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/TUW_FLOOD_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/14/LIST_FLOOD_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/14/ENSEMBLE_UNCERTAINTY_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/14/ENSEMBLE_FLOOD_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/14/OBSERVED_WATER_20230414T001418_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T17:13:30.356331+00:00",
+        "datetime": "2023-04-14T00:14:18Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 64455,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": true,
+        "floodable_pixels": 78710557,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-21T09:07:55.252216Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.5204251027848886
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    },
+    {
+      "id": "ENSEMBLE_FLOOD_20230412T003034_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230412T003034_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230412T003034_20230412T003059_048056_05C6D2",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F12%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230412T003034_VV_NA020M_E081N039T3_20230412.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F12%2FENSEMBLE_FLOOD_20230412T003034_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/12/ADVFLAG_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/12/DLR_LIKE_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/12/EXCLUSION_LAYER_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/12/TUW_LIKE_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/12/LIST_LIKE_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/12/DLR_FLOOD_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/12/TUW_FLOOD_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/12/LIST_FLOOD_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/12/ENSEMBLE_UNCERTAINTY_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/12/ENSEMBLE_FLOOD_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/12/OBSERVED_WATER_20230412T003034_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T15:28:44.589920+00:00",
+        "datetime": "2023-04-12T00:30:34Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 1348895,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": true,
+        "floodable_pixels": 54559138,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-20T21:47:59.929645Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.4275306825216195
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    },
+    {
+      "id": "ENSEMBLE_FLOOD_20230405T003901_VV_NA020M_E081N039T3",
+      "bbox": [
+        -99.62193461480976,
+        43.27819231008828,
+        -95.75721656203883,
+        45.98346631822959
+      ],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://stac.eodc.eu/api/v1/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://stac.eodc.eu/api/v1/collections/GFM/items/ENSEMBLE_FLOOD_20230405T003901_VV_NA020M_E081N039T3"
+        },
+        {
+          "rel": "derived_from",
+          "href": "https://stac.eodc.eu/api/v1/collections/SENTINEL1_GRD/items/S1A_IW_GRDH_1SDV_20230405T003901_20230405T003926_047954_05C35A",
+          "type": "application/json"
+        }
+      ],
+      "assets": {
+        "tilejson": {
+          "href": "https://titiler.services.eodc.eu/cog/tilejson.json?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_WGS_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F05%2FNA_E081N039T3_ENSEMBLE_FLOOD_20230405T003901_VV_NA020M_E081N039T3_20230405.tif&return_mask=True",
+          "type": "application/json",
+          "roles": [
+            "tiles"
+          ],
+          "title": "TileJSON with default rendering"
+        },
+        "thumbnail": {
+          "href": "https://titiler.services.eodc.eu/cog/preview.png?url=https%3A%2F%2Fdata.eodc.eu%2Fcollections%2FGFM_ARCHIVE%2Fflood_extent%2FNA020M%2F2023%2F04%2F05%2FENSEMBLE_FLOOD_20230405T003901_VV_NA020M_E081N039T3.tif&return_mask=True&dst_crs=PROJCRS%5B%22WGS+84+%2F+Pseudo-Mercator%22%2CBASEGEOGCRS%5B%22WGS+84%22%2CENSEMBLE%5B%22World+Geodetic+System+1984+ensemble%22%2CMEMBER%5B%22World+Geodetic+System+1984+%28Transit%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G730%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G873%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1150%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1674%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G1762%29%22%5D%2CMEMBER%5B%22World+Geodetic+System+1984+%28G2139%29%22%5D%2CELLIPSOID%5B%22WGS+84%22%2C6378137%2C298.257223563%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CENSEMBLEACCURACY%5B2.0%5D%5D%2CPRIMEM%5B%22Greenwich%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%5D%2CID%5B%22EPSG%22%2C4326%5D%5D%2CCONVERSION%5B%22Popular+Visualisation+Pseudo-Mercator%22%2CMETHOD%5B%22Popular+Visualisation+Pseudo+Mercator%22%2CID%5B%22EPSG%22%2C1024%5D%5D%2CPARAMETER%5B%22Latitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8801%5D%5D%2CPARAMETER%5B%22Longitude+of+natural+origin%22%2C0%2CANGLEUNIT%5B%22degree%22%2C0.0174532925199433%5D%2CID%5B%22EPSG%22%2C8802%5D%5D%2CPARAMETER%5B%22False+easting%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8806%5D%5D%2CPARAMETER%5B%22False+northing%22%2C0%2CLENGTHUNIT%5B%22metre%22%2C1%5D%2CID%5B%22EPSG%22%2C8807%5D%5D%5D%2CCS%5BCartesian%2C2%5D%2CAXIS%5B%22easting+%28X%29%22%2Ceast%2CORDER%5B1%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CAXIS%5B%22northing+%28Y%29%22%2Cnorth%2CORDER%5B2%5D%2CLENGTHUNIT%5B%22metre%22%2C1%5D%5D%2CUSAGE%5BSCOPE%5B%22Web+mapping+and+visualisation.%22%5D%2CAREA%5B%22World+between+85.06%C2%B0S+and+85.06%C2%B0N.%22%5D%2CBBOX%5B-85.06%2C-180%2C85.06%2C180%5D%5D%2CID%5B%22EPSG%22%2C3857%5D%5D",
+          "type": "image/png",
+          "roles": [
+            "overview"
+          ],
+          "title": "Rendered preview",
+          "description": "Rendered preview image of GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+        },
+        "advisory_flags": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/advisory_flags/NA020M/2023/04/05/ADVFLAG_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "advisory_flags",
+          "eo:bands": [
+            {
+              "name": "advisory_flags",
+              "description": "GFM Advisory Flags"
+            }
+          ],
+          "description": "GFM Advisory Flags",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/05/DLR_LIKE_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_likelihood",
+          "eo:bands": [
+            {
+              "name": "dlr_likelihood",
+              "description": "GFM Likelihood (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "exclusion_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/exclusion_layer/NA020M/2023/04/05/EXCLUSION_LAYER_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "exclusion_mask",
+          "eo:bands": [
+            {
+              "name": "exclusion_mask",
+              "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Exclusion Mask (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/05/TUW_LIKE_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_likelihood",
+          "eo:bands": [
+            {
+              "name": "tuw_likelihood",
+              "description": "GFM Uncertainties (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Uncertainties (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/uncertainty/NA020M/2023/04/05/LIST_LIKE_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_likelihood",
+          "eo:bands": [
+            {
+              "name": "list_likelihood",
+              "description": "GFM Likelihood (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "dlr_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/05/DLR_FLOOD_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "dlr_flood_extent",
+          "eo:bands": [
+            {
+              "name": "dlr_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - DLR algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "tuw_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/05/TUW_FLOOD_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "tuw_flood_extent",
+          "eo:bands": [
+            {
+              "name": "tuw_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - TUW algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "list_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE_INTERIM/flood_extent/NA020M/2023/04/05/LIST_FLOOD_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "list_flood_extent",
+          "eo:bands": [
+            {
+              "name": "list_flood_extent",
+              "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Intermediate output - LIST algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_likelihood": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/uncertainty/NA020M/2023/04/05/ENSEMBLE_UNCERTAINTY_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_likelihood",
+          "eo:bands": [
+            {
+              "name": "ensemble_likelihood",
+              "description": "GFM Likelihood (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Likelihood (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "reference_water_mask": {
+          "href": "https://data.eodc.eu/collections/GFM_REFWATER/V04/EQUI7_NA020M/E081N039T3/REFERENCE_WATER_OUT_S1-_IW_GRDH_1S-V_20170406T003740_20210430T001320_MONTH-_E081N039T3_NA020M_V04.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "reference_water_mask",
+          "eo:bands": [
+            {
+              "name": "reference_water_mask",
+              "description": "GFM Reference Water Mask"
+            }
+          ],
+          "description": "GFM Reference Water Mask",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_flood_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/flood_extent/NA020M/2023/04/05/ENSEMBLE_FLOOD_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_flood_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_flood_extent",
+              "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Flood Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        },
+        "ensemble_water_extent": {
+          "href": "https://data.eodc.eu/collections/GFM_ARCHIVE/observed_water/NA020M/2023/04/05/OBSERVED_WATER_20230405T003901_VV_NA020M_E081N039T3.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": [
+            "data"
+          ],
+          "title": "ensemble_water_extent",
+          "eo:bands": [
+            {
+              "name": "ensemble_water_extent",
+              "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)"
+            }
+          ],
+          "description": "GFM Observed Water Extent (Final output - Ensemble algorithm)",
+          "raster:bands": [
+            {
+              "nodata": 255,
+              "data_type": "uint8",
+              "spatial_resolution": 20
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ],
+            [
+              -99.62193461480976,
+              45.9766195714241
+            ],
+            [
+              -95.75721656203883,
+              45.98346631822959
+            ],
+            [
+              -95.8395419185325,
+              43.28463630064522
+            ],
+            [
+              -99.5217208377325,
+              43.27819231008828
+            ]
+          ]
+        ]
+      },
+      "collection": "GFM",
+      "properties": {
+        "gsd": 20,
+        "created": "2024-11-13T17:53:19.249979+00:00",
+        "datetime": "2023-04-05T00:39:01Z",
+        "Equi7Tile": "NA020M_E081N039T3",
+        "blocksize": {
+          "x": 512,
+          "y": 512
+        },
+        "proj:bbox": [
+          8100000,
+          3900000,
+          8400000,
+          4200000
+        ],
+        "proj:wkt2": "PROJCS[\"Azimuthal_Equidistant\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Azimuthal_Equidistant\"],PARAMETER[\"false_easting\",8264722.17686],PARAMETER[\"false_northing\",4867518.35323],PARAMETER[\"longitude_of_center\",-97.5],PARAMETER[\"latitude_of_center\",52.0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "proj:shape": [
+          15000,
+          15000
+        ],
+        "constellation": "sentinel-1",
+        "flood_members": {
+          "DLR": true,
+          "TUW": true,
+          "LIST": true
+        },
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8100000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                4200000.0
+              ],
+              [
+                8400000.0,
+                3900000.0
+              ],
+              [
+                8100000.0,
+                3900000.0
+              ]
+            ]
+          ]
+        },
+        "flooded_pixels": 14916,
+        "proj:transform": [
+          20,
+          0,
+          8100000,
+          0,
+          -20,
+          4200000
+        ],
+        "anomaly_detected": false,
+        "floodable_pixels": 38069240,
+        "processing:level": "L3",
+        "processing:lineage": "Global Flood Monitoring",
+        "processing:version": "GFM v3.1.0",
+        "processing:datetime": "2024-04-22T22:12:40.131582Z",
+        "processing:facility": "EODC GmbH, Vienna",
+        "processing:software": {
+          "GFM": "archive V02"
+        },
+        "ratio_after_blob_removal": 0.16411906677393404
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/processing/v1.2.0/schema.json"
+      ]
+    }
+  ],
+  "numberMatched": 6,
+  "numberReturned": 6
+}

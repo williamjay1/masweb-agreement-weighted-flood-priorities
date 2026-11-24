@@ -1,0 +1,5 @@
+{
+  "request_url": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?collection_concept_id=C3233944986-POCLOUD&bounding_box=-94.1241%2C36.4828%2C-92.5184%2C37.8490&temporal=2025-05-26T00%3A00%3A00Z%2C2025-06-04T00%3A00%3A00Z&page_size=200",
+  "retrieved_utc": "2026-11-14T22:27:39.570406+00:00",
+  "cmr_hits": "25"
+}

@@ -1,0 +1,3 @@
+# Independent NOAA-20 swath calculation check
+
+Independent rereading of the two HDF5 files confirmed matching NOAA-20/J01 orbit 39023, observation time and exact `N_GEO_Ref`. The applied QF1=0 and reflectance fill threshold with the specified bounding rectangle yielded 85,601 swath pixels. The linear reflectance scale was 2.4417415e-05 and offset zero. Resampling the two published grid definitions separately reproduced 1,314 and 1,312 normal-water assignments and means 0.23263583 and 0.23491440. The two sets overlap but differ. All selected pixel-level geolocation QF2 values were zero in an additional check; no same-pass cloud mask was used. This is a post hoc consistency diagnostic, not independent validation or a determination of the producer grid.

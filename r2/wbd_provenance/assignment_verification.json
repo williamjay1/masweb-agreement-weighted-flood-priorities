@@ -1,0 +1,37 @@
+{
+  "county_input_sha256": "8ecc920ee3d9366dc13d6f6e566463b6249f017e913aedd0a5bd00fc6ddd4d43",
+  "archived_assignments_sha256": "044152a1bd13a87754318951d4e07ae6b58975673866c22afec35cb412edcff5",
+  "total_county_assignments_reproduced": 37,
+  "events": [
+    {
+      "event_id": "N2023_179508_MINNESOTA",
+      "county_assignments_reproduced": 4,
+      "distinct_huc8": 4,
+      "event_geometry_sha256": "582a1154dbe593ce5f43ab9c944b8153b3fc08f1c15a25ccf3469f4c03915ff7"
+    },
+    {
+      "event_id": "N2023_179829_WISCONSIN",
+      "county_assignments_reproduced": 3,
+      "distinct_huc8": 2,
+      "event_geometry_sha256": "da88ba70ffb51389a23c1e144e6dce1a77a2086dbc6d1e0ad03764f40a55356e"
+    },
+    {
+      "event_id": "N2023_180114_SOUTHDAKOTA",
+      "county_assignments_reproduced": 6,
+      "distinct_huc8": 4,
+      "event_geometry_sha256": "8d36f751d51c8726d070fd98659600f3957fe2ccbcb67d251ce228a334c81dc9"
+    },
+    {
+      "event_id": "N2024_191762_IOWA",
+      "county_assignments_reproduced": 10,
+      "distinct_huc8": 8,
+      "event_geometry_sha256": "124739d1ca235537a0dde55f6e440d18dfe07073863d970c968eadd2e5777e59"
+    },
+    {
+      "event_id": "N2025_202615_MISSOURI",
+      "county_assignments_reproduced": 14,
+      "distinct_huc8": 8,
+      "event_geometry_sha256": "81250245cb4adb3b00fd506849c3d2797e58d9cb56f1bdaa1f1e525a153919c1"
+    }
+  ]
+}

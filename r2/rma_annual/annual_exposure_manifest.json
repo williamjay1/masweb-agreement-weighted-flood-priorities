@@ -1,0 +1,109 @@
+{
+  "source_snapshots": [
+    {
+      "file": "sob_2023_27_corn_soy_by_county_plan.json",
+      "request": {
+        "CC": "S",
+        "CY": "2023",
+        "RY": "",
+        "SLCY": "False",
+        "SLRY": "False",
+        "CM": "0041,0081",
+        "AIP": "",
+        "DT": "",
+        "ST": "27",
+        "CT": "",
+        "IP": "01,02,03",
+        "CVL": "",
+        "ORD": "CY,ST,CT,CM,IP",
+        "page": "1",
+        "pageSize": "1000",
+        "skip": "0",
+        "take": "1000"
+      },
+      "rows": 428,
+      "sha256": "73d62b61155689992075417e7b20f782c931159e6ef4a89b66f92b432f918eaf"
+    },
+    {
+      "file": "sob_2023_46_corn_soy_by_county_plan.json",
+      "request": {
+        "CC": "S",
+        "CY": "2023",
+        "RY": "",
+        "SLCY": "False",
+        "SLRY": "False",
+        "CM": "0041,0081",
+        "AIP": "",
+        "DT": "",
+        "ST": "46",
+        "CT": "",
+        "IP": "01,02,03",
+        "CVL": "",
+        "ORD": "CY,ST,CT,CM,IP",
+        "page": "1",
+        "pageSize": "1000",
+        "skip": "0",
+        "take": "1000"
+      },
+      "rows": 276,
+      "sha256": "e45d710950c6060d59bb6a7ff9eb82c6d7a1f001b70b41e77a5c88e643f4dae2"
+    },
+    {
+      "file": "sob_2024_19_corn_soy_by_county_plan.json",
+      "request": {
+        "CC": "S",
+        "CY": "2024",
+        "RY": "",
+        "SLCY": "False",
+        "SLRY": "False",
+        "CM": "0041,0081",
+        "AIP": "",
+        "DT": "",
+        "ST": "19",
+        "CT": "",
+        "IP": "01,02,03",
+        "CVL": "",
+        "ORD": "CY,ST,CT,CM,IP",
+        "page": "1",
+        "pageSize": "1000",
+        "skip": "0",
+        "take": "1000"
+      },
+      "rows": 569,
+      "sha256": "488fa476a3446ce4f150bbfddb8238b2c848360732b7758a2ab8d480ed39897e"
+    },
+    {
+      "file": "sob_2025_29_corn_soy_by_county_plan.json",
+      "request": {
+        "CC": "S",
+        "CY": "2025",
+        "RY": "",
+        "SLCY": "False",
+        "SLRY": "False",
+        "CM": "0041,0081",
+        "AIP": "",
+        "DT": "",
+        "ST": "29",
+        "CT": "",
+        "IP": "01,02,03",
+        "CVL": "",
+        "ORD": "CY,ST,CT,CM,IP",
+        "page": "1",
+        "pageSize": "1000",
+        "skip": "0",
+        "take": "1000"
+      },
+      "rows": 390,
+      "sha256": "4fcfb23d209cb1e60939068c1246cc7481c496d9ce691fd3d0a16516a6fdd28b"
+    }
+  ],
+  "frozen_scores_hash": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+  "unreported_county_fips": [
+    "29067",
+    "29153",
+    "29209",
+    "29213"
+  ],
+  "reference": "capture divided by 0.20 for each event, then averaged across four events",
+  "budget": 0.2
+}

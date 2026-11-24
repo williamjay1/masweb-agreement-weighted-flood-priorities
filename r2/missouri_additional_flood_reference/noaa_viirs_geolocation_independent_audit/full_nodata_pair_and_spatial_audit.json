@@ -1,0 +1,63 @@
+{
+  "raw_source": {
+    "shape": [
+      5545,
+      6503
+    ],
+    "total": 36059135,
+    "nodata": 0,
+    "nodata_proportion": 0.0
+  },
+  "classes": {
+    "99": {
+      "count": 2925,
+      "geotiff_minus_netcdf_mean": 0.015392114408314228,
+      "median": 0.0,
+      "positive": 1182,
+      "negative": 1057,
+      "near_equal_1e_7": 686,
+      "components_8_connected": 129,
+      "largest_10_components_cells": [
+        1125,
+        876,
+        129,
+        75,
+        61,
+        55,
+        54,
+        38,
+        32,
+        31
+      ],
+      "netcdf_partially_nodata_count": 0,
+      "netcdf_max_nodata_fraction": 0.0,
+      "geotiff_partially_nodata_count": 0,
+      "geotiff_max_nodata_fraction": 0.0
+    },
+    "17": {
+      "count": 183649,
+      "geotiff_minus_netcdf_mean": -0.00034905539359897375,
+      "median": 0.0,
+      "positive": 323,
+      "negative": 577,
+      "near_equal_1e_7": 182749,
+      "components_8_connected": 17,
+      "largest_10_components_cells": [
+        183600,
+        17,
+        14,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "netcdf_partially_nodata_count": 0,
+      "netcdf_max_nodata_fraction": 0.0,
+      "geotiff_partially_nodata_count": 0,
+      "geotiff_max_nodata_fraction": 0.0
+    }
+  }
+}

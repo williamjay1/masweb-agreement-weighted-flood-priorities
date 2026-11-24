@@ -1,0 +1,4 @@
+event_id,common_qualified_500m_cells,different_common_pixel_counts,fraction_cells_different_common_pixel_counts,fixed_pixels,otsu_pixels,sum_absolute_pixel_count_differences,exact_pixel_overlap_known
+C2_2025_LOWER_OHIO,7589,35,0.004611938331796021,758401,758317,94,False
+D3_2024_CENTRAL_INDIANA,8515,30,0.0035231943628890195,603883,603826,59,False
+D5_2024_NEBRASKA_IOWA,27568,735,0.02666134648868253,5955537,5954073,1492,False

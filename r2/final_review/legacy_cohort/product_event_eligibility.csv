@@ -1,0 +1,10 @@
+event_id,primary_strict_cell_count,four_chain_strict_cell_count,included_in_four_chain_analysis,exclusion_reason,dswx_pixel_reconstruction_exact
+C2_2025_LOWER_OHIO,7653,7649,True,,True
+D2_2023_RED_RIVER,116,0,False,L30 HLS v2 scene unavailable in the frozen official mirror,True
+D3_2024_CENTRAL_INDIANA,8542,8540,True,,True
+D5_2024_NEBRASKA_IOWA,27669,27658,True,,True
+N2023_179508_MINNESOTA,12643,7551,True,,True
+N2023_179829_WISCONSIN,221,221,True,,True
+N2023_180114_SOUTHDAKOTA,2628,0,False,L30 HLS v2 scene unavailable in the frozen official mirror,True
+N2024_191762_IOWA,28456,28456,True,,True
+N2025_202615_MISSOURI,562,562,True,,True

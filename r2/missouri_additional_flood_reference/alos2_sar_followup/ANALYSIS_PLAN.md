@@ -1,0 +1,7 @@
+# ALOS-2 event scene analysis plan
+
+Fixed before reading backscatter pixel values. Use only the preexisting 5,661 strict jointly valid optical pixel centres and the single ALOS-2 ScanSAR scene intersecting the study bounding box in the bounded 22 to 31 May 2025 AWS search. Compare the 24 May scene with the 30 May optical labels as a retrospective descriptive association, not a same-time event measurement.
+
+Transform each original EPSG:5070 optical centre to the UTM coordinates of the radar image and use the containing 25 m source pixel with no interpolation. Retain mask class 1 (JAXA valid data), positive HH and HV DN, and in-bounds points; count outside grid, each mask category, invalid DN, and unique radar row/column matches. Convert DN to gamma0 dB as 20*log10(DN)-83. Report n, medians and quartiles of HH and HV separately for all four preexisting S30/L30 optical flag combinations. Report both optical-centre counts and distinct SAR-pixel counts; no significance tests, tuning, classification, spatial generalization or flood area inference. No optical data are used to choose a backscatter threshold. This is physically calibrated radar backscatter, not a water extent or accuracy reference. Different acquisition dates (~6.45 days), surface conditions, vegetation, speckle, local incidence and source pixel footprint limit comparison.
+
+JAXA format and mask: https://www.eorc.jaxa.jp/ALOS/en/dataset/pdf/PALSAR2_CARD4L_L2.2_Geotiff_Format_Description_E_20220715.pdf; conversion https://registry.opendata.aws/jaxa-alos-palsar2-scansar/.

@@ -1,0 +1,14 @@
+{
+  "title": "Agricultural flood priorities: analysis data and code",
+  "description": "<p>Version 1.1.0 provides the derived inputs, analysis scripts, source identifiers and results added in the second manuscript revision of the paired optical water map study. The files cover spatial scale and selection sensitivity, flood observation comparisons, insurance exposure checks, and watershed assignment. Selected open agency records and inputs accompany the authors' analysis tables and code. The README describes independently distributed satellite and geometry inputs required for selected checks. The earlier v1.0.5 record remains the version to cite for the original archived analyses.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "v1.1.0",
+  "creators": [
+    {"name": "Zhang, Junjie"},
+    {"name": "Tian, Yushi"},
+    {"name": "Zeng, Zhuo", "orcid": "0009-0007-2459-771X"}
+  ],
+  "keywords": ["agricultural flooding", "surface water mapping", "crop insurance", "remote sensing", "spatial aggregation"]
+}

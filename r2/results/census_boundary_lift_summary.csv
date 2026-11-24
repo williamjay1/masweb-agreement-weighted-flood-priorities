@@ -1,0 +1,9 @@
+boundary,score,events,mean_lift
+census_2025_tiger,agreement_weighted_score,4,2.1917785210346215
+census_2025_tiger,consensus_rank,4,1.4474096138479644
+census_2025_tiger,l30_water_fraction,4,1.3155747025220907
+census_2025_tiger,s30_water_fraction,4,1.4474096138479644
+original,agreement_weighted_score,4,2.1917785210346215
+original,consensus_rank,4,1.4474096138479644
+original,l30_water_fraction,4,1.3155747025220907
+original,s30_water_fraction,4,1.4474096138479644

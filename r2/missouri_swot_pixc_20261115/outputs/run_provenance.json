@@ -1,0 +1,1360 @@
+{
+  "interpretation": "Positive water detections only; non-detections are unknown, not dry. Optical data are 2025-05-30, SWOT data 2025-05-28, outside original event window.",
+  "sensitivity_note": "Exploratory after first granule inspection: allow classification bit 4 (detected water without prior water) and geolocation bit 4 (suspect phase unwrapping); results flagged uncertain and not a preplanned sensitivity.",
+  "status_counts": {
+    "analyzed": 8
+  },
+  "manifest_files": 8,
+  "files": [
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_272_090L_20250528T141320_20250528T141331_PID0_01.nc",
+      "tile": "033_272_090L",
+      "expected_bytes": 510064607,
+      "expected_md5": "ac7a5b875c650c122780c00eff3b441d",
+      "actual_bytes": 510064607,
+      "actual_md5": "ac7a5b875c650c122780c00eff3b441d",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 5073719,
+        "valid_raw_points": 5073719,
+        "screened_water_345": 170983,
+        "matching_point_cell_incidences": 48,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 435,
+            "4": 517,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 128283,
+            "4": 42438,
+            "5": 262
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 48,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_272_091L_20250528T141330_20250528T141341_PID0_01.nc",
+      "tile": "033_272_091L",
+      "expected_bytes": 623333390,
+      "expected_md5": "86744f0f24a6a80362d05c651f75e0a1",
+      "actual_bytes": 623333390,
+      "actual_md5": "86744f0f24a6a80362d05c651f75e0a1",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 6226474,
+        "valid_raw_points": 6226474,
+        "screened_water_345": 650867,
+        "matching_point_cell_incidences": 1,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 32314,
+            "4": 412770,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 203258,
+            "4": 437533,
+            "5": 10076
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 1,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_218L_20250528T032555_20250528T032606_PID0_02.nc",
+      "tile": "033_259_218L",
+      "expected_bytes": 487657172,
+      "expected_md5": "1fdc64f3d85db7237cc0d33bfa21cf3e",
+      "actual_bytes": 487657172,
+      "actual_md5": "1fdc64f3d85db7237cc0d33bfa21cf3e",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 4911830,
+        "valid_raw_points": 4911830,
+        "screened_water_345": 156251,
+        "matching_point_cell_incidences": 0,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 4760,
+            "4": 42491,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 90160,
+            "4": 49561,
+            "5": 16530
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_219R_20250528T032605_20250528T032616_PID0_02.nc",
+      "tile": "033_259_219R",
+      "expected_bytes": 482902262,
+      "expected_md5": "c0d4dad19944eb8df103fda14c05703c",
+      "actual_bytes": 482902262,
+      "actual_md5": "c0d4dad19944eb8df103fda14c05703c",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 4832888,
+        "valid_raw_points": 4832888,
+        "screened_water_345": 260084,
+        "matching_point_cell_incidences": 0,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 7820,
+            "4": 162961,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 67914,
+            "4": 170028,
+            "5": 22142
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_219L_20250528T032605_20250528T032616_PID0_02.nc",
+      "tile": "033_259_219L",
+      "expected_bytes": 527987871,
+      "expected_md5": "a2f0c3f9f98bb3c57bbc23d682444d95",
+      "actual_bytes": 527987871,
+      "actual_md5": "a2f0c3f9f98bb3c57bbc23d682444d95",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 5300581,
+        "valid_raw_points": 5300581,
+        "screened_water_345": 383423,
+        "matching_point_cell_incidences": 66,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 14252,
+            "4": 215217,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 108129,
+            "4": 227407,
+            "5": 47887
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 47,
+            "4": 19,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_220R_20250528T032615_20250528T032626_PID0_02.nc",
+      "tile": "033_259_220R",
+      "expected_bytes": 519421391,
+      "expected_md5": "fc41dcb2a39fa40864e194cc0d5b0769",
+      "actual_bytes": 519421391,
+      "actual_md5": "fc41dcb2a39fa40864e194cc0d5b0769",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 5183806,
+        "valid_raw_points": 5183806,
+        "screened_water_345": 113217,
+        "matching_point_cell_incidences": 51,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 102,
+            "4": 56,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 105425,
+            "4": 7555,
+            "5": 237
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 4,
+            "4": 47,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_220L_20250528T032615_20250528T032626_PID0_02.nc",
+      "tile": "033_259_220L",
+      "expected_bytes": 670936467,
+      "expected_md5": "df38825d3295fb940bf5419916adf982",
+      "actual_bytes": 670936467,
+      "actual_md5": "df38825d3295fb940bf5419916adf982",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 6711830,
+        "valid_raw_points": 6711830,
+        "screened_water_345": 209687,
+        "matching_point_cell_incidences": 121,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 1142,
+            "4": 5913,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 180355,
+            "4": 26590,
+            "5": 2742
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 68,
+            "4": 53,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    },
+    {
+      "filename": "SWOT_L2_HR_PIXC_033_259_221L_20250528T032625_20250528T032636_PID0_02.nc",
+      "tile": "033_259_221L",
+      "expected_bytes": 446755727,
+      "expected_md5": "59529089408b09586edaf2382beb0a9e",
+      "actual_bytes": 446755727,
+      "actual_md5": "59529089408b09586edaf2382beb0a9e",
+      "status": "analyzed",
+      "stats": {
+        "input_points": 4445924,
+        "valid_raw_points": 4445924,
+        "screened_water_345": 325125,
+        "matching_point_cell_incidences": 68,
+        "boundary_points_multiple_cells": 0,
+        "quality_pass_by_class": {
+          "strict": {
+            "3": 13710,
+            "4": 184075,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 75392,
+            "4": 193586,
+            "5": 56147
+          }
+        },
+        "matched_incidences_by_class": {
+          "strict": {
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "sensitivity_prior_unwrap": {
+            "3": 63,
+            "4": 5,
+            "5": 0
+          }
+        }
+      },
+      "attributes": {
+        "latitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'latitude (positive N, negative S)'",
+          "standard_name": "b'latitude'",
+          "units": "b'degrees_north'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -80.0,
+          "valid_max": 80.0,
+          "comment": "b'Geodetic latitude [-80,80] (degrees north of equator) of the pixel.'"
+        },
+        "longitude": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 9.969209968386869e+36,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'longitude (degrees East)'",
+          "standard_name": "b'longitude'",
+          "units": "b'degrees_east'",
+          "quality_flag": "b'geolocation_qual'",
+          "valid_min": -180.0,
+          "valid_max": 180.0,
+          "comment": "b'Longitude [-180,180) (east of the Greenwich meridian) of the pixel.'"
+        },
+        "classification": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 255,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "long_name": "b'classification'",
+          "quality_flag": "b'classification_qual'",
+          "flag_meanings": "b'land land_near_water water_near_land open_water dark_water low_coh_water_near_land open_low_coh_water'",
+          "flag_values": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "valid_min": 1,
+          "valid_max": 7,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Flags indicating water detection results.'"
+        },
+        "classification_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'no_coherent_gain power_close_to_noise_floor detected_water_but_no_prior_water detected_water_but_bright_land water_false_detection_rate_suspect suspect_karin_telem coherent_power_suspect tvp_suspect sc_event_suspect small_karin_gap in_air_pixel_degraded specular_ringing_degraded coherent_power_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768,
+            262144,
+            524288,
+            134217728,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 3893160991,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the classification quantities in the pixel cloud data'"
+        },
+        "geolocation_qual": {
+          "_Netcdf4Coordinates": 0,
+          "_FillValue": 4294967295,
+          "DIMENSION_LIST": "<HDF5 object reference>",
+          "standard_name": "b'status_flag'",
+          "flag_meanings": "b'layover_significant phase_noise_suspect phase_unwrapping_suspect model_dry_tropo_cor_suspect model_wet_tropo_cor_suspect iono_cor_gim_ka_suspect xovercal_suspect suspect_karin_telem medium_phase_suspect tvp_suspect sc_event_suspect small_karin_gap specular_ringing_degraded model_dry_tropo_cor_missing model_wet_tropo_cor_missing iono_cor_gim_ka_missing xovercal_missing geolocation_is_from_refloc no_geolocation_bad medium_phase_bad tvp_bad sc_event_bad large_karin_gap'",
+          "flag_masks": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768,
+            524288,
+            1048576,
+            2097152,
+            4194304,
+            8388608,
+            16777216,
+            134217728,
+            268435456,
+            536870912,
+            1073741824,
+            2147483648
+          ],
+          "valid_min": 0,
+          "valid_max": 4193842303,
+          "coordinates": "b'longitude latitude'",
+          "comment": "b'Quality flag for the geolocation quantities in the pixel cloud data'"
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "scope": "033_259",
+      "analyzed_files": 6,
+      "expected_files": 6,
+      "quality_scenario": "strict",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "033_259",
+      "analyzed_files": 6,
+      "expected_files": 6,
+      "quality_scenario": "strict",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "033_259",
+      "analyzed_files": 6,
+      "expected_files": 6,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 161,
+      "s30_water_cells": 1,
+      "l30_water_cells": 1,
+      "both_optical_water_cells": 1
+    },
+    {
+      "scope": "033_259",
+      "analyzed_files": 6,
+      "expected_files": 6,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 161,
+      "s30_water_cells": 1,
+      "l30_water_cells": 1,
+      "both_optical_water_cells": 1
+    },
+    {
+      "scope": "033_272",
+      "analyzed_files": 2,
+      "expected_files": 2,
+      "quality_scenario": "strict",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "033_272",
+      "analyzed_files": 2,
+      "expected_files": 2,
+      "quality_scenario": "strict",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "033_272",
+      "analyzed_files": 2,
+      "expected_files": 2,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 32,
+      "s30_water_cells": 4,
+      "l30_water_cells": 4,
+      "both_optical_water_cells": 4
+    },
+    {
+      "scope": "033_272",
+      "analyzed_files": 2,
+      "expected_files": 2,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 32,
+      "s30_water_cells": 4,
+      "l30_water_cells": 4,
+      "both_optical_water_cells": 4
+    },
+    {
+      "scope": "either",
+      "analyzed_files": 8,
+      "expected_files": 8,
+      "quality_scenario": "strict",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "either",
+      "analyzed_files": 8,
+      "expected_files": 8,
+      "quality_scenario": "strict",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 0,
+      "s30_water_cells": 0,
+      "l30_water_cells": 0,
+      "both_optical_water_cells": 0
+    },
+    {
+      "scope": "either",
+      "analyzed_files": 8,
+      "expected_files": 8,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "main_water_detected",
+      "unique_optical_cells_with_detected_water": 193,
+      "s30_water_cells": 5,
+      "l30_water_cells": 5,
+      "both_optical_water_cells": 5
+    },
+    {
+      "scope": "either",
+      "analyzed_files": 8,
+      "expected_files": 8,
+      "quality_scenario": "sensitivity_prior_unwrap",
+      "class_scenario": "water_345_detected",
+      "unique_optical_cells_with_detected_water": 193,
+      "s30_water_cells": 5,
+      "l30_water_cells": 5,
+      "both_optical_water_cells": 5
+    }
+  ]
+}

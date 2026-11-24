@@ -1,0 +1,30 @@
+{
+  "nominal_mm": [
+    183.0,
+    82.0
+  ],
+  "tight_mm": [
+    172.5,
+    68.1
+  ],
+  "tight_growth_mm": -10.5,
+  "tight_within_max": "True",
+  "max_width_mm": 183.0,
+  "panel_titles": [
+    {
+      "axis": 0,
+      "loc": "left",
+      "text": "Rank persistence"
+    },
+    {
+      "axis": 1,
+      "loc": "left",
+      "text": "Score dispersion"
+    }
+  ],
+  "left_titles_found": 2,
+  "min_font_pt": 7.0,
+  "fonts_under_5pt": [],
+  "pdf_fonttype": 42,
+  "ok": true
+}

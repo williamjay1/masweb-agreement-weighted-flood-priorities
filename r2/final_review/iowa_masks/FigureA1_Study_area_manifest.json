@@ -1,0 +1,69 @@
+{
+  "accepted_cell_counts": {
+    "Minnesota": 12643,
+    "Wisconsin": 221,
+    "South Dakota": 2628,
+    "Iowa": 28456,
+    "Missouri": 562
+  },
+  "projection": "EPSG:5070",
+  "pixel_size_m": 30,
+  "bounds": [
+    177330.0,
+    2242350.0,
+    185130.0,
+    2246190.0
+  ],
+  "window": {
+    "col_offset": 3419,
+    "row_offset": 574,
+    "width": 260,
+    "height": 128,
+    "central_cell_x_index": 362,
+    "central_cell_y_index": 4488
+  },
+  "crop_rule": "Illustrative fixed-size crop centred on the accepted Iowa cell with the largest common-valid mapped water union, ties ordered by x and y cell indices.",
+  "acquisition_utc": {
+    "S30": "2024-05-25T16:58:49Z",
+    "L30": "2024-05-25T16:58:28Z"
+  },
+  "crop_counts": {
+    "eligible_joint_valid_pixels_in_accepted_cells": 12391,
+    "s30_water_pixels": 874,
+    "l30_water_pixels": 1339,
+    "both_water_pixels": 862,
+    "either_water_pixels": 1351
+  },
+  "figure_audit": {
+    "nominal_mm": [
+      183.0,
+      112.0
+    ],
+    "tight_mm": [
+      174.0,
+      104.7
+    ],
+    "tight_growth_mm": -9.0,
+    "tight_within_max": true,
+    "max_width_mm": 183.0,
+    "panel_titles": [],
+    "left_titles_found": 0,
+    "min_font_pt": null,
+    "fonts_under_5pt": [],
+    "pdf_fonttype": 42,
+    "ok": true,
+    "minimum_visible_font_pt": 7.1
+  },
+  "input_sha256": {
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/reproducibility/inputs/results/analysis/blind_common_support/cells/NB_N2023_179508_MINNESOTA_20230412T171901_20230412T170445_500m_cells.parquet": "d868622110a2edbbeeb1b0b3d2c9d93d91fa164267fb141857f11d6cf224400b",
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/reproducibility/inputs/results/analysis/blind_common_support/cells/NB_N2023_179829_WISCONSIN_20230414T170849_20230414T165136_500m_cells.parquet": "9ad7ac7dd0619d8ab174a93fcf1fc37068b553a69a689cb34af75788925bdc10",
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/reproducibility/inputs/results/analysis/blind_common_support/cells/NB_N2023_180114_SOUTHDAKOTA_20230410T172859_20230410T171707_500m_cells.parquet": "0e9318d76f1cbf9c0cd64d31c2f52699817c755780b3e8c3cd55906bfa490e3d",
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/reproducibility/inputs/results/analysis/blind_common_support/cells/NB_N2024_191762_IOWA_20240525T165849_20240525T165828_500m_cells.parquet": "30b86df45fb7031291cee0241588cf0305fced156123e1a2b6dd6c96e7c65d2c",
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/reproducibility/inputs/results/analysis/blind_common_support/cells/NB_N2025_202615_MISSOURI_20250530T165849_20250530T164807_500m_cells.parquet": "56af05ef88027db477a016894eb94229b998c8fe9928190fff4a724455455ddf",
+    "external/prior/sci/remote_sensing_sci_novelty_audit/candidate3_agricultural_hazard_cascade/revision_geocarto_v4/release/MASWEB_v2_anonymous/data/raw/census_counties_2025/counties_2025_semigeneral.geojson": "8ecc920ee3d9366dc13d6f6e566463b6249f017e913aedd0a5bd00fc6ddd4d43",
+    "external/analysis/Geocarto_R1_20261008_NatureStyle/audit/support_sensitivity/county_scores_and_selections.csv": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+    "external/analysis/Geocarto_R2_20261115/viirs_noaa_formula_20261124/integration/work/supplementary_analysis/new_review_analyses/event_figures/inputs/raster_cache/N2024_191762_IOWA_S30_state_EPSG5070_30m.tif": "16237edf8bacbcd892e48a058164a44615aba94eb3dcf97ff02ddf8a328a68ed",
+    "external/analysis/Geocarto_R2_20261115/viirs_noaa_formula_20261124/integration/work/supplementary_analysis/new_review_analyses/event_figures/inputs/raster_cache/N2024_191762_IOWA_L30_state_EPSG5070_30m.tif": "f8b261fe97a42f228b0bef378546f2220203b56ec53d649a3fb0c61febe66cbf",
+    "external/analysis/Geocarto_R2_20261115/viirs_noaa_formula_20261124/integration/work/supplementary_analysis/new_review_analyses/event_figures/inputs/raster_cache/N2024_191762_IOWA_lagged_eligibility_EPSG5070_30m.tif": "33b0f65e0206c2ab0e850cef28de0a6be4916497d9ee5b4e63b3e18a27bf777c"
+  }
+}

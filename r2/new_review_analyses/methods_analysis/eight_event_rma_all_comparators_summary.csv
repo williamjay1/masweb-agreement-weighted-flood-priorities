@@ -1,0 +1,5 @@
+score,events,mean_lift,events_above_one
+agreement_weighted_score,8,1.6312567776655138,5
+consensus_rank,8,1.2590723240721853,4
+l30_water_fraction,8,1.1919247204304486,4
+s30_water_fraction,8,1.2590723240721853,4

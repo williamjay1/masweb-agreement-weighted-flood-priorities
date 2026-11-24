@@ -1,0 +1,8 @@
+domain,points,s30_water,l30_water,both_water,either_water,both_dry
+all_optical_points,5661,63,148,42,169,5492
+033_259,2521,22,94,12,104,2417
+033_272,1887,29,24,20,33,1854
+either_pass,4408,51,118,32,137,4271
+both_passes,0,0,0,0,0,0
+first_only,2521,22,94,12,104,2417
+second_only,1887,29,24,20,33,1854

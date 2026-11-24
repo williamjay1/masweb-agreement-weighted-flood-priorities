@@ -1,0 +1,7 @@
+radar_layer,coverage_min,sensor,cells,k,radar_positive_cells,optical_positive_cells,spearman,coordinate_top20_radar_fraction_capture,warning
+ensemble_water_extent,0.0,s30,26409,5282,413,4562,0.050488904143782334,0.3507959309399536,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.0,l30,26409,5282,413,5738,0.048891934553457236,0.39008490093620063,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.95,s30,26319,5264,413,4557,0.05040456399249093,0.3507959309399536,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,0.95,l30,26319,5264,413,5732,0.04879120858270799,0.39008490093620063,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,1.0,s30,26296,5260,413,4554,0.05041426841592108,0.35079593093995365,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"
+ensemble_water_extent,1.0,l30,26296,5260,413,5729,0.048789803209779055,0.39008490093620063,"post hoc, weighted radar-positive water fraction capture, not probability or validation of flood truth; shared coordinate tie ordering"

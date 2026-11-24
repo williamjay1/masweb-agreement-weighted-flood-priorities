@@ -1,0 +1,9 @@
+# Christian County road documentation, bounded inspection
+
+Official meeting attachment: https://meetings.christiancountymo.gov/agendas/2025/2025-06-05-0930-Attachments.pdf (meeting 5 June 2025). An indexed text view identifies the project as FLOODING - MAY 23 THRU TBD and lists all-date road work, including Riverdale locations. The indexed descriptions of the photographic appendix identify East Riverdale Road and East and West Riverdale Road and describe road damage and repair. The inspected indexing gives no exact image time or coordinates and no agricultural inundation polygon; the meeting date does not establish the photograph date. The PDF itself could not be downloaded because the proxy connection failed, and the photos were not independently viewed or their metadata inspected. They provide a lead and background, not an optical-pixel reference. The previously reported 535.65 m relates to an independently selected gage and must not be assigned to a photo.
+
+# Independent checks
+
+A separate analyst verified the ten stored ALOS listing hashes, complete pagination, all 27 metadata hashes and their valid geometries; zero polygons intersect the search rectangle, and all 5,661 transformed optical centres lie inside. Another analyst independently recomputed VIIRS coordinate separations using the original files and Vincenty geodesics: 353.248180368, 353.703164602 and 353.719284812 m, agreeing with the separately produced result within 0.000001 m; both coordinate variables have no bounds attribute. These checks confirm calculations and search scope, not the physical correctness of either grid.
+
+The independent audit also found that the 353–354 m interval applies specifically to the three flood cells sampled under the NetCDF grid. Five flood cells identified under the GeoTIFF grid have differing separations, so the manuscript and three related review responses now name the NetCDF subset explicitly.

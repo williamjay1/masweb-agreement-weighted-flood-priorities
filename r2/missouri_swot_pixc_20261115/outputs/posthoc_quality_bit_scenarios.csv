@@ -1,0 +1,13 @@
+scope,scenario,unique_cells,s30_water,l30_water,both_optical_water
+033_259,strict,0,0,0,0
+033_259,classification_bit4_only,53,0,0,0
+033_259,geolocation_bit4_only,0,0,0,0
+033_259,both_bits_allowed,161,1,1,1
+033_272,strict,0,0,0,0
+033_272,classification_bit4_only,0,0,0,0
+033_272,geolocation_bit4_only,0,0,0,0
+033_272,both_bits_allowed,32,4,4,4
+either,strict,0,0,0,0
+either,classification_bit4_only,53,0,0,0
+either,geolocation_bit4_only,0,0,0,0
+either,both_bits_allowed,193,5,5,5

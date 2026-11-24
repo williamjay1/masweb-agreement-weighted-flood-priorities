@@ -1,0 +1,405 @@
+{
+  "input": {
+    "netcdf": "VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.nc",
+    "geotiff": "VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.tif",
+    "samples": "new_review_analyses/sar_followup/missouri_followup/rtc_may26_point_samples.csv",
+    "sample_sha256": "46c2eac0e49f25ccdfcd4790a0b4ae3b7280199b775a40c758ba492edf58169e"
+  },
+  "water_attributes": {
+    "ProjectionMinLongitude": -105.0,
+    "ProjectionMaxLongitude": -90.0,
+    "ProjectionMinLatitude": 30.0,
+    "ProjectionMaxLatitude": 45.0,
+    "ProjectionResolution": 0.003372000064700842
+  },
+  "array_shape": [
+    4448,
+    4448
+  ],
+  "same_array": true,
+  "geotiff_crs": "EPSG:4326",
+  "geotiff_area_or_point": "Area",
+  "transforms": {
+    "gdal_netcdf_center_interpretation": [
+      0.0033720002325567096,
+      0.0,
+      -105.00168600011628,
+      0.0,
+      -0.0033720002325567096,
+      45.00168600011628,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "formula_center_assumption_exact_rounded_resolution": [
+      0.003372,
+      0.0,
+      -105.001686,
+      0.0,
+      -0.003372,
+      45.001686,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "formula_corner_assumption_exact_rounded_resolution": [
+      0.003372,
+      0.0,
+      -105.0,
+      0.0,
+      -0.003372,
+      45.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "hypothetical_netcdf_corner_attr_resolution": [
+      0.003372000064700842,
+      0.0,
+      -105.0,
+      0.0,
+      -0.003372000064700842,
+      45.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "geotiff_transform": [
+      0.003372302158273381,
+      0.0,
+      -105.0,
+      0.0,
+      -0.003372302158273381,
+      45.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "geotiff_bounds_edges": [
+    -105.0,
+    30.0,
+    -90.0,
+    45.0
+  ],
+  "geotiff_last_cell_upper_left": [
+    -90.00337230215827,
+    30.003372302158276
+  ],
+  "netcdf_hypothetical_bounds_edges": [
+    -105.0,
+    30.001343712210655,
+    -90.00134371221066,
+    45.0
+  ],
+  "stored_lon_first_last": [
+    -105.0,
+    -90.00471496582031
+  ],
+  "stored_lat_first_last": [
+    45.0,
+    30.004714965820312
+  ],
+  "grid_coordinate_results": [
+    {
+      "row": 0,
+      "col": 0,
+      "centres": {
+        "gdal_netcdf_center_interpretation": [
+          -105.0,
+          45.0
+        ],
+        "formula_center_assumption_exact_rounded_resolution": [
+          -105.0,
+          45.0
+        ],
+        "formula_corner_assumption_exact_rounded_resolution": [
+          -104.998314,
+          44.998314
+        ],
+        "hypothetical_netcdf_corner_attr_resolution": [
+          -104.99831399996765,
+          44.99831399996765
+        ],
+        "geotiff_transform": [
+          -104.99831384892086,
+          44.998313848920866
+        ],
+        "stored_nc_coordinate": [
+          -105.0,
+          45.0
+        ]
+      },
+      "distance_from_geotiff_m": {
+        "gdal_netcdf_center_interpretation": 229.7579556988399,
+        "formula_center_assumption_exact_rounded_resolution": 229.7579556988399,
+        "formula_corner_assumption_exact_rounded_resolution": 0.02058641159091743,
+        "hypothetical_netcdf_corner_attr_resolution": 0.020582003814350488,
+        "stored_nc_coordinate": 229.7579556988399
+      }
+    },
+    {
+      "row": 2137,
+      "col": 3447,
+      "centres": {
+        "gdal_netcdf_center_interpretation": [
+          -93.37671519837703,
+          37.794035503026315
+        ],
+        "formula_center_assumption_exact_rounded_resolution": [
+          -93.376716,
+          37.794036
+        ],
+        "formula_corner_assumption_exact_rounded_resolution": [
+          -93.37503,
+          37.79235
+        ],
+        "hypothetical_netcdf_corner_attr_resolution": [
+          -93.37502977694385,
+          37.79234986170195
+        ],
+        "geotiff_transform": [
+          -93.37398830935251,
+          37.79170413669065
+        ],
+        "stored_nc_coordinate": [
+          -93.37671661376953,
+          37.794036865234375
+        ]
+      },
+      "distance_from_geotiff_m": {
+        "gdal_netcdf_center_interpretation": 353.05255531000097,
+        "formula_center_assumption_exact_rounded_resolution": 353.14101727812425,
+        "formula_corner_assumption_exact_rounded_resolution": 116.43590784906137,
+        "hypothetical_netcdf_corner_attr_resolution": 116.41097561502319,
+        "stored_nc_coordinate": 353.2481803710452
+      }
+    },
+    {
+      "row": 2211,
+      "col": 3352,
+      "centres": {
+        "gdal_netcdf_center_interpretation": [
+          -93.6970552204699,
+          37.544507485817114
+        ],
+        "formula_center_assumption_exact_rounded_resolution": [
+          -93.697056,
+          37.544508
+        ],
+        "formula_corner_assumption_exact_rounded_resolution": [
+          -93.69537,
+          37.542822
+        ],
+        "hypothetical_netcdf_corner_attr_resolution": [
+          -93.69536978309043,
+          37.54282185691409
+        ],
+        "geotiff_transform": [
+          -93.69435701438849,
+          37.54215377697842
+        ],
+        "stored_nc_coordinate": [
+          -93.69705200195312,
+          37.54450988769531
+        ]
+      },
+      "distance_from_geotiff_m": {
+        "gdal_netcdf_center_interpretation": 353.69781976482057,
+        "formula_center_assumption_exact_rounded_resolution": 353.7864124009602,
+        "formula_corner_assumption_exact_rounded_resolution": 116.25293994621605,
+        "hypothetical_netcdf_corner_attr_resolution": 116.2280468877783,
+        "stored_nc_coordinate": 353.7031646040776
+      }
+    },
+    {
+      "row": 2212,
+      "col": 3352,
+      "centres": {
+        "gdal_netcdf_center_interpretation": [
+          -93.6970552204699,
+          37.54113548558456
+        ],
+        "formula_center_assumption_exact_rounded_resolution": [
+          -93.697056,
+          37.541136
+        ],
+        "formula_corner_assumption_exact_rounded_resolution": [
+          -93.69537,
+          37.53945
+        ],
+        "hypothetical_netcdf_corner_attr_resolution": [
+          -93.69536978309043,
+          37.53944985684939
+        ],
+        "geotiff_transform": [
+          -93.69435701438849,
+          37.53878147482014
+        ],
+        "stored_nc_coordinate": [
+          -93.69705200195312,
+          37.5411376953125
+        ]
+      },
+      "distance_from_geotiff_m": {
+        "gdal_netcdf_center_interpretation": 353.729699761842,
+        "formula_center_assumption_exact_rounded_resolution": 353.8183130168526,
+        "formula_corner_assumption_exact_rounded_resolution": 116.2774145635917,
+        "hypothetical_netcdf_corner_attr_resolution": 116.25251626537053,
+        "stored_nc_coordinate": 353.7192848141425
+      }
+    },
+    {
+      "row": 4447,
+      "col": 4447,
+      "centres": {
+        "gdal_netcdf_center_interpretation": [
+          -90.00471496582031,
+          30.004714965820312
+        ],
+        "formula_center_assumption_exact_rounded_resolution": [
+          -90.004716,
+          30.004716000000002
+        ],
+        "formula_corner_assumption_exact_rounded_resolution": [
+          -90.00303,
+          30.003030000000003
+        ],
+        "hypothetical_netcdf_corner_attr_resolution": [
+          -90.003029712243,
+          30.003029712243006
+        ],
+        "geotiff_transform": [
+          -90.00168615107914,
+          30.001686151079138
+        ],
+        "stored_nc_coordinate": [
+          -90.00471496582031,
+          30.004714965820312
+        ]
+      },
+      "distance_from_geotiff_m": {
+        "gdal_netcdf_center_interpretation": 445.1150178166474,
+        "formula_center_assumption_exact_rounded_resolution": 445.2670000267682,
+        "formula_corner_assumption_exact_rounded_resolution": 197.49292115054007,
+        "hypothetical_netcdf_corner_attr_resolution": 197.4506323133681,
+        "stored_nc_coordinate": 445.1150178166474
+      }
+    }
+  ],
+  "summaries": {
+    "gdal_netcdf_center_interpretation": {
+      "unique_cells": 742,
+      "cell_counts_by_code": {
+        "17": 730,
+        "30": 7,
+        "99": 2,
+        "134": 1,
+        "169": 1,
+        "170": 1
+      },
+      "flood_cells": 3,
+      "flood_sample_centres": 4,
+      "flood_cells_with_any_s30_water": 2,
+      "flood_cells_with_any_l30_water": 2
+    },
+    "formula_center_assumption_exact_rounded_resolution": {
+      "unique_cells": 742,
+      "cell_counts_by_code": {
+        "17": 730,
+        "30": 7,
+        "99": 2,
+        "134": 1,
+        "169": 1,
+        "170": 1
+      },
+      "flood_cells": 3,
+      "flood_sample_centres": 4,
+      "flood_cells_with_any_s30_water": 2,
+      "flood_cells_with_any_l30_water": 2
+    },
+    "formula_corner_assumption_exact_rounded_resolution": {
+      "unique_cells": 721,
+      "cell_counts_by_code": {
+        "17": 709,
+        "30": 5,
+        "99": 2,
+        "131": 1,
+        "134": 1,
+        "143": 1,
+        "149": 1,
+        "170": 1
+      },
+      "flood_cells": 5,
+      "flood_sample_centres": 8,
+      "flood_cells_with_any_s30_water": 2,
+      "flood_cells_with_any_l30_water": 2
+    },
+    "hypothetical_netcdf_corner_attr_resolution": {
+      "unique_cells": 721,
+      "cell_counts_by_code": {
+        "17": 709,
+        "30": 5,
+        "99": 2,
+        "131": 1,
+        "134": 1,
+        "143": 1,
+        "149": 1,
+        "170": 1
+      },
+      "flood_cells": 5,
+      "flood_sample_centres": 8,
+      "flood_cells_with_any_s30_water": 2,
+      "flood_cells_with_any_l30_water": 2
+    },
+    "geotiff_transform": {
+      "unique_cells": 743,
+      "cell_counts_by_code": {
+        "17": 727,
+        "30": 8,
+        "99": 3,
+        "131": 1,
+        "143": 1,
+        "149": 1,
+        "170": 1,
+        "173": 1
+      },
+      "flood_cells": 5,
+      "flood_sample_centres": 8,
+      "flood_cells_with_any_s30_water": 2,
+      "flood_cells_with_any_l30_water": 2
+    }
+  },
+  "comparisons": {
+    "gdal_netcdf_center_interpretation_versus_tiff": {
+      "different_containing_cell": 5345,
+      "different_water_code": 64,
+      "flood_status_disagreement": 10,
+      "flood_in_both": 1
+    },
+    "formula_center_assumption_exact_rounded_resolution_versus_tiff": {
+      "different_containing_cell": 5345,
+      "different_water_code": 64,
+      "flood_status_disagreement": 10,
+      "flood_in_both": 1
+    },
+    "formula_corner_assumption_exact_rounded_resolution_versus_tiff": {
+      "different_containing_cell": 2545,
+      "different_water_code": 22,
+      "flood_status_disagreement": 6,
+      "flood_in_both": 5
+    },
+    "hypothetical_netcdf_corner_attr_resolution_versus_tiff": {
+      "different_containing_cell": 2544,
+      "different_water_code": 22,
+      "flood_status_disagreement": 6,
+      "flood_in_both": 5
+    },
+    "formula_center_assumption_versus_gdal": {
+      "different_containing_cell": 4,
+      "different_water_code": 0,
+      "flood_status_disagreement": 0
+    }
+  },
+  "interpretation": "Formula-center and formula-corner are alternative pixel-support assumptions; the provider gave coordinate of the pixel but did not explicitly resolve the support boundaries or whether 0.003372 is exact or rounded. The corner and attribute resolution transform is a sensitivity calculation, not an independently confirmed producer grid. Raw stored NetCDF coordinate values and GDAL derived transform have different semantics from pixel boundaries. No differences here are measured sensor errors; a post-hoc geometric hypothesis cannot establish correct physical location or a bound on error. Data provider confirms equal upper-left as seen in screenshots but does not explicitly document per-cell centre semantics, exact grid increment or attribution to individual daily-composite observations."
+}

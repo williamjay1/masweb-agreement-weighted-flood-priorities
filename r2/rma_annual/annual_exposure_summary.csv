@@ -1,0 +1,7 @@
+scenario,score,n_events,mean_lift,min_lift,max_lift
+fixed_county_set_missing_annual_last,agreement_weighted_score,4,2.1917785210346215,0.83838135594034,3.385038494237169
+fixed_county_set_missing_annual_last,annual_reported_acres,4,2.496304644162312,0.9872954795249816,3.5478446332266254
+fixed_county_set_missing_annual_last,annual_reported_liability_usd,4,2.496304644162312,0.9872954795249816,3.5478446332266254
+reported_annual_counties_only,agreement_weighted_score,4,2.1612650652800487,0.83838135594034,3.385038494237169
+reported_annual_counties_only,annual_reported_acres,4,2.222747435523662,0.9872954795249816,3.5478446332266254
+reported_annual_counties_only,annual_reported_liability_usd,4,2.222747435523662,0.9872954795249816,3.5478446332266254

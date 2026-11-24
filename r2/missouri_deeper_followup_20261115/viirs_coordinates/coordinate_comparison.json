@@ -1,0 +1,206 @@
+{
+  "nc": "external/data/Geocarto_R2_20261115/raw/missouri_noaa_viirs_20261115/VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.nc",
+  "tiff": "external/data/Geocarto_R2_20261115/raw/missouri_noaa_viirs_20261115/VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.tif",
+  "array_size": [
+    4448,
+    4448
+  ],
+  "lat_lon_attributes": {
+    "lon": {
+      "CLASS": "b'DIMENSION_SCALE'",
+      "NAME": "b'lon'",
+      "_Netcdf4Dimid": "0",
+      "_FillValue": "[-999.]",
+      "long_name": "b'longitude'",
+      "standard_name": "b'longitude'",
+      "units": "b'degrees_east'"
+    },
+    "lat": {
+      "CLASS": "b'DIMENSION_SCALE'",
+      "NAME": "b'lat'",
+      "_Netcdf4Dimid": "1",
+      "_FillValue": "[-999.]",
+      "long_name": "b'latitude'",
+      "standard_name": "b'latitude'",
+      "units": "b'degrees_north'"
+    }
+  },
+  "geotiff_transform": [
+    0.003372302158273381,
+    0.0,
+    -105.0,
+    0.0,
+    -0.003372302158273381,
+    45.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "geotiff_tags": {
+    "lat#long_name": "latitude",
+    "lat#standard_name": "latitude",
+    "lat#units": "degrees_north",
+    "lat#_FillValue": "-999",
+    "lon#long_name": "longitude",
+    "lon#standard_name": "longitude",
+    "lon#units": "degrees_east",
+    "lon#_FillValue": "-999",
+    "NC_GLOBAL#ascend_descend_data_flag": "0",
+    "NC_GLOBAL#cdm_data_type": "Grid",
+    "NC_GLOBAL#Conventions": "CF-1.6, ACDD-1.3",
+    "NC_GLOBAL#creator_name": "The VIIRS Flood Team in George Mason University funded by NOAA JPSS Program.",
+    "NC_GLOBAL#creator_url": "https://jpssflood.gmu.edu",
+    "NC_GLOBAL#date_created": "2025-05-31T03:17:25Z",
+    "NC_GLOBAL#DaynightFlag": "1",
+    "NC_GLOBAL#day_night_data_flag": "day",
+    "NC_GLOBAL#end_orbit_number": "70419",
+    "NC_GLOBAL#fillvalue_pixel_percent": "-999",
+    "NC_GLOBAL#flood_pixel_count": "72747",
+    "NC_GLOBAL#flood_pixel_percent": "0.36769316",
+    "NC_GLOBAL#geospatial_lat_max": "45",
+    "NC_GLOBAL#geospatial_lat_min": "30",
+    "NC_GLOBAL#geospatial_lat_resolution": "0.0033720001",
+    "NC_GLOBAL#geospatial_lat_units": "degrees_north",
+    "NC_GLOBAL#geospatial_lon_max": "-90",
+    "NC_GLOBAL#geospatial_lon_min": "-105",
+    "NC_GLOBAL#geospatial_lon_resolution": "0.0033720001",
+    "NC_GLOBAL#geospatial_lon_units": "degrees_east",
+    "NC_GLOBAL#history": "VIIRS Flood Detection Version: v2r0",
+    "NC_GLOBAL#history_package": "v1r1",
+    "NC_GLOBAL#id": "VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.nc",
+    "NC_GLOBAL#institution": "DOC/NOAA/NESDIS/OSPO > Office of Satellite and Product Operations, NESDIS, NOAA, U.S. Department of Commerce.",
+    "NC_GLOBAL#instrument": "VIIRS",
+    "NC_GLOBAL#keywords": "VIIRS Flood Detection",
+    "NC_GLOBAL#lowquality_pixel_percent": "-999",
+    "NC_GLOBAL#metadata_link": "VIIRS-Flood-1day-GLB019_v2r0_blend_s202505301737140_e202505302100370_c202505310317259.nc",
+    "NC_GLOBAL#moderatequality_pixel_percent": "-999",
+    "NC_GLOBAL#naming_authority": "gov.noaa.nesdis.ospo",
+    "NC_GLOBAL#Observingdate": "20250530",
+    "NC_GLOBAL#Observingtime": "194059.000000Z",
+    "NC_GLOBAL#platform": "NPP,N20,N21",
+    "NC_GLOBAL#processing_level": "NOAA Level 4",
+    "NC_GLOBAL#production_environment": "prod",
+    "NC_GLOBAL#production_site": "NCCF",
+    "NC_GLOBAL#project": "NESDIS Common Cloud Framework",
+    "NC_GLOBAL#publisher_name": "DOC/NOAA/NESDIS/OSPO > Office of Satellite and Product Operations, NESDIS, NOAA, U.S. Department of Commerce.",
+    "NC_GLOBAL#publisher_url": "http://www.ospo.noaa.gov",
+    "NC_GLOBAL#references": "https://www.ssec.wisc.edu/flood-map-demo/flood-products/",
+    "NC_GLOBAL#Resolution": "0.0033720001",
+    "NC_GLOBAL#Satellitename": "NPP,N20,N21",
+    "NC_GLOBAL#SensorIdentifyCode": "VIIRS",
+    "NC_GLOBAL#source": "GITCO, VIIRS I-bands: 01, 02, 03, 05",
+    "NC_GLOBAL#standard_name_vocabulary": "CF Standard Name Table (version 69, 15 October 2019)",
+    "NC_GLOBAL#start_orbit_number": "70419",
+    "NC_GLOBAL#summary": "VIIRS 375-m flood water fraction product",
+    "NC_GLOBAL#time_coverage_end": "2025-05-30T21:00:37Z",
+    "NC_GLOBAL#time_coverage_start": "2025-05-30T17:37:14Z",
+    "NC_GLOBAL#title": "VIIRS_Flood_Detection",
+    "WaterDetection#add_offset": "0",
+    "WaterDetection#long_name": "WaterDetection",
+    "WaterDetection#ProjectionMaxLatitude": "45",
+    "WaterDetection#ProjectionMaxLongitude": "-90",
+    "WaterDetection#ProjectionMinLatitude": "30",
+    "WaterDetection#ProjectionMinLongitude": "-105",
+    "WaterDetection#ProjectionResolution": "0.0033720001",
+    "WaterDetection#scale_factor": "1",
+    "WaterDetection#Type": "{1,15,16,17,20,27,30,38,50,99,100}",
+    "WaterDetection#TypeDescription": "1: no_valid_data; 15: Floodwater without fraction retrieval; 16: Bareland; 17: Vegetation; 20: Snow_ice; 27: River/lake ice; 30: Cloud; 38: Supar-snow/ice water or mixed ice&water or melting ice; 50: Shadow; 99: NormalWater; 100-200: Water Fractions",
+    "WaterDetection#units": "1",
+    "WaterDetection#_FillValue": "1",
+    "AREA_OR_POINT": "Area"
+  },
+  "points": [
+    {
+      "row": 0,
+      "column": 0,
+      "netcdf_coordinate": [
+        -105.0,
+        45.0
+      ],
+      "tiff_cell_center": [
+        -104.99831384892086,
+        44.998313848920866
+      ],
+      "geodesic_difference_m": 229.7579556988399
+    },
+    {
+      "row": 0,
+      "column": 4447,
+      "netcdf_coordinate": [
+        -90.00471496582031,
+        45.0
+      ],
+      "tiff_cell_center": [
+        -90.00168615107914,
+        44.998313848920866
+      ],
+      "geodesic_difference_m": 303.5558882344482
+    },
+    {
+      "row": 4447,
+      "column": 0,
+      "netcdf_coordinate": [
+        -105.0,
+        30.004714965820312
+      ],
+      "tiff_cell_center": [
+        -104.99831384892086,
+        30.001686151079138
+      ],
+      "geodesic_difference_m": 373.08935902717866
+    },
+    {
+      "row": 4447,
+      "column": 4447,
+      "netcdf_coordinate": [
+        -90.00471496582031,
+        30.004714965820312
+      ],
+      "tiff_cell_center": [
+        -90.00168615107914,
+        30.001686151079138
+      ],
+      "geodesic_difference_m": 445.1150178166474
+    },
+    {
+      "row": 2137,
+      "column": 3447,
+      "netcdf_coordinate": [
+        -93.37671661376953,
+        37.794036865234375
+      ],
+      "tiff_cell_center": [
+        -93.37398830935251,
+        37.79170413669065
+      ],
+      "geodesic_difference_m": 353.2481803710452
+    },
+    {
+      "row": 2211,
+      "column": 3352,
+      "netcdf_coordinate": [
+        -93.69705200195312,
+        37.54450988769531
+      ],
+      "tiff_cell_center": [
+        -93.69435701438849,
+        37.54215377697842
+      ],
+      "geodesic_difference_m": 353.7031646040776
+    },
+    {
+      "row": 2212,
+      "column": 3352,
+      "netcdf_coordinate": [
+        -93.69705200195312,
+        37.5411376953125
+      ],
+      "tiff_cell_center": [
+        -93.69435701438849,
+        37.53878147482014
+      ],
+      "geodesic_difference_m": 353.7192848141425
+    }
+  ],
+  "interpretation": "Distances are separations of two metadata-derived placements of identical array cells, not measured accuracy, standard error, uncertainty interval, or confirmed bound on actual error. The true position need not lie between these interpretations. TIFF center and NetCDF coordinates use the exact coordinate arrays."
+}

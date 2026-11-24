@@ -1,0 +1,428 @@
+{
+  "query_utc": "20261114T233708Z",
+  "bbox": [
+    -94.1241,
+    36.4828,
+    -92.5184,
+    37.849
+  ],
+  "raw": "external/data/Geocarto_R2_20261115/raw/missouri_alos2_adjacent_frames/20261114T233708Z",
+  "listing": [
+    {
+      "orbit": 59204,
+      "page": 0,
+      "objects": 28,
+      "sha256": "52b05f4678b8a3c9bcae8b79f9174093ef468a180549b92c63bab56a2a597afa"
+    },
+    {
+      "orbit": 58997,
+      "page": 0,
+      "objects": 28,
+      "sha256": "ba4fb9a691aa4f19d9487cb9cb16e133d376103c504599a2f669e73571111308"
+    },
+    {
+      "orbit": 58790,
+      "page": 0,
+      "objects": 0,
+      "sha256": "68c9f6a38b6ae82bcbe9958135a809a4fc8729b38d0772714e96ac8e034b493c"
+    },
+    {
+      "orbit": 58583,
+      "page": 0,
+      "objects": 28,
+      "sha256": "3682f872d56345107d2be1bebaa9891f8c550f4dde5e5065f2b800bc95247a1f"
+    },
+    {
+      "orbit": 58376,
+      "page": 0,
+      "objects": 42,
+      "sha256": "8ccf6efcab37cceb4e63bc4f8a0ed6e0091799d5baaa1416861ae6cebfc3736f"
+    },
+    {
+      "orbit": 58169,
+      "page": 0,
+      "objects": 0,
+      "sha256": "268f09bd0384499f4949a9d8ce5b6b10aaa005acbef147353f48347af034bde8"
+    },
+    {
+      "orbit": 57962,
+      "page": 0,
+      "objects": 35,
+      "sha256": "77066488404a279208cd092d2b21ba455a9485b716de78758acc5c26e6ffa226"
+    },
+    {
+      "orbit": 57755,
+      "page": 0,
+      "objects": 0,
+      "sha256": "b2a5b8fbb185a5cbd0db98814eb08a94c9f95137006a5003784926948adc1170"
+    },
+    {
+      "orbit": 57548,
+      "page": 0,
+      "objects": 0,
+      "sha256": "271ddd128d028361f3c4e8f749cb0eb2e12e8f9d90019b5cfdc41e5a6c82349b"
+    },
+    {
+      "orbit": 57341,
+      "page": 0,
+      "objects": 28,
+      "sha256": "a6c406ce6d41c4e7524c9571805f580a73cb82451c99b66d4fff3fa5963df18d"
+    }
+  ],
+  "total_json": 27,
+  "errors": [],
+  "matches": [],
+  "all": [
+    {
+      "key": "palsar2/L2.2/2025/ALOS2592042950-250510_WBDR2.2GUD.json",
+      "id": "ALOS2592042950-250510_WBDR2.2GUD",
+      "datetime": "2025-05-10T06:40:13.392000Z",
+      "bbox": [
+        77.961786,
+        31.338648,
+        82.372378,
+        34.879802
+      ],
+      "intersects": false,
+      "sha256": "bc693577ab377fbbc28ce41edab8e1338d63b28a917377ff61d3346894479cdd"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2592043000-250510_WBDR2.2GUD.json",
+      "id": "ALOS2592043000-250510_WBDR2.2GUD",
+      "datetime": "2025-05-10T06:40:54.139500Z",
+      "bbox": [
+        77.500543,
+        28.844518,
+        81.796388,
+        32.392349
+      ],
+      "intersects": false,
+      "sha256": "eaae46c1e72ec4ae5c483f7e1e3df1c46da7a4502842ff836133b9ed4c0b1704"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2592043050-250510_WBDR2.2GUD.json",
+      "id": "ALOS2592043050-250510_WBDR2.2GUD",
+      "datetime": "2025-05-10T06:41:34.887000Z",
+      "bbox": [
+        77.041689,
+        26.349413,
+        81.232997,
+        29.90368
+      ],
+      "intersects": false,
+      "sha256": "ebade2988d09da9401422377e11682bc8da2c91f3bab855f22bdc176cafcddd4"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2592043100-250510_WBDR2.2GUD.json",
+      "id": "ALOS2592043100-250510_WBDR2.2GUD",
+      "datetime": "2025-05-10T06:42:15.244000Z",
+      "bbox": [
+        76.584251,
+        23.852205,
+        80.696381,
+        27.461225
+      ],
+      "intersects": false,
+      "sha256": "a4afe8499d8e4b366bc0fdbb9171e7ebd6e68cb525dd841bef26c0fcc1c922be"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2589973300-250426_WBDR2.2GUD.json",
+      "id": "ALOS2589973300-250426_WBDR2.2GUD",
+      "datetime": "2025-04-26T06:44:57.892500Z",
+      "bbox": [
+        74.742911,
+        13.949831,
+        78.593321,
+        17.536373
+      ],
+      "intersects": false,
+      "sha256": "73898f9cec5ed1731f3d59a235f143b7842ec198c0fdad6964a37200daca0f7a"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2589973350-250426_WBDR2.2GUD.json",
+      "id": "ALOS2589973350-250426_WBDR2.2GUD",
+      "datetime": "2025-04-26T06:45:38.663000Z",
+      "bbox": [
+        74.267914,
+        11.446994,
+        78.080458,
+        15.041683
+      ],
+      "intersects": false,
+      "sha256": "f1a38a66c5e9c80a06c07b29577131d2bd50f353faf2bc2c9e65bf9f395ec52b"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2589973400-250426_WBDR2.2GUD.json",
+      "id": "ALOS2589973400-250426_WBDR2.2GUD",
+      "datetime": "2025-04-26T06:46:19.439000Z",
+      "bbox": [
+        73.785771,
+        8.943012,
+        77.571479,
+        12.546711
+      ],
+      "intersects": false,
+      "sha256": "70ae176e32f2f77b638681adfdb07d7ec901d9b8b2d710f4a177fee6fd411000"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2589973450-250426_WBDR2.2GUD.json",
+      "id": "ALOS2589973450-250426_WBDR2.2GUD",
+      "datetime": "2025-04-26T06:46:59.819500Z",
+      "bbox": [
+        73.296793,
+        6.439155,
+        77.072943,
+        10.099773
+      ],
+      "intersects": false,
+      "sha256": "9a123cbb66cd09952e737c34dd8a88781e6398796c7b2f21deb5f9b071c4c5da"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2585832950-250329_WBDR2.2GUD.json",
+      "id": "ALOS2585832950-250329_WBDR2.2GUD",
+      "datetime": "2025-03-29T06:40:15.428500Z",
+      "bbox": [
+        77.956997,
+        31.338937,
+        82.367224,
+        34.879982
+      ],
+      "intersects": false,
+      "sha256": "2a79fe737cd8a7a941d1bd24cba7d2c63d62f88f85bd669ee687dcae3741ac45"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2585833000-250329_WBDR2.2GUD.json",
+      "id": "ALOS2585833000-250329_WBDR2.2GUD",
+      "datetime": "2025-03-29T06:40:56.176000Z",
+      "bbox": [
+        77.495917,
+        28.844762,
+        81.791464,
+        32.392494
+      ],
+      "intersects": false,
+      "sha256": "a94694783cf1bb99b251abffb775f74abb9e16d9f63ba9da5cad08c55da0f487"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2585833050-250329_WBDR2.2GUD.json",
+      "id": "ALOS2585833050-250329_WBDR2.2GUD",
+      "datetime": "2025-03-29T06:41:36.924000Z",
+      "bbox": [
+        77.037213,
+        26.349618,
+        81.228282,
+        29.903794
+      ],
+      "intersects": false,
+      "sha256": "df475e00e62f2eccca801c4bf374619f6b35c765f2cbfa5e6adfa38b2de2ab63"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2585833100-250329_WBDR2.2GUD.json",
+      "id": "ALOS2585833100-250329_WBDR2.2GUD",
+      "datetime": "2025-03-29T06:42:17.282000Z",
+      "bbox": [
+        76.579897,
+        23.852295,
+        80.691838,
+        27.461233
+      ],
+      "intersects": false,
+      "sha256": "661299750c72d7217ec2fe5c637884e702ca58890453315528b6f25e61b33c9a"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763050-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763050-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:41:36.632000Z",
+      "bbox": [
+        77.043772,
+        26.350337,
+        81.233112,
+        29.90344
+      ],
+      "intersects": false,
+      "sha256": "40dc7f6fca5cd2d4945fca22e6ebff2180f32cf88f78dfee05a339b7d7381587"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763100-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763100-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:42:16.986500Z",
+      "bbox": [
+        76.584643,
+        23.852991,
+        80.69649,
+        27.461299
+      ],
+      "intersects": false,
+      "sha256": "8f7cf6acbd83c1bc12933170c1023a669825fbdfaeeecb3a7ca1d8473f26d825"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763300-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763300-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:44:58.838000Z",
+      "bbox": [
+        74.746235,
+        13.949848,
+        78.598266,
+        17.536665
+      ],
+      "intersects": false,
+      "sha256": "2211017e31cb8266b30f3ec6c02e7aeb7218a530edf5a978edbe9c566cd16ae7"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763350-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763350-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:45:39.605500Z",
+      "bbox": [
+        74.272524,
+        11.446792,
+        78.08538,
+        15.041747
+      ],
+      "intersects": false,
+      "sha256": "27b9bfa62fb5b66d0afee3242cf851d6b47e89c65529e90391f29b357c6c5ce3"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763400-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763400-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:46:20.378500Z",
+      "bbox": [
+        73.790522,
+        8.943362,
+        77.574557,
+        12.546933
+      ],
+      "intersects": false,
+      "sha256": "3028a920ad99463033bdb5f1011477fea899e8b0684869a7c7bcd4c129e483e4"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2583763450-250315_WBDR2.2GUD.json",
+      "id": "ALOS2583763450-250315_WBDR2.2GUD",
+      "datetime": "2025-03-15T06:47:00.758500Z",
+      "bbox": [
+        73.301519,
+        6.439422,
+        77.07603,
+        10.099696
+      ],
+      "intersects": false,
+      "sha256": "e176f90330cba44a75db7aacb96ebc32c34f173bfb94d71714e09d6f34e604f1"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2579621900-250215_WBDR2.2GUD.json",
+      "id": "ALOS2579621900-250215_WBDR2.2GUD",
+      "datetime": "2025-02-15T06:26:05.539000Z",
+      "bbox": [
+        101.371005,
+        81.610374,
+        141.260946,
+        85.971937
+      ],
+      "intersects": false,
+      "sha256": "1aedaffba430096f9f9db268fcdac35c1ce498c9b790da7f4d52dcaef7507470"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2579622950-250215_WBDR2.2GUD.json",
+      "id": "ALOS2579622950-250215_WBDR2.2GUD",
+      "datetime": "2025-02-15T06:40:15.863000Z",
+      "bbox": [
+        77.961182,
+        31.339338,
+        82.373562,
+        34.880715
+      ],
+      "intersects": false,
+      "sha256": "cab2be2911a34835ea977550d317e8fbe960e0fd69f087e842f340ed27d92589"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2579623000-250215_WBDR2.2GUD.json",
+      "id": "ALOS2579623000-250215_WBDR2.2GUD",
+      "datetime": "2025-02-15T06:40:56.611000Z",
+      "bbox": [
+        77.501294,
+        28.845573,
+        81.795437,
+        32.393094
+      ],
+      "intersects": false,
+      "sha256": "410428696bbbc931aa3fbff22bb863eac4645a4ce26b772dc2d00512effb4db1"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2579623050-250215_WBDR2.2GUD.json",
+      "id": "ALOS2579623050-250215_WBDR2.2GUD",
+      "datetime": "2025-02-15T06:41:37.359000Z",
+      "bbox": [
+        77.041073,
+        26.349999,
+        81.234126,
+        29.904504
+      ],
+      "intersects": false,
+      "sha256": "fa86a091dfdb3dc5e9911aec19f573fac89cfe53f30ec08abac11af110b34bd5"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2579623100-250215_WBDR2.2GUD.json",
+      "id": "ALOS2579623100-250215_WBDR2.2GUD",
+      "datetime": "2025-02-15T06:42:17.721000Z",
+      "bbox": [
+        76.583816,
+        23.852959,
+        80.695362,
+        27.461826
+      ],
+      "intersects": false,
+      "sha256": "c8af9a0463f5bd71c27d7ca9ef5176ab8162b1b627270285c0a197e37fd1490d"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2573412950-250104_WBDR2.2GUD.json",
+      "id": "ALOS2573412950-250104_WBDR2.2GUD",
+      "datetime": "2025-01-04T06:40:16.303000Z",
+      "bbox": [
+        77.959069,
+        31.339609,
+        82.371391,
+        34.881126
+      ],
+      "intersects": false,
+      "sha256": "4d6cf4dbe106db6f1e3dec37744e38f74930a6a7ee9b3b48714a4c0026597354"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2573413000-250104_WBDR2.2GUD.json",
+      "id": "ALOS2573413000-250104_WBDR2.2GUD",
+      "datetime": "2025-01-04T06:40:57.050500Z",
+      "bbox": [
+        77.499169,
+        28.846044,
+        81.79319,
+        32.393697
+      ],
+      "intersects": false,
+      "sha256": "f83757cee84970379b4534a1cfc8ebd5ced863f1fa500d277c83108913be397f"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2573413050-250104_WBDR2.2GUD.json",
+      "id": "ALOS2573413050-250104_WBDR2.2GUD",
+      "datetime": "2025-01-04T06:41:37.800500Z",
+      "bbox": [
+        77.038881,
+        26.350406,
+        81.231747,
+        29.905037
+      ],
+      "intersects": false,
+      "sha256": "f137ced0362dbd5a53a324fadee03035994012a8fd1444a3fc0e56c37a99bc52"
+    },
+    {
+      "key": "palsar2/L2.2/2025/ALOS2573413100-250104_WBDR2.2GUD.json",
+      "id": "ALOS2573413100-250104_WBDR2.2GUD",
+      "datetime": "2025-01-04T06:42:18.157500Z",
+      "bbox": [
+        76.582764,
+        23.853274,
+        80.695015,
+        27.46245
+      ],
+      "intersects": false,
+      "sha256": "1cab137772f67e5a96b2f671037ef152c996c4e39b357bc729657ca65b8a2dc6"
+    }
+  ]
+}

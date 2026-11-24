@@ -1,0 +1,17 @@
+radar_layer,optical_sensor,optical_water,radar_water,pixel_count,total_common_pixels
+ensemble_water_extent,s30,0,0,2573141,2742390
+ensemble_water_extent,s30,0,1,1115,2742390
+ensemble_water_extent,s30,1,0,138409,2742390
+ensemble_water_extent,s30,1,1,29725,2742390
+ensemble_water_extent,l30,0,0,2526224,2742390
+ensemble_water_extent,l30,0,1,766,2742390
+ensemble_water_extent,l30,1,0,185326,2742390
+ensemble_water_extent,l30,1,1,30074,2742390
+ensemble_flood_extent,s30,0,0,2573197,2742390
+ensemble_flood_extent,s30,0,1,1059,2742390
+ensemble_flood_extent,s30,1,0,139153,2742390
+ensemble_flood_extent,s30,1,1,28981,2742390
+ensemble_flood_extent,l30,0,0,2526272,2742390
+ensemble_flood_extent,l30,0,1,718,2742390
+ensemble_flood_extent,l30,1,0,186078,2742390
+ensemble_flood_extent,l30,1,1,29322,2742390

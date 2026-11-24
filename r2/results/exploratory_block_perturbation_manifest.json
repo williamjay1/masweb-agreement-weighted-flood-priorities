@@ -1,0 +1,28 @@
+{
+  "random_seed": 20261115,
+  "draws_per_event_per_block_size": 2000,
+  "block_sizes_metres": [
+    2500,
+    5000
+  ],
+  "cell_scope": "95% strict common-valid accepted 500 m cells, original semigeneralized county assignments and original fixed candidate counties; exact county sufficient-statistic and AWC reproduction asserted",
+  "resampling": "within each county, sample its original number of globally anchored 2.5 km or 5 km blocks with replacement, preserving all 500 m cell counts in each block and paired maps; then recompute scores and fractional budget over fixed candidates",
+  "limits": [
+    "post hoc sensitivity to these block sizes and fixed grid origins, not a calibrated probability of true rank, confidence interval, or independent reference",
+    "full map units are not a probability sample; event, observation, map-classification errors not modeled",
+    "blocks on opposite sides of county boundaries are sampled independently; spatial dependence across blocks and counties remains",
+    "one-block counties are constant in this resampling",
+    "resampling changes support counts in each draw while preserving fixed candidate counties",
+    "complete case changes candidate set and budget; undefined outcomes are missing, not necessarily zero, and selection may be informative"
+  ],
+  "inputs_sha256": {
+    "NB_N2023_179508_MINNESOTA_20230412T171901_20230412T170445_500m_cells.parquet": "d868622110a2edbbeeb1b0b3d2c9d93d91fa164267fb141857f11d6cf224400b",
+    "NB_N2023_179829_WISCONSIN_20230414T170849_20230414T165136_500m_cells.parquet": "9ad7ac7dd0619d8ab174a93fcf1fc37068b553a69a689cb34af75788925bdc10",
+    "NB_N2023_180114_SOUTHDAKOTA_20230410T172859_20230410T171707_500m_cells.parquet": "0e9318d76f1cbf9c0cd64d31c2f52699817c755780b3e8c3cd55906bfa490e3d",
+    "NB_N2024_191762_IOWA_20240525T165849_20240525T165828_500m_cells.parquet": "30b86df45fb7031291cee0241588cf0305fced156123e1a2b6dd6c96e7c65d2c",
+    "NB_N2025_202615_MISSOURI_20250530T165849_20250530T164807_500m_cells.parquet": "56af05ef88027db477a016894eb94229b998c8fe9928190fff4a724455455ddf",
+    "county_scores_and_selections.csv": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+    "counties_2025_semigeneral.geojson": "8ecc920ee3d9366dc13d6f6e566463b6249f017e913aedd0a5bd00fc6ddd4d43",
+    "primary_external_event_county_outcomes_normalized.csv": "3c4486d2acce4bea14de939209a48427d6cc9ece5f06dde24af5ef1eee499197"
+  }
+}

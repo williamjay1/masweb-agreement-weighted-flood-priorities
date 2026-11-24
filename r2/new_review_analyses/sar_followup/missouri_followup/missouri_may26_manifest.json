@@ -1,0 +1,20 @@
+{
+  "source": "Copernicus GFM observed water",
+  "tile": "ENSEMBLE_FLOOD_20250526T002030_VV_NA020M_E084N030T3__ensemble_water_extent.tif",
+  "sha256": "99f096dcc42a14e58cc4f5999f82a4c62f5ba9817c1a74891242bb0ab84dfe9d",
+  "radar_time_utc": "2025-05-26T00:20:30Z",
+  "optical_time_utc": [
+    "2025-05-30T16:48:07Z",
+    "2025-05-30T16:58:49Z"
+  ],
+  "accepted_cells": 562,
+  "accepted_optical_common_pixels": 5661,
+  "joint_valid": 197,
+  "joint_cells": 27,
+  "radar_water": 0,
+  "optical_s30_water": 20,
+  "optical_l30_water": 22,
+  "limits": "post hoc, 4.7 day gap, only small fraction of original domain; no radar water positives, not a useful independent accuracy test; radar product ancillary data and time mismatch",
+  "processing_version": "GFM v4.0.0 NRT",
+  "source_url": "https://data.eodc.eu/collections/GFM_LAYERS/obswater_mask/NA020M/2025/05/26/ENSEMBLE_OBSWATER_20250526T002030_VV_NA020M_E084N030T3.tif"
+}

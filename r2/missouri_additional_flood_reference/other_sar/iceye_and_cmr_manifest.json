@@ -1,0 +1,54 @@
+[
+  {
+    "name": "iceye_historic_layer.json",
+    "url": "https://services5.arcgis.com/LsNj2OtQESAjac8r/arcgis/rest/services/ICEYE_historic_flood_events_points_hourly/FeatureServer/0?f=json",
+    "sha256": "c845fb32c4156c045c211501fe096a306e67a57f167700b1e51099ea708a57c8",
+    "size": 11687,
+    "status": 200
+  },
+  {
+    "name": "iceye_fsd2497.json",
+    "url": "https://services5.arcgis.com/LsNj2OtQESAjac8r/arcgis/rest/services/ICEYE_historic_flood_events_points_hourly/FeatureServer/0/query?f=json&where=event_id%3D%27FSD-2497%27&outFields=%2A&outSR=4326&returnGeometry=true",
+    "sha256": "6b2612d9b5fd86006573021e1706e968d098d60329b4fe56174d7efb7ba2813a",
+    "size": 2014,
+    "status": 200
+  },
+  {
+    "name": "iceye_dashboard_item.json",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/4d6d5febe4734aeba138645437e03cc4?f=json",
+    "sha256": "2387133f84d0c8f9290756f2962f8f506fb0c491fdcd2393e1e371adc0923bb6",
+    "size": 9251,
+    "status": 200
+  },
+  {
+    "name": "iceye_regional_events.json",
+    "url": "https://services5.arcgis.com/LsNj2OtQESAjac8r/arcgis/rest/services/ICEYE_historic_flood_events_points_hourly/FeatureServer/0/query?f=json&where=1%3D1&outFields=%2A&geometry=-97%2C33%2C-88%2C41&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&inSR=4326&outSR=4326&returnGeometry=true&resultRecordCount=2000",
+    "sha256": "5217c2c896b1d8ed98d6323fd7208711bc66005aa30e24b66b2b296965b75d43",
+    "size": 7162,
+    "status": 200
+  },
+  {
+    "name": "uavsar_polsar_control.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C4261555796-ASF&page_size=1",
+    "sha256": "07c8bd59851922bf6cffb17a9fe5eaf5d4ce8827b843da090fd9c05cc1fdf5ed",
+    "hits": 9765,
+    "size": 14355,
+    "status": 200
+  },
+  {
+    "name": "uavsar_rpi_control.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C4261689115-ASF&page_size=1",
+    "sha256": "cf1b5c33bc6e6bdfebaee400d077ffcace87a21fcc204df7148824ed0de44c68",
+    "hits": 2816,
+    "size": 28874,
+    "status": 200
+  },
+  {
+    "name": "alos2_scansar_control.json",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C3315903479-ASF&page_size=1",
+    "sha256": "78f25161c829d18a99e0f25b4af803a3ec5dd1698a370bbe7cd4ceaf2800b4b0",
+    "hits": 112560,
+    "size": 2427,
+    "status": 200
+  }
+]

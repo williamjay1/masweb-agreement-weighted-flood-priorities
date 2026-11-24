@@ -1,0 +1,90 @@
+[
+  {
+    "orbit": 57341,
+    "prefix": "palsar2/L2.2/2025/ALOS2573410700",
+    "keys": [],
+    "sha256": "c100255db53e863007ac54dfd70f9f259c01cb39f31281844420124b8ade0edf"
+  },
+  {
+    "orbit": 57548,
+    "prefix": "palsar2/L2.2/2025/ALOS2575480700",
+    "keys": [],
+    "sha256": "75f21f6bf90f3e7bb014785344886be0f16607f77f9fc9fc1ecb2960033d42a8"
+  },
+  {
+    "orbit": 57755,
+    "prefix": "palsar2/L2.2/2025/ALOS2577550700",
+    "keys": [],
+    "sha256": "b9be901d9a3cc13b128dacde98b6c166f295556b0c0abe440ea21ba45460c58a"
+  },
+  {
+    "orbit": 57962,
+    "prefix": "palsar2/L2.2/2025/ALOS2579620700",
+    "keys": [],
+    "sha256": "18522473e1df7b2faa52a311aed5bf63debaca664b0210461a32f66ecfe429e4"
+  },
+  {
+    "orbit": 58169,
+    "prefix": "palsar2/L2.2/2025/ALOS2581690700",
+    "keys": [],
+    "sha256": "e5b83aed7cb3cc5439339d987cdfa5bb4fd755f5e8d40e89dd710f5e0b044d45"
+  },
+  {
+    "orbit": 58376,
+    "prefix": "palsar2/L2.2/2025/ALOS2583760700",
+    "keys": [],
+    "sha256": "42f0ecd84056046c437fdc36ea68782bfa5330bed97ac5472885c8e071eed29b"
+  },
+  {
+    "orbit": 58583,
+    "prefix": "palsar2/L2.2/2025/ALOS2585830700",
+    "keys": [],
+    "sha256": "1d2dce31064fad19e1796738cf6cec21b55f9c3f7ff4f4271439eb384083eb66"
+  },
+  {
+    "orbit": 58790,
+    "prefix": "palsar2/L2.2/2025/ALOS2587900700",
+    "keys": [],
+    "sha256": "b5bb7cf840b2a1a753eaaa950cdc27001ed6454c7a1a94fd0acdc0316be4141b"
+  },
+  {
+    "orbit": 58997,
+    "prefix": "palsar2/L2.2/2025/ALOS2589970700",
+    "keys": [],
+    "sha256": "cae2f1b1b25907b275267ca69cd222c689c63b0d6721c8058fbf9632fc54b0ac"
+  },
+  {
+    "orbit": 59204,
+    "prefix": "palsar2/L2.2/2025/ALOS2592040700",
+    "keys": [],
+    "sha256": "f3cf2ce98519967dc662f2599b5f94c00b3ca39a941146f0cce5351ed7cf3f9c"
+  },
+  {
+    "orbit": 59411,
+    "prefix": "palsar2/L2.2/2025/ALOS2594110700",
+    "keys": [
+      "palsar2/L2.2/2025/ALOS2594110700-250524-WBDR2.2GUA.kml",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA.json",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_HH_SLP.tif",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_HV_SLP.tif",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_LIN.tif",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_MSK.tif",
+      "palsar2/L2.2/2025/ALOS2594110700-250524_WBDR2.2GUA_summary.xml"
+    ],
+    "sha256": "dfaeb723b653bb3a73f50cb47faca22b3879829df511dbeef7b503736cfdf4f3"
+  },
+  {
+    "orbit": 59618,
+    "prefix": "palsar2/L2.2/2025/ALOS2596180700",
+    "keys": [
+      "palsar2/L2.2/2025/ALOS2596180700-250607-WBDR2.2GUA.kml",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA.json",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA_HH_SLP.tif",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA_HV_SLP.tif",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA_LIN.tif",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA_MSK.tif",
+      "palsar2/L2.2/2025/ALOS2596180700-250607_WBDR2.2GUA_summary.xml"
+    ],
+    "sha256": "07e3f65f28e3d707cd33e4bee9ccb3b2bf46c21871bbc1b70a451204a5c9b0a3"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "filename": "SWOT_L2_HR_PIXC_033_272_090L_20250528T141320_20250528T141331_PID0_01.nc",
+    "orbit": "033_272",
+    "counts": {
+      "bbox_points": 40376,
+      "matched_points": 52
+    },
+    "matched_flag_combinations": [
+      {
+        "class": 3,
+        "classification_qual": 4,
+        "geolocation_qual": 4,
+        "count": 48
+      },
+      {
+        "class": 3,
+        "classification_qual": 12,
+        "geolocation_qual": 4,
+        "count": 4
+      }
+    ]
+  }
+]

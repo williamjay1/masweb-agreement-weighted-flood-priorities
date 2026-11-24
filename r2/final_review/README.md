@@ -1,0 +1,7 @@
+# Revised checks and source links
+
+- The event screening files list the 117 episode assessments, the 33 selected candidate identifiers, the paired acquisition feasibility decisions, and the six pairs entering the final support evaluation. The manuscript explains the five-event primary cohort and the separate Michigan comparison.
+- The archived product cohort files record the nine candidates and eligibility, seven retained cross-product cases, event-level scale counts and budget results.
+- The matched-scale sensitivity compares the same events at 500 m and 10 km for each minimum unit threshold. Run matched_scale_sensitivity.py from the extracted directory structure.
+- The iowa_masks directory contains the paired 30 m example data and the crop description for Figure A1. The registered window contains the Iowa accepted cell with the largest S30/L30 water union. The example supports map interpretation. Full original tiles and extraction caches are needed to rebuild the optical masks over every event.
+- For Missouri, the [City of Ozark](https://ozarkmissouri.com/m/newsflash/Archive/Item/460?arcId=904) describes flooding at the Finley River and local park during the fourth weekend of May 2025. The [State of Missouri](https://governor.mo.gov/press-releases/archive/governor-kehoe-announces-fema-participate-joint-damage-assessments-5) describes infrastructure assessment after the 23 to 26 May storms. Neither source distributes a dated, georeferenced inundation boundary for the 30 May agricultural sample.

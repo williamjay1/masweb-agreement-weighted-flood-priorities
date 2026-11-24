@@ -1,0 +1,139 @@
+{
+  "budget_fraction": 0.2,
+  "quantile_definition": "The exact discrete distribution includes every ordered resample. The quantile linearly interpolates between the ordered values at floor and ceil of p*(N-1), using zero-based ranks.",
+  "source_sha256": {
+    "new_review_analyses/methods_analysis/eight_event_rma_all_comparators_event.csv": "644b66898904bf6ff07cd25c7edf55f55181a4f6db71aebfb69249622fca5156",
+    "inputs/utility_event_metrics.csv": "7fd4ff42701e06720ebaff82dcced58259bee42d596069722498a05f68bc03bb",
+    "new_review_analyses/methods_analysis/capture_repeated_endpoint_enumeration.csv": "bcf4ee6a24e57555386c2f82be3ec7e127b312a31b2e10507e08f98894df38fe"
+  },
+  "primary_four_events_exact": {
+    "s30_water_fraction": {
+      "events": 4,
+      "ordered_event_resamples": 256,
+      "unordered_multisets": 35,
+      "mean_capture": 0.2894819227695929,
+      "capture_percentile_2_5_to_97_5": [
+        0.1641555253087823,
+        0.4148083202304035
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.8207776265439115,
+        2.0740416011520173
+      ]
+    },
+    "l30_water_fraction": {
+      "events": 4,
+      "ordered_event_resamples": 256,
+      "unordered_multisets": 35,
+      "mean_capture": 0.2631149405044182,
+      "capture_percentile_2_5_to_97_5": [
+        0.1641555253087823,
+        0.36207435570005403
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.8207776265439115,
+        1.81037177850027
+      ]
+    },
+    "consensus_rank": {
+      "events": 4,
+      "ordered_event_resamples": 256,
+      "unordered_multisets": 35,
+      "mean_capture": 0.2894819227695929,
+      "capture_percentile_2_5_to_97_5": [
+        0.1641555253087823,
+        0.4148083202304035
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.8207776265439115,
+        2.0740416011520173
+      ]
+    },
+    "agreement_weighted_score": {
+      "events": 4,
+      "ordered_event_resamples": 256,
+      "unordered_multisets": 35,
+      "mean_capture": 0.43835570420692427,
+      "capture_percentile_2_5_to_97_5": [
+        0.2532018153809196,
+        0.623509593032929
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        1.266009076904598,
+        3.1175479651646447
+      ]
+    }
+  },
+  "transport_eight_events_exact": {
+    "s30_water_fraction": {
+      "events": 8,
+      "ordered_event_resamples": 16777216,
+      "unordered_multisets": 6435,
+      "mean_capture": 0.2518144648144371,
+      "capture_percentile_2_5_to_97_5": [
+        0.1270154046971184,
+        0.3810400591162991
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.6350770234855919,
+        1.9052002955814955
+      ]
+    },
+    "l30_water_fraction": {
+      "events": 8,
+      "ordered_event_resamples": 16777216,
+      "unordered_multisets": 6435,
+      "mean_capture": 0.23838494408608973,
+      "capture_percentile_2_5_to_97_5": [
+        0.1226219596716734,
+        0.3575526036215789
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.613109798358367,
+        1.7877630181078945
+      ]
+    },
+    "consensus_rank": {
+      "events": 8,
+      "ordered_event_resamples": 16777216,
+      "unordered_multisets": 6435,
+      "mean_capture": 0.2518144648144371,
+      "capture_percentile_2_5_to_97_5": [
+        0.1270154046971184,
+        0.3810400591162991
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.6350770234855919,
+        1.9052002955814955
+      ]
+    },
+    "agreement_weighted_score": {
+      "events": 8,
+      "ordered_event_resamples": 16777216,
+      "unordered_multisets": 6435,
+      "mean_capture": 0.32625135553310275,
+      "capture_percentile_2_5_to_97_5": [
+        0.1634533984797807,
+        0.4891158157727214
+      ],
+      "lift_percentile_2_5_to_97_5": [
+        0.8172669923989034,
+        2.4455790788636067
+      ]
+    }
+  },
+  "transport_awc_historical_table_values": {
+    "capture": 0.326,
+    "capture_percentile_range": [
+      0.164,
+      0.489
+    ],
+    "lift": 1.631,
+    "lift_percentile_range": [
+      0.822,
+      2.446
+    ],
+    "note": "Rounded values displayed by the historical finite Monte Carlo calculation. The original draw sequence is unavailable."
+  },
+  "interpretation": "The same rounded lower capture value in the historical primary comparator and transport AWC rows does not persist in the exact discrete calculation. These calculations are descriptive and do not establish independent events."
+}

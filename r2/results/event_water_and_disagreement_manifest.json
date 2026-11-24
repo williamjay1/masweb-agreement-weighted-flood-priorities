@@ -1,0 +1,7 @@
+{
+  "input_sha256": "81ad2bc68fe57e20440ea55791359d934bcbb11ea4905bce1b4a53cbf580792c",
+  "domain": "five primary events, strict common-valid coverage >= 0.95, strict common valid count > 0",
+  "accepted_cells": 44510,
+  "formula": "Q=abs(S-L)/N; A=2*(min(S,L)-I)/N; total=(U-I)/N=Q+A; J=I/U",
+  "limitations": "Descriptive pixel-count comparison for accepted cells only. Shared algorithm lineage and class errors mean this is not accuracy or external validation."
+}

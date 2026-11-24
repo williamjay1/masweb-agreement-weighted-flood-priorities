@@ -1,0 +1,30 @@
+{
+  "nominal_mm": [
+    183.0,
+    88.0
+  ],
+  "tight_mm": [
+    171.9,
+    73.3
+  ],
+  "tight_growth_mm": -11.1,
+  "tight_within_max": "True",
+  "max_width_mm": 183.0,
+  "panel_titles": [
+    {
+      "axis": 0,
+      "loc": "left",
+      "text": "a  Indemnity captured"
+    },
+    {
+      "axis": 1,
+      "loc": "left",
+      "text": "b  Capture lift"
+    }
+  ],
+  "left_titles_found": 2,
+  "min_font_pt": 6.2,
+  "fonts_under_5pt": [],
+  "pdf_fonttype": 42,
+  "ok": true
+}

@@ -1,0 +1,16 @@
+{
+  "sample_count": 5661,
+  "inside_bbox_count": 5661,
+  "sample_longitude_range": [
+    -94.10666027301309,
+    -92.53881229180627
+  ],
+  "sample_latitude_range": [
+    36.503505413720696,
+    37.828444074511154
+  ],
+  "item_count": 27,
+  "listing_count": 10,
+  "issues": [],
+  "geometry_matches": []
+}

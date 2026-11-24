@@ -1,0 +1,74 @@
+[
+  {
+    "col_shift_pixels_east": -0.5,
+    "row_shift_pixels_south": -0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4800374209880829,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.00040348662878386676
+  },
+  {
+    "col_shift_pixels_east": 0,
+    "row_shift_pixels_south": -0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4632706642150879,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.0003085144271608442
+  },
+  {
+    "col_shift_pixels_east": 0.5,
+    "row_shift_pixels_south": -0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4236922264099121,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.0004308437055442482
+  },
+  {
+    "col_shift_pixels_east": -0.5,
+    "row_shift_pixels_south": 0,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4919047951698303,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.0003858384152408689
+  },
+  {
+    "col_shift_pixels_east": 0,
+    "row_shift_pixels_south": 0,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4728570580482483,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.00031101523200049996
+  },
+  {
+    "col_shift_pixels_east": 0.5,
+    "row_shift_pixels_south": 0,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4314083456993103,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.000444817531388253
+  },
+  {
+    "col_shift_pixels_east": -0.5,
+    "row_shift_pixels_south": 0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4571753144264221,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.000664201274048537
+  },
+  {
+    "col_shift_pixels_east": 0,
+    "row_shift_pixels_south": 0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.44295546412467957,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.000576196878682822
+  },
+  {
+    "col_shift_pixels_east": 0.5,
+    "row_shift_pixels_south": 0.5,
+    "normal_water_n": 2925,
+    "normal_water_mean": 0.4125102758407593,
+    "vegetation_n": 183649,
+    "vegetation_mean": 0.0006868057535029948
+  }
+]

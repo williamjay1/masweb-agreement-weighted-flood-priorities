@@ -1,0 +1,22 @@
+{
+  "scope": "post hoc descriptive comparison; not independent validation",
+  "inputs_sha256": {
+    "historical_hls_sar_per_event_metrics.csv": "d90484a5bd7f4c3c768b01795df3f4a6b02a75f75468d8c76336db7e1b22bd93",
+    "county_scores_and_selections.csv": "b4d4d0e1acb2c95203a5394e31320fd7a37f4bb934bf4910b61a823be18e80c7",
+    "utility_event_metrics.csv": "7fd4ff42701e06720ebaff82dcced58259bee42d596069722498a05f68bc03bb"
+  },
+  "n_primary_grid_events": 5,
+  "n_estimable_rma_events": 4,
+  "awclift_95_20": 2.1917785210346215,
+  "old_baseline_validation": {
+    "rows": 60,
+    "all_lifts_match": true
+  },
+  "overlap_reference": "Expected top k overlap k/n assumes independent uniformly sampled k-element sets; chance-adjusted index is descriptive, and is not a tie-aware null model.",
+  "limits": [
+    "Scores and budgets evaluated post hoc on same outcomes, not a validation of superiority.",
+    "Related event episodes undermine independent-event inference.",
+    "Zero-union county Jaccard uses existing J=0 convention.",
+    "Exposure-only and normalized comparator require separate verified exposure inputs."
+  ]
+}

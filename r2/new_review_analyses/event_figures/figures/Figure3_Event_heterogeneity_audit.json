@@ -1,0 +1,30 @@
+{
+  "nominal_mm": [
+    183.0,
+    185.0
+  ],
+  "tight_mm": [
+    174.1,
+    177.2
+  ],
+  "tight_growth_mm": -8.9,
+  "tight_within_max": "True",
+  "max_width_mm": 183.0,
+  "panel_titles": [
+    {
+      "axis": 0,
+      "loc": "left",
+      "text": "a  Top 20% overlap"
+    },
+    {
+      "axis": 1,
+      "loc": "left",
+      "text": "b  Rank correlation"
+    }
+  ],
+  "left_titles_found": 2,
+  "min_font_pt": 5.6,
+  "fonts_under_5pt": [],
+  "pdf_fonttype": 42,
+  "ok": true
+}

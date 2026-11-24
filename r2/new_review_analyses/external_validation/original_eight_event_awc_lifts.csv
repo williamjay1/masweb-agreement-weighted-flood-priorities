@@ -1,0 +1,9 @@
+event_id,selection_phase,regime,score,budget_fraction,candidate_count,selected_unit_equivalents,total_external_outcome,loss_capture_fraction,capture_lift_over_random,spearman_outcome,kendall_outcome,outcome_estimable
+C2_2025_LOWER_OHIO,legacy_exact_pair_screen,flash_or_mixed,agreement_weighted_score,0.2,13,2.6,2832329.78,0.5336410317304223,2.6682051586521114,0.4044020331923361,0.3225873588078182,True
+D2_2023_RED_RIVER,legacy_exact_pair_screen,fluvial,agreement_weighted_score,0.2,3,0.6000000000000001,3351285.0,0.0315018865897707,0.1575094329488539,-1.0,-1.0,True
+D3_2024_CENTRAL_INDIANA,legacy_exact_pair_screen,fluvial,agreement_weighted_score,0.2,11,2.2,53142.0,0.0,0.0,-0.5258758927213288,-0.4640161686673094,True
+D5_2024_NEBRASKA_IOWA,legacy_exact_pair_screen,flash_or_mixed,agreement_weighted_score,0.2,15,3.0,7723608.390000001,0.2914451091169318,1.4572255455846588,0.2928571428571428,0.1809523809523809,True
+N2023_179508_MINNESOTA,blind_noaa_event_screen,fluvial,agreement_weighted_score,0.2,4,0.8,71285.65,0.3387273595737712,1.693636797868856,1.0,1.0,True
+N2023_180114_SOUTHDAKOTA,blind_noaa_event_screen,fluvial,agreement_weighted_score,0.2,6,1.2000000000000002,7912192.12,0.6770076988474338,3.385038494237169,0.2571428571428572,0.2,True
+N2024_191762_IOWA,blind_noaa_event_screen,flash_or_mixed,agreement_weighted_score,0.2,10,2.0,6561635.3,0.167676271188068,0.83838135594034,0.4181818181818181,0.2888888888888888,True
+N2025_202615_MISSOURI,blind_noaa_event_screen,flash_or_mixed,agreement_weighted_score,0.2,14,2.8000000000000003,763892.5,0.5700114872184241,2.8500574360921203,0.7780175924512662,0.6442354241315424,True

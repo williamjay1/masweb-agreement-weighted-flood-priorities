@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-08-03T17:52:47.233291+00:00",
+  "source_files": [
+    {
+      "file": "StormEvents_details-ftp_v1.0_d2023_c20260323.csv.gz",
+      "sha256": "713784bed40d9e5a95b1d6240a654f865f3ef97703713105c7b35437270da134",
+      "bytes": 12888092
+    },
+    {
+      "file": "StormEvents_details-ftp_v1.0_d2024_c20260728.csv.gz",
+      "sha256": "2070b83eccab041b36360ab73645b9a249c3eefc5b92b5b3fc0cbba4d9fcc09c",
+      "bytes": 12693243
+    },
+    {
+      "file": "StormEvents_details-ftp_v1.0_d2025_c20260728.csv.gz",
+      "sha256": "447b536ce7796585b923b946f0b85be538bde142858674f5d0b45a3b4c134bf5",
+      "bytes": 12588605
+    }
+  ],
+  "source_record_count_after_type_state_date_filter": 4559,
+  "eligible_episode_count_before_existing_overlap": 117,
+  "selected_candidate_count": 33,
+  "selected_by_year": {
+    "2023": 12,
+    "2024": 12,
+    "2025": 9
+  },
+  "selected_by_regime": {
+    "flash_or_mixed": 18,
+    "fluvial": 15
+  },
+  "validation_outcome_columns_read": [],
+  "damage_columns_read": [],
+  "selection_rule": {
+    "minimum_counties": 5,
+    "maximum_duration_days": 21,
+    "maximum_bbox_width_degrees": 6.0,
+    "maximum_bbox_height_degrees": 4.5,
+    "target_per_year_regime": 6,
+    "existing_overlap_exclusion": "temporal gap at most 5 days and bbox overlap over smaller bbox at least 0.20"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "input_sha256": "4d34ab1c8e38989689ee3703b37ed1d9878ace8ee1fd92c033f81228110ef60c",
+  "algorithms": [
+    "dswx",
+    "mndwi",
+    "awei"
+  ],
+  "events": [
+    "N2023_179508_MINNESOTA",
+    "N2023_179829_WISCONSIN",
+    "N2023_180114_SOUTHDAKOTA",
+    "N2024_191762_IOWA",
+    "N2025_202615_MISSOURI"
+  ],
+  "grid_scales_m": [
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    30000
+  ],
+  "budget": 0.2,
+  "tie_conventions": [
+    "coordinate_order",
+    "analytical_expectation_independent_cutoff_ties"
+  ],
+  "qualification": "four chain pixel intersection >=95% eligible pixels in previously primary strict 500 m cells",
+  "warning": "Four-chain common mask follows archived builder; per-pixel masks are not retained in the output. Minnesota partial and Wisconsin provenance requires review; no South Dakota L30. Not an independent accuracy assessment.",
+  "water_thresholds": "MNDWI > 0 and AWEI shadow > 0; DSWx published classification; Otsu not included"
+}

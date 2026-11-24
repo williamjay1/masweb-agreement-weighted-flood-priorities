@@ -1,0 +1,4 @@
+score,events,ordered_event_resamples,percentile_2_5
+s30_water_fraction,4,256,0.16415552530878225
+l30_water_fraction,4,256,0.16415552530878225
+consensus_rank,4,256,0.16415552530878225

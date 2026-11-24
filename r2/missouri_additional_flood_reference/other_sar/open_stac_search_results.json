@@ -1,0 +1,31 @@
+{
+  "aoi": [
+    -94.1241,
+    36.4828,
+    -92.5184,
+    37.849
+  ],
+  "date_utc": [
+    "2025-05-23",
+    "2025-05-30"
+  ],
+  "sources": {
+    "umbra": {
+      "month_url": "https://s3.us-west-2.amazonaws.com/umbra-open-data-catalog/stac/2025/2025-05/catalog.json",
+      "month_snapshot": "86abd1b8b509858efd54323104642ae0a1e2e5532b63b707910c3e8dabb44218.json",
+      "daily_catalogs_searched": 8,
+      "items_expected": 63,
+      "items_read": 63,
+      "matches": []
+    },
+    "capella": {
+      "month_url": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/capella-open-data-by-datetime/capella-open-data-2025/capella-open-data-2025-05/catalog.json",
+      "month_snapshot": "80052010cf9b452b73d9b574f6d183d7bc857aa6b56a0dbc80f06a631ba4b4d4.json",
+      "daily_catalogs_searched": 6,
+      "items_expected": 30,
+      "items_read": 30,
+      "matches": []
+    }
+  },
+  "errors": []
+}

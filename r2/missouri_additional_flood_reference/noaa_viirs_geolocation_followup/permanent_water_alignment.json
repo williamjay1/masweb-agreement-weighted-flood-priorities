@@ -1,0 +1,60 @@
+{
+  "common": {
+    "shape": [
+      401,
+      472
+    ],
+    "window": [
+      2122,
+      3227,
+      401,
+      472
+    ],
+    "water_count": 2925,
+    "veg_count": 183649
+  },
+  "results": [
+    {
+      "grid": "netcdf",
+      "class": 99,
+      "count": 2925,
+      "mean_fraction_high_occurrence": 0.4574649930000305,
+      "median": 0.38718536496162415,
+      "positive_fraction_count": 2313,
+      "atleast_10pct_count": 1900,
+      "atleast_50pct_count": 1327
+    },
+    {
+      "grid": "netcdf",
+      "class": 17,
+      "count": 183649,
+      "mean_fraction_high_occurrence": 0.0006600706255994737,
+      "median": 0.0,
+      "positive_fraction_count": 654,
+      "atleast_10pct_count": 314,
+      "atleast_50pct_count": 69
+    },
+    {
+      "grid": "geotiff",
+      "class": 99,
+      "count": 2925,
+      "mean_fraction_high_occurrence": 0.4728570580482483,
+      "median": 0.4281497597694397,
+      "positive_fraction_count": 2334,
+      "atleast_10pct_count": 1967,
+      "atleast_50pct_count": 1376
+    },
+    {
+      "grid": "geotiff",
+      "class": 17,
+      "count": 183649,
+      "mean_fraction_high_occurrence": 0.00031101523200049996,
+      "median": 0.0,
+      "positive_fraction_count": 452,
+      "atleast_10pct_count": 170,
+      "atleast_50pct_count": 23
+    }
+  ],
+  "source": "external/data/Geocarto_R2_20261115/raw/missouri_viirs_geolocation_20261115/occurrence_100W_40N_v1_5_2024.tif",
+  "note": "Retrospective contextual geolocation diagnostic against Landsat occurrence 1984\u20132024; not flood validation; common historical water influences class99, and dates/resolutions differ."
+}

@@ -1,0 +1,23 @@
+# Missouri ground observations and local reports: bounded search
+
+The original optical sample comprises 5,661 centres in eligible 500 m cells, originally extracted for the rectangle [-94.1241, 36.4828, -92.5184, 37.8490], L30 2025-05-30 16:48:07 UTC. The objective was an independently measured flood boundary or field mark in the original sample at or near that acquisition, not merely an event confirmation.
+
+## Public emergency and news accounts
+
+A report in the Christian County Headliner of 28 May 2025 shows an image identified as Ozark Police Department drone footage of the flooding at Finley River Park and describes inundation on 24 May, not 30 May: https://alpha.creativecirclecdn.com/christiancounty/files/20250527-173918-2e9-CCH_2025_05_28.pdf . We have not obtained its georeferenced full-resolution orthomosaic, image footprint, or precise capture time. Local news photographs and the city mayor's June 1 account independently corroborate the location and event, but are not a surveyed inundation polygon: https://www.ozarkmissouri.com/m/newsflash/Archive/Item/460?arcId=904 . A subsequent news report says Finley River Park reopened May 29 and the trail reopened May 30, but it does not report a precise photograph timestamp or establish flood status for a sample pixel: https://alpha.creativecirclecdn.com/christiancounty/files/20250602-190005-37b-CCH_2025_06_04.pdf . This last publisher-hosted PDF returned HTTP 403 from our Python request; its searchable indexed text remains accessible through the web search result. Reopening is an administrative action, not a complete dry-land observation.
+
+For a coarse geographic feasibility screen we fetched the OpenStreetMap Nominatim polygon labelled Finley River Park (https://nominatim.openstreetmap.org/search?q=Finley+River+Park+Ozark+Missouri&format=jsonv2&polygon_geojson=1&limit=10). The park polygon contains none of the 5,661 centres, and its nearest boundary is 5,792 m from the nearest centre in EPSG:5070. The current OSM park polygon is **not** the drone footprint or a 2025 flood extent; changes in mapped geometry are possible. The finding therefore limits the value of that park-labelled image for the fixed sample without ruling out a wider drone field of view. Without independently verifiable coordinates and timing, no point is labelled flooded or dry.
+
+## NWS local storm reports through Iowa Environmental Mesonet
+
+The IEM archive distributes National Weather Service local storm reports (https://mesonet.agron.iastate.edu/request/gis/lsrs.phtml). We downloaded Missouri records with valid time 2025-05-22 00:00 through 2025-06-02 00:00 UTC, then filtered by the rectangle and type text containing FLOOD. There were 25 returned rows: 21 on 24 May and four on 25 May UTC. A correction and its initial report share valid time and rounded location, leaving 24 unique time/coordinate combinations; this count is not the number of independent flood occurrences. The nearest reported flood time was 25 May 15:28 UTC, 121.34 hours before the L30 acquisition. The closest reported location to an optical centre was about 802 m, but LSR coordinates are rounded to 0.01 degree and their remarks may describe an extended or approximate location; that distance is a calculation from the **reported coordinates**, not a precise measurement of flood proximity. Both criteria need not identify the same report.
+
+These are reports of road flooding, rescues and related observations; they do not define polygon boundaries or conditions on a 30 May farm pixel. IEM explicitly states its LSR archive is neither complete nor official. NWS is also related to the NOAA event-selection source, so the LSR reports must not be presented as fully independent event selection or as ground truth pixel labels. The absence of matching later rows in this bounded query does not prove absence of flooding or observation elsewhere.
+
+## Reproduction and data
+
+- F read-only raw: `external/data/Geocarto_R2_20261115/raw/missouri_nws_lsr_search_20261115/nws_lsr_missouri_20250522_20250602.csv`, SHA256 `6bce64962858bfe02e462a0c160e931cde788051a850a83e1ec95d1a3d51efdd`.
+- F raw park geometry: `.../osm_finley_park_nominatim.json`, SHA256 `779dd56d21c838c473d3ac1625dabe5c205c8e4e4aa24bd2f1e2b60a8db13f02`.
+- `analyze_ground_search.py` computes the fixed-bbox/date filters, NWS report distances and time gaps, OSM polygon distance and JSON result. `iem_flood_reports_bbox.csv` retains every matched report and its provenance, including correction. Original points and hash are recorded in `ground_search_summary.json`.
+
+No representative near-time independent flood extent or field survey was obtained from these sources. No independent map accuracy statistic or new validation was calculated.

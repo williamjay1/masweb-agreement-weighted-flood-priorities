@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-08-03T20:17:48.430449+00:00",
+  "event_count": 9,
+  "cell_count": 88490,
+  "four_chain_strict_cell_count": 80637,
+  "events_with_at_least_three_four_chain_cells": 7,
+  "index_definitions": {
+    "MNDWI": "(green minus SWIR1) divided by (green plus SWIR1), water when greater than zero",
+    "AWEI": "blue plus 2.5 green minus 1.5 times (NIR plus SWIR1) minus 0.25 SWIR2, water when greater than zero"
+  },
+  "hls_clean_rule": "Fmask bits 0 through 4 clear and all required reflectance bands nonfill",
+  "comparison_support": "existing DSWx strict common support intersected with valid S30 and L30 HLS indices",
+  "qualification_rule": "four chain common support covers at least 95 percent of lagged agricultural eligible pixels in a 500 m cell",
+  "output_sha256": {
+    "hls_index_500m_cells.parquet": "4d34ab1c8e38989689ee3703b37ed1d9878ace8ee1fd92c033f81228110ef60c",
+    "hls_index_common_support_ledger.csv": "e7c4833294b96aba1c4b3fd04c8664e6189f59d9f6b7396bf897a8d5cb90da1d"
+  }
+}

@@ -1,0 +1,6 @@
+event_id,primary_strict_cells,four_chain_strict_cells,accepted_fraction,four_chain_pixels_accepted,hls_asset_status
+N2023_179508_MINNESOTA,12643,7551,0.597247488728941,1618886,L30 requests incomplete; partial coverage
+N2023_179829_WISCONSIN,221,221,1.0,3096,legacy cache reused; asset resolution must be audited
+N2023_180114_SOUTHDAKOTA,2628,0,0.0,0,L30 unavailable; no common cells
+N2024_191762_IOWA,28456,28456,1.0,5980407,both sensor asset sets resolved
+N2025_202615_MISSOURI,562,562,1.0,5661,both sensor asset sets resolved

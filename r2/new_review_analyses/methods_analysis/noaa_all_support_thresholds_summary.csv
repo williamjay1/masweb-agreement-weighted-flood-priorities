@@ -1,0 +1,13 @@
+threshold,score,events,mean_lift
+0.9,agreement_weighted_score,5,0.85
+0.9,consensus_rank,5,0.975
+0.9,l30_water_fraction,5,0.975
+0.9,s30_water_fraction,5,0.975
+0.95,agreement_weighted_score,5,0.85
+0.95,consensus_rank,5,0.975
+0.95,l30_water_fraction,5,0.975
+0.95,s30_water_fraction,5,0.975
+0.99,agreement_weighted_score,5,0.85
+0.99,consensus_rank,5,0.975
+0.99,l30_water_fraction,5,0.975
+0.99,s30_water_fraction,5,0.975

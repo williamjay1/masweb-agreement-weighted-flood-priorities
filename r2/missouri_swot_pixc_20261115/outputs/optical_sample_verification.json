@@ -1,0 +1,42 @@
+[
+  {
+    "sensor": "S30",
+    "path": "external/data/remote_sensing_sci_novelty_audit/candidate3_agricultural_hazard_cascade/revision_geocarto_v4/data/derived/blind_opera_pair_states/N2025_202615_MISSOURI/N2025_202615_MISSOURI_S30_state_EPSG5070_30m.tif",
+    "crs": "EPSG:5070",
+    "transform": [
+      30.0,
+      0.0,
+      162000.0,
+      0.0,
+      -30.0,
+      1658130.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sampled": 5661,
+    "matching_values": 5661,
+    "max_x_center_error": 0.0,
+    "max_y_center_error": 0.0
+  },
+  {
+    "sensor": "L30",
+    "path": "external/data/remote_sensing_sci_novelty_audit/candidate3_agricultural_hazard_cascade/revision_geocarto_v4/data/derived/blind_opera_pair_states/N2025_202615_MISSOURI/N2025_202615_MISSOURI_L30_state_EPSG5070_30m.tif",
+    "crs": "EPSG:5070",
+    "transform": [
+      30.0,
+      0.0,
+      162000.0,
+      0.0,
+      -30.0,
+      1658130.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sampled": 5661,
+    "matching_values": 5661,
+    "max_x_center_error": 0.0,
+    "max_y_center_error": 0.0
+  }
+]

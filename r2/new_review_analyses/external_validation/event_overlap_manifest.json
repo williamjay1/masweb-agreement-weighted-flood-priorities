@@ -1,0 +1,19 @@
+{
+  "files_sha256": {
+    "consolidated_event_registry.csv": "ffd5c4385367683aea19ae262072d2e4f4cb9a653a923399732cc535d4a37457",
+    "noaa_blind_event_candidate_registry.csv": "7b9053faf7cdb1467614c5f9e5a4719e56faace62a18a528251c3e5d675cecb0",
+    "noaa_blind_event_candidate_counties.csv": "00716743e7b8132204fe83cef95887d6aeda80e39a2d30796d11a0510b9ffb5a",
+    "event_county_linkage.csv": "a27239f328698c3cf332140e3ee70e601d8a8bd29f61a23699be5dc143e1c9a9",
+    "external_event_county_outcomes.csv": "b0e4dfb2fabb2b916f1cd4b0f5473a02475c7d0d68055491a56ab1f659dc0396",
+    "primary_external_event_county_outcomes.csv": "cd5f9edd4e4cd248f9212f5fdb9e8763b90311ab63551916536017ea8d3f661d",
+    "primary_500m_cells.parquet": "81ad2bc68fe57e20440ea55791359d934bcbb11ea4905bce1b4a53cbf580792c",
+    "counties_2025_semigeneral.geojson": "8ecc920ee3d9366dc13d6f6e566463b6249f017e913aedd0a5bd00fc6ddd4d43",
+    "original_eight_event_utility.csv": "3b08070862b92c4ad3becf420e653303dfed4fb6f7e33698ecbd98e88f18bbfb"
+  },
+  "geographic_crs": "EPSG:4326",
+  "area_and_grid_crs": "EPSG:5070",
+  "box_transform": "WGS84 box edges densified to <=0.01 degree before transformation",
+  "spatial_scope": "Intersection between registered legacy geographic bbox and union of 18 pre-imagery primary county polygons, not the intersection of actual product footprints or event flood extent.",
+  "county_scope": "95% strict common-valid accepted 500m cell centres assigned to event-linked counties; actual end-point sample population, not meteorological independence.",
+  "omit_scope": "Event-equal arithmetic mean at fixed 20% budget, selecting already-computed event values; post hoc sensitivity without inferential claim."
+}

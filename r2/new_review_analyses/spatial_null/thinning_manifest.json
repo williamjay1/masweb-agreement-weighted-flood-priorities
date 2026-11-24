@@ -1,0 +1,11 @@
+{
+  "seed": 20261116,
+  "draws_per_event_and_block": 300,
+  "methods": "one uniformly sampled accepted cell per occupied block, paired scores preserved",
+  "limitations": [
+    "selection population changes",
+    "neighbor blocks can remain spatially dependent",
+    "quantiles are thinning sensitivity ranges, not confidence intervals",
+    "all choices were post hoc"
+  ]
+}

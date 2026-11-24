@@ -1,0 +1,19 @@
+{
+  "basis": "post hoc summaries from frozen derived inputs, four primary events with positive indemnity; small multiples are five primary events",
+  "inputs": {
+    "county_ablations_event_budget.csv": "715655cdb1ec0626830672200dee118684409490128e73aa2b7fc3959b8db9a8",
+    "historical_hls_sar_per_event_metrics.csv": "d90484a5bd7f4c3c768b01795df3f4a6b02a75f75468d8c76336db7e1b22bd93",
+    "primary_conflicts_ledger_subset.csv": "c0bc804f904a94e0fbdf0e3aebb19e4899ca1cd49b5d0422acf394c15b511323"
+  },
+  "outputs": [
+    "figure3_small_multiples_data.csv",
+    "score_budget_curve_summary.csv",
+    "score_budget_curve_by_event.csv"
+  ],
+  "limitations": [
+    "not independent accuracy validation",
+    "curves have four events with equal event weights",
+    "coordinate tie convention retained",
+    "county score comparisons descriptive"
+  ]
+}

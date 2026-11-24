@@ -1,0 +1,58 @@
+[
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2000549_e2002194_b39023_c20250530202711061000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 25.356651306152344,
+    "South_Bounding_Coordinate": 16.03594207763672,
+    "East_Bounding_Coordinate": -87.89264678955078,
+    "West_Bounding_Coordinate": -117.7608642578125
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2005104_e2006349_b39023_c20250530202821970000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 40.07987976074219,
+    "South_Bounding_Coordinate": 30.21614646911621,
+    "East_Bounding_Coordinate": -89.72139739990234,
+    "West_Bounding_Coordinate": -124.01032257080078
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2010516_e2012161_b39023_c20250530202844824000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 59.83103561401367,
+    "South_Bounding_Coordinate": 48.131900787353516,
+    "East_Bounding_Coordinate": -89.72816467285156,
+    "West_Bounding_Coordinate": -138.1638946533203
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2015089_e2016316_b39023_c20250530202858976000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 74.68785095214844,
+    "South_Bounding_Coordinate": 59.772972106933594,
+    "East_Bounding_Coordinate": -83.20204162597656,
+    "West_Bounding_Coordinate": -158.5938720703125
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2020501_e2022129_b39023_c20250530203116090000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 90.0,
+    "South_Bounding_Coordinate": 67.14759826660156,
+    "East_Bounding_Coordinate": 180.0,
+    "West_Bounding_Coordinate": -180.0
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2025056_e2026301_b39023_c20250530211742917000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 75.5357894897461,
+    "South_Bounding_Coordinate": 60.20656204223633,
+    "East_Bounding_Coordinate": 131.47183227539062,
+    "West_Bounding_Coordinate": 53.74783706665039
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2030468_e2032114_b39023_c20250530211558715000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 55.70366668701172,
+    "South_Bounding_Coordinate": 44.46621322631836,
+    "East_Bounding_Coordinate": 105.74431610107422,
+    "West_Bounding_Coordinate": 61.60575866699219
+  },
+  {
+    "key": "VIIRS-IMG-GEO-TC/2025/05/30/GITCO_j01_d20250530_t2035023_e2036268_b39023_c20250530211646586000_oeac_ops.h5",
+    "North_Bounding_Coordinate": 40.9330940246582,
+    "South_Bounding_Coordinate": 30.92849349975586,
+    "East_Bounding_Coordinate": 95.87728118896484,
+    "West_Bounding_Coordinate": 61.21015930175781
+  }
+]

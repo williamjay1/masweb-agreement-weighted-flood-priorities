@@ -1,0 +1,13 @@
+{
+  "event": "N2023_180114_SOUTHDAKOTA",
+  "tiles": {
+    "N42W099-post-processing.parquet": "b594fabde3edf3bc01aa3bae0dd9af14b80750b8af458a56d26f3e24fb9ecba9",
+    "N42W102-post-processing.parquet": "8464c4cc7aebfb05254f29a784186c7e1b9fd072d5d241441b4928b2c723f396",
+    "N45W099-post-processing.parquet": "cfdafc1d7b6ae600392fcbe41c29d246dc320dfbbe27e09c14753554497dbe3a"
+  },
+  "bbox_detections": 131973,
+  "accepted_cell_detections": 3229,
+  "common_valid_detections": 330,
+  "unique_day_pixel": 279,
+  "limitation": "positive detections only; cannot infer valid radar negative pixels, or accuracy, recall, sensitivity or specificity; direct 20m point centres sampled into 30m optical grid; no buffer"
+}

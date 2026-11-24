@@ -1,0 +1,14 @@
+{
+  "events.json": {
+    "sha256": "dcc5867e9563118991bcd63e72f46cb6a56991b14d977ace0a8f6f7d2326ef9b",
+    "bytes": 97546
+  },
+  "missouri_hwms.json": {
+    "sha256": "c4b28b97c5c1623afd8785dcd311bff0dc42b670d5c2a9f379f32176d8220aa3",
+    "bytes": 360273
+  },
+  "usgs_nwis_stage_20250522_20250531_bbox.json": {
+    "sha256": "4750b5c5b9cf5a131b790c279f2ba334ae43428eed07f121ab14d96d44f64b74",
+    "bytes": 2660733
+  }
+}

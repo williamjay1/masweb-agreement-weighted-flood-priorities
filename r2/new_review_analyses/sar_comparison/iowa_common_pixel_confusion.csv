@@ -1,0 +1,9 @@
+radar_layer,optical_sensor,optical_water,radar_water,pixel_count,total_common_pixels
+ensemble_water_extent,s30,0,0,5643190,5696766
+ensemble_water_extent,s30,0,1,9576,5696766
+ensemble_water_extent,s30,1,0,43621,5696766
+ensemble_water_extent,s30,1,1,379,5696766
+ensemble_water_extent,l30,0,0,5631473,5696766
+ensemble_water_extent,l30,0,1,9548,5696766
+ensemble_water_extent,l30,1,0,55338,5696766
+ensemble_water_extent,l30,1,1,407,5696766

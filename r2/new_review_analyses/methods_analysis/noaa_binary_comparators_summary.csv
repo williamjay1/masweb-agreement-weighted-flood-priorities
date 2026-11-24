@@ -1,0 +1,5 @@
+score,events,mean_capture,mean_lift,min_lift,max_lift
+agreement_weighted_score,5,0.17,0.85,0.0,1.25
+consensus_rank,5,0.195,0.975,0.625,1.25
+l30_water_fraction,5,0.195,0.975,0.625,1.25
+s30_water_fraction,5,0.195,0.975,0.625,1.25

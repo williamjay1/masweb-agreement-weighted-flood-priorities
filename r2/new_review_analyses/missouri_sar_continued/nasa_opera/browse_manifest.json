@@ -1,0 +1,52 @@
+[
+  {
+    "id": "OPERA_L3_DSWx-S1_T15SUA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0",
+    "file": "external/data/Geocarto_R2_20261115/raw/missouri_opera_public_browse_20261115/OPERA_L3_DSWx-S1_T15SUA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png",
+    "sha256": "c4d51a20c9da5dad9ca39f34d56762aab70f56426834ab03e40e96ddead62d78",
+    "bytes": 14488,
+    "width": 1024,
+    "height": 1024,
+    "mode": "P",
+    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1/OPERA_L3_DSWx-S1_T15SUA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png"
+  },
+  {
+    "id": "OPERA_L3_DSWx-S1_T15SVA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0",
+    "file": "external/data/Geocarto_R2_20261115/raw/missouri_opera_public_browse_20261115/OPERA_L3_DSWx-S1_T15SVA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png",
+    "sha256": "4f90f2e957db8ecb3fbd6ea6edd79270571602dd5bda906597d30ff7618495e8",
+    "bytes": 9454,
+    "width": 1024,
+    "height": 1024,
+    "mode": "P",
+    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1/OPERA_L3_DSWx-S1_T15SVA_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png"
+  },
+  {
+    "id": "OPERA_L3_DSWx-S1_T15SUB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0",
+    "file": "external/data/Geocarto_R2_20261115/raw/missouri_opera_public_browse_20261115/OPERA_L3_DSWx-S1_T15SUB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png",
+    "sha256": "b7eedd5ce243f8700d9e1a2fec284ac126ca9eb29623f707fbe1e2f005e3c406",
+    "bytes": 18682,
+    "width": 1024,
+    "height": 1024,
+    "mode": "P",
+    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1/OPERA_L3_DSWx-S1_T15SUB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png"
+  },
+  {
+    "id": "OPERA_L3_DSWx-S1_T15SVB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0",
+    "file": "external/data/Geocarto_R2_20261115/raw/missouri_opera_public_browse_20261115/OPERA_L3_DSWx-S1_T15SVB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png",
+    "sha256": "a1603d55d1cd2bcb02f7306bde2c89b4ea9507f61c2096699055bff09df791c3",
+    "bytes": 4585,
+    "width": 1024,
+    "height": 1024,
+    "mode": "P",
+    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1/OPERA_L3_DSWx-S1_T15SVB_20250526T002051Z_20260407T204307Z_S1A_30_v1.0_BROWSE.png"
+  },
+  {
+    "id": "OPERA_L3_DSWx-S1_T15SUB_20250526T002105Z_20260407T054026Z_S1A_30_v1.0",
+    "file": "external/data/Geocarto_R2_20261115/raw/missouri_opera_public_browse_20261115/OPERA_L3_DSWx-S1_T15SUB_20250526T002105Z_20260407T054026Z_S1A_30_v1.0_BROWSE.png",
+    "sha256": "0cfa068daf3e34eea55e42483e56e5d3d2cbed5f7a7571cb4c489e90346f687c",
+    "bytes": 9758,
+    "width": 1024,
+    "height": 1024,
+    "mode": "P",
+    "url": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-public/OPERA_L3_DSWX-S1_V1/OPERA_L3_DSWx-S1_T15SUB_20250526T002105Z_20260407T054026Z_S1A_30_v1.0_BROWSE.png"
+  }
+]

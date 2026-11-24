@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "completed_at_utc": "2026-08-03T18:15:11.943909+00:00",
+  "event_count": 6,
+  "event_ids": [
+    "N2023_179508_MINNESOTA",
+    "N2023_179586_MICHIGAN",
+    "N2023_179829_WISCONSIN",
+    "N2023_180114_SOUTHDAKOTA",
+    "N2024_191762_IOWA",
+    "N2025_202615_MISSOURI"
+  ],
+  "jrc_tiles": [
+    "100W_40N",
+    "100W_50N",
+    "110W_50N",
+    "90W_50N"
+  ],
+  "total_grid_pixels": 219130771,
+  "raster_values_used_for_domain": false,
+  "sha256": {
+    "noaa_blind_analysis_domains.gpkg": "ef5ecfd14def9aae3a45fa3a736a7547e184eda3fa1c258ae5c2762219b5f8ae",
+    "noaa_blind_analysis_domain_registry.csv": "9f5a6b59fdc676ebf1ed1e908ee0a0babeee31734b99a6996c8c3b93e1b67bca"
+  }
+}

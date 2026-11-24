@@ -1,0 +1,18 @@
+{
+  "query": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?state=MO&sts=2025-05-22T00%3A00Z&ets=2025-06-02T00%3A00Z&fmt=csv",
+  "raw_lsr_sha256": "6bce64962858bfe02e462a0c160e931cde788051a850a83e1ec95d1a3d51efdd",
+  "lsr_flood_bbox_count_including_correction": 25,
+  "unique_valid_lat_lon": 24,
+  "by_utc_date": {
+    "2025/05/24": 21,
+    "2025/05/25": 4
+  },
+  "min_hours_before_l30": 121.33527777777778,
+  "min_distance_m": 801.736517966321,
+  "park_raw_sha256": "779dd56d21c838c473d3ac1625dabe5c205c8e4e4aa24bd2f1e2b60a8db13f02",
+  "park_query": "https://nominatim.openstreetmap.org/search?q=Finley+River+Park+Ozark+Missouri&format=jsonv2&polygon_geojson=1&limit=10",
+  "park_count_centres_inside": 0,
+  "park_min_distance_m": 5792.075330524604,
+  "park_boundary_is_not_drone_footprint": true,
+  "optical_points_sha256": "46c2eac0e49f25ccdfcd4790a0b4ae3b7280199b775a40c758ba492edf58169e"
+}
